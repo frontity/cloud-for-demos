@@ -1,0 +1,39 @@
+{
+  "name": "cloud-for-demos",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Micro service for demos.frontity.cloud",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --watch",
+    "test:debug": "node --inspect-brk node_modules/.bin/jest",
+    "test:ci": "jest --silent --passWithNoTests",
+    "start": "micro src/index.js",
+    "dev": "micro-dev src/index.js --watch src/",
+    "dev:debug": "node --inspect node_modules/.bin/micro-dev src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frontity/cloud-for-demos.git"
+  },
+  "author": "Eduardo Campaña (eduardo@frontity.com), Luis Herranz (luis@frontity.com)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/frontity/cloud-for-demos/issues"
+  },
+  "homepage": "https://github.com/frontity/cloud-for-demos#readme",
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-jest": "^21.26.2",
+    "jest": "^23.6.0",
+    "micro-dev": "^3.0.0"
+  },
+  "dependencies": {
+    "got": "^9.3.0",
+    "himalaya": "^1.1.0",
+    "micro": "^9.3.3",
+    "micro-cors": "^0.1.1"
+  }
+}
