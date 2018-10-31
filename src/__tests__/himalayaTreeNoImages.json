@@ -1,0 +1,775 @@
+[
+  {
+    "type": "element",
+    "tagName": "p",
+    "attributes": [],
+    "children": []
+  },
+  {
+    "type": "text",
+    "content": "\n"
+  },
+  {
+    "type": "element",
+    "tagName": "p",
+    "attributes": [],
+    "children": [
+      {
+        "type": "element",
+        "tagName": "em",
+        "attributes": [],
+        "children": [
+          {
+            "type": "text",
+            "content": "“It is never too late to be what you might have been.”"
+          }
+        ]
+      },
+      {
+        "type": "element",
+        "tagName": "br",
+        "attributes": [],
+        "children": []
+      },
+      {
+        "type": "text",
+        "content": "\n"
+      },
+      {
+        "type": "element",
+        "tagName": "strong",
+        "attributes": [],
+        "children": [
+          {
+            "type": "text",
+            "content": "George Eliot"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "content": "\n"
+  },
+  {
+    "type": "element",
+    "tagName": "p",
+    "attributes": [],
+    "children": [
+      {
+        "type": "text",
+        "content": "Getting started with doing what you deep down want to do in life can be hard."
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "content": "\n"
+  },
+  {
+    "type": "element",
+    "tagName": "p",
+    "attributes": [],
+    "children": [
+      {
+        "type": "element",
+        "tagName": "p",
+        "attributes": [],
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "attributes": [],
+            "children": [
+              {
+                "type": "element",
+                "tagName": "p",
+                "attributes": [],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "element",
+    "tagName": "p",
+    "attributes": [],
+    "children": [
+      {
+        "type": "text",
+        "content": "No matter if what you want is to start exercising, "
+      },
+      {
+        "type": "element",
+        "tagName": "a",
+        "attributes": [
+          {
+            "key": "href",
+            "value": "https://www.frontity.com/start-wordpress-blog/"
+          }
+        ],
+        "children": [
+          {
+            "type": "text",
+            "content": "create your own business on the side"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "content": ", write a book, see other parts of the world, "
+      },
+      {
+        "type": "element",
+        "tagName": "a",
+        "attributes": [
+          {
+            "key": "href",
+            "value": "http://frontity.com/self-esteem-course/"
+          }
+        ],
+        "children": [
+          {
+            "type": "text",
+            "content": "improve your relationship with yourself"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "content": " or something entirely else."
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "content": "\n"
+  },
+  {
+    "type": "element",
+    "tagName": "p",
+    "attributes": [],
+    "children": [
+      {
+        "type": "text",
+        "content": "But often we make getting started a lot harder than it needs to be by standing in our own way."
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "content": "\n"
+  },
+  {
+    "type": "element",
+    "tagName": "p",
+    "attributes": [],
+    "children": [
+      {
+        "type": "text",
+        "content": "So in today’s article I’d like to share 3 things you need to stop doing to step out of your own way and make it so much easier to actually get started instead of just keep dreaming about it."
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "content": "\n"
+  },
+  {
+    "type": "element",
+    "tagName": "p",
+    "attributes": [],
+    "children": [
+      {
+        "type": "comment",
+        "content": "more"
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "content": "\n"
+  },
+  {
+    "type": "element",
+    "tagName": "p",
+    "attributes": [],
+    "children": [
+      {
+        "type": "element",
+        "tagName": "strong",
+        "attributes": [],
+        "children": [
+          {
+            "type": "text",
+            "content": "1. Stop making it a huge and vague thing in your mind."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "content": "\n"
+  },
+  {
+    "type": "element",
+    "tagName": "p",
+    "attributes": [],
+    "children": [
+      {
+        "type": "text",
+        "content": "The more you think about whatever you want to get started with the bigger it tends to become in your head."
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "content": "\n"
+  },
+  {
+    "type": "element",
+    "tagName": "p",
+    "attributes": [],
+    "children": [
+      {
+        "type": "text",
+        "content": "And as you keep thinking about the various ways this could go it tends to become scarier and scarier."
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "content": "\n"
+  },
+  {
+    "type": "element",
+    "tagName": "p",
+    "attributes": [],
+    "children": [
+      {
+        "type": "element",
+        "tagName": "strong",
+        "attributes": [],
+        "children": [
+          {
+            "type": "text",
+            "content": "So do this instead:"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "content": "\n"
+  },
+  {
+    "type": "element",
+    "tagName": "ul",
+    "attributes": [],
+    "children": [
+      {
+        "type": "text",
+        "content": "\n"
+      },
+      {
+        "type": "element",
+        "tagName": "li",
+        "attributes": [],
+        "children": [
+          {
+            "type": "element",
+            "tagName": "strong",
+            "attributes": [],
+            "children": [
+              {
+                "type": "text",
+                "content": "Get knowledge from the others who have been where you want to go."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "content": " To defuse vague fears about what could happen if you got started and about the unclear unknown, get information from people who have already gone where you want to go."
+          },
+          {
+            "type": "element",
+            "tagName": "br",
+            "attributes": [],
+            "children": []
+          },
+          {
+            "type": "text",
+            "content": "\nIt is easier than ever to find them today. Look them up online and read what they have written and said or send them an email. Or go ask someone you know in real life that has done what you want to do."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "content": "\n"
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "content": "\n"
+  },
+  {
+    "type": "element",
+    "tagName": "ul",
+    "attributes": [],
+    "children": [
+      {
+        "type": "text",
+        "content": "\n"
+      },
+      {
+        "type": "element",
+        "tagName": "li",
+        "attributes": [],
+        "children": [
+          {
+            "type": "element",
+            "tagName": "strong",
+            "attributes": [],
+            "children": [
+              {
+                "type": "text",
+                "content": "Ask yourself: Honestly, what is realistically the worst that could happen?"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "content": " Take a couple of deep breaths to calm down your mind a bit. Then ask yourself this question."
+          },
+          {
+            "type": "element",
+            "tagName": "br",
+            "attributes": [],
+            "children": []
+          },
+          {
+            "type": "text",
+            "content": "\nYou’ll realize that in most cases the worst thing that could realistically happen is not that bad. It may sting for a bit. But it is something you can handle. And it is a situation you can find something to do about if this worst case scenario were to happen."
+          },
+          {
+            "type": "element",
+            "tagName": "br",
+            "attributes": [],
+            "children": []
+          },
+          {
+            "type": "text",
+            "content": "\nThe clarity you get from this question can – in my experience – reduce fears quite a bit."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "content": "\n"
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "content": "\n"
+  },
+  {
+    "type": "element",
+    "tagName": "p",
+    "attributes": [],
+    "children": [
+      {
+        "type": "element",
+        "tagName": "strong",
+        "attributes": [],
+        "children": [
+          {
+            "type": "text",
+            "content": "2. Stop trying to control everything."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "content": "\n"
+  },
+  {
+    "type": "element",
+    "tagName": "p",
+    "attributes": [],
+    "children": [
+      {
+        "type": "text",
+        "content": "Being prepared and knowing some things certainly helps."
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "content": "\n"
+  },
+  {
+    "type": "element",
+    "tagName": "p",
+    "attributes": [],
+    "children": [
+      {
+        "type": "text",
+        "content": "But it can become a trap when you try to control it all or "
+      },
+      {
+        "type": "element",
+        "tagName": "a",
+        "attributes": [
+          {
+            "key": "href",
+            "value": "https://www.frontity.com/how-to-stop-overthinking/"
+          }
+        ],
+        "children": [
+          {
+            "type": "text",
+            "content": "think things through 50 times"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "content": " to be on the safe side and to not risk making mistakes, fail or look like a fool."
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "content": "\n"
+  },
+  {
+    "type": "element",
+    "tagName": "p",
+    "attributes": [],
+    "children": [
+      {
+        "type": "element",
+        "tagName": "strong",
+        "attributes": [],
+        "children": [
+          {
+            "type": "text",
+            "content": "What to do instead:"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "content": "\n"
+  },
+  {
+    "type": "element",
+    "tagName": "ul",
+    "attributes": [],
+    "children": [
+      {
+        "type": "text",
+        "content": "\n"
+      },
+      {
+        "type": "element",
+        "tagName": "li",
+        "attributes": [],
+        "children": [
+          {
+            "type": "element",
+            "tagName": "strong",
+            "attributes": [],
+            "children": [
+              {
+                "type": "text",
+                "content": "Realize: you will stumble and that is OK."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "content": " It happens to anyone who steps outside of his or her comfort zone. It has happened to everyone you may admire and who have lived a life that is inspiring."
+          },
+          {
+            "type": "element",
+            "tagName": "br",
+            "attributes": [],
+            "children": []
+          },
+          {
+            "type": "text",
+            "content": "\nIt is simply a part of a life well lived. And if you reflect on what you can learn from a mistake then that will be invaluable to help you grow and improve."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "content": "\n"
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "content": "\n"
+  },
+  {
+    "type": "element",
+    "tagName": "ul",
+    "attributes": [],
+    "children": [
+      {
+        "type": "text",
+        "content": "\n"
+      },
+      {
+        "type": "element",
+        "tagName": "li",
+        "attributes": [],
+        "children": [
+          {
+            "type": "element",
+            "tagName": "strong",
+            "attributes": [],
+            "children": [
+              {
+                "type": "text",
+                "content": "Learn to set time-limits for small decisions at first."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "content": " If you have trouble with overthinking then set a time-limit for when you have to make a decision. This might seem a bit scary though."
+          },
+          {
+            "type": "element",
+            "tagName": "br",
+            "attributes": [],
+            "children": []
+          },
+          {
+            "type": "text",
+            "content": "\nSo start small and set a 30-60 second time-limit when trying to decide if you are going to work out or reply to an email."
+          },
+          {
+            "type": "element",
+            "tagName": "br",
+            "attributes": [],
+            "children": []
+          },
+          {
+            "type": "text",
+            "content": "\nDo that for a while and then move on to slightly bigger decisions. And then even bigger ones after that."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "content": "\n"
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "content": "\n"
+  },
+  {
+    "type": "element",
+    "tagName": "p",
+    "attributes": [],
+    "children": [
+      {
+        "type": "element",
+        "tagName": "strong",
+        "attributes": [],
+        "children": [
+          {
+            "type": "text",
+            "content": "3. Stop thinking that you have to get started in a big and spectacular way."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "content": "\n"
+  },
+  {
+    "type": "element",
+    "tagName": "p",
+    "attributes": [],
+    "children": [
+      {
+        "type": "text",
+        "content": "If you have a big goal or dream or even a medium sized one then it is easy to think that you have to take an action of the same size to get started or to get where you want to go."
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "content": "\n"
+  },
+  {
+    "type": "element",
+    "tagName": "p",
+    "attributes": [],
+    "children": [
+      {
+        "type": "text",
+        "content": "That is most often not true though."
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "content": "\n"
+  },
+  {
+    "type": "element",
+    "tagName": "p",
+    "attributes": [],
+    "children": [
+      {
+        "type": "element",
+        "tagName": "strong",
+        "attributes": [],
+        "children": [
+          {
+            "type": "text",
+            "content": "What to do instead:"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "content": "\n"
+  },
+  {
+    "type": "element",
+    "tagName": "ul",
+    "attributes": [],
+    "children": [
+      {
+        "type": "text",
+        "content": "\n"
+      },
+      {
+        "type": "element",
+        "tagName": "li",
+        "attributes": [],
+        "children": [
+          {
+            "type": "element",
+            "tagName": "strong",
+            "attributes": [],
+            "children": [
+              {
+                "type": "text",
+                "content": "Go small."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "content": " Just ask yourself: what is one small step I can take today to get the ball rolling with my goal/dream? Then take just that small action. And tomorrow or later on today you can do the same thing again. If that question still lands you in procrastination then ask yourself: What is one tiny step I can take to get the ball rolling?"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "content": "\n"
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "content": "\n"
+  },
+  {
+    "type": "element",
+    "tagName": "ul",
+    "attributes": [],
+    "children": [
+      {
+        "type": "text",
+        "content": "\n"
+      },
+      {
+        "type": "element",
+        "tagName": "li",
+        "attributes": [],
+        "children": [
+          {
+            "type": "element",
+            "tagName": "strong",
+            "attributes": [],
+            "children": [
+              {
+                "type": "text",
+                "content": "Single-task each little step."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "content": " Focus on just the one step you are taking. Nothing else. Otherwise it is easy to get lost in thought, to go off track or to "
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "attributes": [
+              {
+                "key": "href",
+                "value": "https://www.frontity.com/how-to-stay-positive/"
+              }
+            ],
+            "children": [
+              {
+                "type": "text",
+                "content": "feel uncomfortable"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "content": " or fearful. So keep your attention on just this one action and step forward."
+          },
+          {
+            "type": "element",
+            "tagName": "br",
+            "attributes": [],
+            "children": []
+          },
+          {
+            "type": "text",
+            "content": "\nAnd after that, the next one. Let these actions build day after day into something bigger. And before you know it you’ll have gone quite a distance on your journey."
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "content": "\n"
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "content": "\n"
+  }
+]

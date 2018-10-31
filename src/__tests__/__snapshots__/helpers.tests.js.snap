@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Helper getArrayOfImages Should return a flat array of images 1`] = `
+Array [
+  Object {
+    "attributes": Array [
+      Object {
+        "key": "class",
+        "value": "alignnone size-full wp-image-11857",
+      },
+      Object {
+        "key": "src",
+        "value": "https://frontity.com/wp-content/uploads/image_11857.jpg",
+      },
+      Object {
+        "key": "srcset",
+        "value": "https://frontity.com/wp-content/uploads/image_11857.jpg 600w, https://frontity.com/wp-content/uploads/image_11857-300x200.jpg 300w",
+      },
+    ],
+    "children": Array [],
+    "tagName": "img",
+    "type": "element",
+  },
+  Object {
+    "attributes": Array [
+      Object {
+        "key": "class",
+        "value": "alignnone size-full wp-image-11858",
+      },
+      Object {
+        "key": "src",
+        "value": "https://frontity.com/wp-content/uploads/image_11858.jpg",
+      },
+      Object {
+        "key": "srcset",
+        "value": "https://frontity.com/wp-content/uploads/image_11858.jpg 600w, https://frontity.com/wp-content/uploads/image_11858-300x200.jpg 300w",
+      },
+    ],
+    "children": Array [],
+    "tagName": "img",
+    "type": "element",
+  },
+  Object {
+    "attributes": Array [
+      Object {
+        "key": "class",
+        "value": "alignnone size-full wp-image-11861",
+      },
+      Object {
+        "key": "src",
+        "value": "https://frontity.com/wp-content/uploads/image_11861.jpg",
+      },
+    ],
+    "children": Array [],
+    "tagName": "img",
+    "type": "element",
+  },
+  Object {
+    "attributes": Array [
+      Object {
+        "key": "class",
+        "value": "alignnone size-full wp-image-11859",
+      },
+      Object {
+        "key": "src",
+        "value": "https://frontity.com/wp-content/uploads/image_11859.jpg",
+      },
+    ],
+    "children": Array [],
+    "tagName": "img",
+    "type": "element",
+  },
+  Object {
+    "attributes": Array [
+      Object {
+        "key": "class",
+        "value": "alignnone size-full wp-image-11860",
+      },
+      Object {
+        "key": "src",
+        "value": "https://frontity.com/wp-content/uploads/image_11860.jpg",
+      },
+    ],
+    "children": Array [],
+    "tagName": "img",
+    "type": "element",
+  },
+]
+`;
+
+exports[`Helper getArrayOfImages Should return an empty array if no images are provided 1`] = `Array []`;
+
+exports[`Helper getIdsFromClass Should return an array of ids 1`] = `
+Array [
+  "11857",
+  "11858",
+  "11861",
+  "11859",
+  "11860",
+]
+`;
+
+exports[`Helper getIdsFromClass Should return an empty array if no ids are extracted from class 1`] = `Array []`;
+
+exports[`Helper getSlugsFromSrc Should return an array of slugs extracted from data-original 1`] = `
+Array [
+  "image_11857",
+  "image_11858",
+  "image_11861",
+  "image_11859",
+  "image_11860",
+]
+`;
+
+exports[`Helper getSlugsFromSrc Should return an array of slugs extracted from data-src 1`] = `
+Array [
+  "image_11857",
+  "image_11858",
+  "image_11861",
+  "image_11859",
+  "image_11860",
+]
+`;
+
+exports[`Helper getSlugsFromSrc Should return an array of slugs extracted from src 1`] = `
+Array [
+  "image_11857",
+  "image_11858",
+  "image_11861",
+  "image_11859",
+  "image_11860",
+]
+`;
+
+exports[`Helper getSlugsFromSrc Should return an empty array if no slugs are extracted 1`] = `Array []`;
+
+exports[`Helper getSlugsFromSrc Should return the right slugs if the filename has a size 1`] = `
+Array [
+  "image_11857",
+  "image_11858x",
+  "image_11861-",
+  "image_11859_",
+  "image_11860---",
+]
+`;
