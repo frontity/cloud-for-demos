@@ -63,7 +63,7 @@ describe('Server', () => {
     );
 
     expect(body.content_media).toEqual([11857]);
-    expect(body._embedded['wp:contentmedia']).toEqual(media11857);
+    expect(body._embedded['wp:contentmedia'][0]).toEqual(media11857);
     expect(body).toMatchSnapshot();
   });
   test("Should return a post populated with content media when images don't have class attribute", async () => {
@@ -80,7 +80,7 @@ describe('Server', () => {
     );
 
     expect(body.content_media).toEqual([11857]);
-    expect(body._embedded['wp:contentmedia']).toEqual(media11857);
+    expect(body._embedded['wp:contentmedia'][0]).toEqual(media11857);
     expect(body).toMatchSnapshot();
   });
   test('Should return a list of posts populated with content media', async () => {
@@ -103,9 +103,9 @@ describe('Server', () => {
     expect(body[0].content_media).toEqual([11857]);
     expect(body[1].content_media).toEqual([11848]);
     expect(body[2].content_media).toEqual([11822]);
-    expect(body[0]._embedded['wp:contentmedia']).toEqual(media11857);
-    expect(body[1]._embedded['wp:contentmedia']).toEqual(media11848);
-    expect(body[2]._embedded['wp:contentmedia']).toEqual(media11822);
+    expect(body[0]._embedded['wp:contentmedia'][0]).toEqual(media11857);
+    expect(body[1]._embedded['wp:contentmedia'][0]).toEqual(media11848);
+    expect(body[2]._embedded['wp:contentmedia'][0]).toEqual(media11822);
     expect(body).toMatchSnapshot();
   });
   test('Should return the same data from the original request', async () => {

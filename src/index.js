@@ -40,7 +40,7 @@ module.exports = cors(async req => {
         );
 
         data.content_media = imageIds; // eslint-disable-line
-        data._embedded['wp:contentmedia'] = body; // eslint-disable-line
+        data._embedded['wp:contentmedia'] = [body]; // eslint-disable-line
         return data;
       }
 
@@ -60,7 +60,7 @@ module.exports = cors(async req => {
         )).filter(item => item);
 
         data.content_media = media.map(entity => entity.id); // eslint-disable-line
-        data._embedded['wp:contentmedia'] = media; // eslint-disable-line
+        data._embedded['wp:contentmedia'] = [media]; // eslint-disable-line
         return data;
       }
 
