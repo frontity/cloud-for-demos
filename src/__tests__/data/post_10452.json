@@ -1,0 +1,554 @@
+{
+  "id": 10452,
+  "date": "2018-10-24T16:30:58",
+  "date_gmt": "2018-10-24T14:30:58",
+  "guid": {
+    "rendered": "http://www.frontity.com/?p=10452"
+  },
+  "modified": "2018-10-24T16:26:27",
+  "modified_gmt": "2018-10-24T14:26:27",
+  "slug": "stop-doing-to-get-started",
+  "status": "publish",
+  "type": "post",
+  "link": "https://www.frontity.com/stop-doing-to-get-started/",
+  "title": {
+    "rendered": "3 Things You Need to Stop Doing to Get Started"
+  },
+  "content": {
+    "rendered": "<p><img class=\"alignnone size-full wp-image-11857\" src=\"https://www.frontity.com/wp-content/uploads/stop_to_get_started-.jpg\" alt=\"3 Things You Need to Stop Doing to Get Started\" width=\"600\" height=\"400\" srcset=\"https://www.frontity.com/wp-content/uploads/stop_to_get_started-.jpg 600w, https://www.frontity.com/wp-content/uploads/stop_to_get_started--300x200.jpg 300w\" sizes=\"(max-width: 600px) 100vw, 600px\" /></p>\n<p><em>“It is never too late to be what you might have been.”</em><br />\n<strong>George Eliot</strong></p>\n<p>Getting started with doing what you deep down want to do in life can be hard.</p>\n<p>No matter if what you want is to start exercising, <a href=\"https://www.frontity.com/start-wordpress-blog/\">create your own business on the side</a>, write a book, see other parts of the world, <a href=\"http://premium.frontity.com/self-esteem-course/\">improve your relationship with yourself</a> or something entirely else.</p>\n<p>But often we make getting started a lot harder than it needs to be by standing in our own way.</p>\n<p>So in today’s article I’d like to share 3 things you need to stop doing to step out of your own way and make it so much easier to actually get started instead of just keep dreaming about it.</p>\n<p><!--more--></p>\n<p><strong>1. Stop making it a huge and vague thing in your mind.</strong></p>\n<p>The more you think about whatever you want to get started with the bigger it tends to become in your head.</p>\n<p>And as you keep thinking about the various ways this could go it tends to become scarier and scarier.</p>\n<p><strong>So do this instead:</strong></p>\n<ul>\n<li><strong>Get knowledge from the others who have been where you want to go.</strong> To defuse vague fears about what could happen if you got started and about the unclear unknown, get information from people who have already gone where you want to go.<br />\nIt is easier than ever to find them today. Look them up online and read what they have written and said or send them an email. Or go ask someone you know in real life that has done what you want to do.</li>\n</ul>\n<ul>\n<li><strong>Ask yourself: Honestly, what is realistically the worst that could happen?</strong> Take a couple of deep breaths to calm down your mind a bit. Then ask yourself this question.<br />\nYou’ll realize that in most cases the worst thing that could realistically happen is not that bad. It may sting for a bit. But it is something you can handle. And it is a situation you can find something to do about if this worst case scenario were to happen.<br />\nThe clarity you get from this question can – in my experience – reduce fears quite a bit.</li>\n</ul>\n<p><strong>2. Stop trying to control everything.</strong></p>\n<p>Being prepared and knowing some things certainly helps.</p>\n<p>But it can become a trap when you try to control it all or <a href=\"https://www.frontity.com/how-to-stop-overthinking/\">think things through 50 times</a> to be on the safe side and to not risk making mistakes, fail or look like a fool.</p>\n<p><strong>What to do instead:</strong></p>\n<ul>\n<li><strong>Realize: you will stumble and that is OK.</strong> It happens to anyone who steps outside of his or her comfort zone. It has happened to everyone you may admire and who have lived a life that is inspiring.<br />\nIt is simply a part of a life well lived. And if you reflect on what you can learn from a mistake then that will be invaluable to help you grow and improve.</li>\n</ul>\n<ul>\n<li><strong>Learn to set time-limits for small decisions at first.</strong> If you have trouble with overthinking then set a time-limit for when you have to make a decision. This might seem a bit scary though.<br />\nSo start small and set a 30-60 second time-limit when trying to decide if you are going to work out or reply to an email.<br />\nDo that for a while and then move on to slightly bigger decisions. And then even bigger ones after that.</li>\n</ul>\n<p><strong>3. Stop thinking that you have to get started in a big and spectacular way.</strong></p>\n<p>If you have a big goal or dream or even a medium sized one then it is easy to think that you have to take an action of the same size to get started or to get where you want to go.</p>\n<p>That is most often not true though.</p>\n<p><strong>What to do instead:</strong></p>\n<ul>\n<li><strong>Go small.</strong> Just ask yourself: what is one small step I can take today to get the ball rolling with my goal/dream? Then take just that small action. And tomorrow or later on today you can do the same thing again. If that question still lands you in procrastination then ask yourself: What is one tiny step I can take to get the ball rolling?</li>\n</ul>\n<ul>\n<li><strong>Single-task each little step.</strong> Focus on just the one step you are taking. Nothing else. Otherwise it is easy to get lost in thought, to go off track or to <a href=\"https://www.frontity.com/how-to-stay-positive/\">feel uncomfortable</a> or fearful. So keep your attention on just this one action and step forward.<br />\nAnd after that, the next one. Let these actions build day after day into something bigger. And before you know it you’ll have gone quite a distance on your journey.</li>\n</ul>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "<p>“It is never too late to be what you might have been.” George Eliot Getting started with doing what you deep down want to do in life can be hard. No matter if what you want is to start exercising, create your own business on the side, write a book, see other parts of the [&hellip;]</p>\n",
+    "protected": false
+  },
+  "author": 15,
+  "featured_media": 0,
+  "comment_status": "open",
+  "ping_status": "open",
+  "sticky": false,
+  "template": "",
+  "format": "standard",
+  "meta": [],
+  "categories": [12, 6, 19],
+  "tags": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https://www.frontity.com/wp-json/wp/v2/posts/10452"
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://www.frontity.com/wp-json/wp/v2/posts"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://www.frontity.com/wp-json/wp/v2/types/post"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://www.frontity.com/wp-json/wp/v2/users/15"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://www.frontity.com/wp-json/wp/v2/comments?post=10452"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 5,
+        "href": "https://www.frontity.com/wp-json/wp/v2/posts/10452/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 11859,
+        "href": "https://www.frontity.com/wp-json/wp/v2/posts/10452/revisions/11859"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://www.frontity.com/wp-json/wp/v2/media?parent=10452"
+      }
+    ],
+    "wp:term": [
+      {
+        "taxonomy": "category",
+        "embeddable": true,
+        "href": "https://www.frontity.com/wp-json/wp/v2/categories?post=10452"
+      },
+      {
+        "taxonomy": "post_tag",
+        "embeddable": true,
+        "href": "https://www.frontity.com/wp-json/wp/v2/tags?post=10452"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  },
+  "_embedded": {
+    "author": [
+      {
+        "code": "rest_user_invalid_id",
+        "message": "Invalid user ID.",
+        "data": {
+          "status": 404
+        }
+      }
+    ],
+    "replies": [
+      [
+        {
+          "id": 504046,
+          "parent": 0,
+          "author": 0,
+          "author_name": "Joan",
+          "author_url": "",
+          "date": "2018-10-26T11:26:42",
+          "content": {
+            "rendered": "<p>Very helpful and encouraging</p>\n"
+          },
+          "link": "https://www.frontity.com/stop-doing-to-get-started/comment-page-3/#comment-504046",
+          "type": "comment",
+          "_links": {
+            "self": [
+              {
+                "href": "https://www.frontity.com/wp-json/wp/v2/comments/504046"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://www.frontity.com/wp-json/wp/v2/comments"
+              }
+            ],
+            "up": [
+              {
+                "embeddable": true,
+                "post_type": "post",
+                "href": "https://www.frontity.com/wp-json/wp/v2/posts/10452"
+              }
+            ]
+          }
+        },
+        {
+          "id": 504037,
+          "parent": 0,
+          "author": 0,
+          "author_name": "Neth",
+          "author_url": "",
+          "date": "2018-10-26T01:36:34",
+          "content": {
+            "rendered": "<p>Thank you for sharing these very helpful Advices&#8230;</p>\n"
+          },
+          "link": "https://www.frontity.com/stop-doing-to-get-started/comment-page-3/#comment-504037",
+          "type": "comment",
+          "_links": {
+            "self": [
+              {
+                "href": "https://www.frontity.com/wp-json/wp/v2/comments/504037"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://www.frontity.com/wp-json/wp/v2/comments"
+              }
+            ],
+            "up": [
+              {
+                "embeddable": true,
+                "post_type": "post",
+                "href": "https://www.frontity.com/wp-json/wp/v2/posts/10452"
+              }
+            ]
+          }
+        },
+        {
+          "id": 504031,
+          "parent": 0,
+          "author": 0,
+          "author_name": "Liengoane",
+          "author_url": "",
+          "date": "2018-10-25T19:18:23",
+          "content": {
+            "rendered": "<p>Very healthy  tips. I dream of  starting a business.  I see myself as one already. This article says &#8216;don&#8217;t fear, open the door &amp; you&#8217;ll be welcome &#8216;. Thank you very much</p>\n"
+          },
+          "link": "https://www.frontity.com/stop-doing-to-get-started/comment-page-3/#comment-504031",
+          "type": "comment",
+          "_links": {
+            "self": [
+              {
+                "href": "https://www.frontity.com/wp-json/wp/v2/comments/504031"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://www.frontity.com/wp-json/wp/v2/comments"
+              }
+            ],
+            "up": [
+              {
+                "embeddable": true,
+                "post_type": "post",
+                "href": "https://www.frontity.com/wp-json/wp/v2/posts/10452"
+              }
+            ]
+          }
+        },
+        {
+          "id": 504030,
+          "parent": 0,
+          "author": 0,
+          "author_name": "Savita",
+          "author_url": "",
+          "date": "2018-10-25T17:48:10",
+          "content": {
+            "rendered": "<p>Thankyou .</p>\n"
+          },
+          "link": "https://www.frontity.com/stop-doing-to-get-started/comment-page-3/#comment-504030",
+          "type": "comment",
+          "_links": {
+            "self": [
+              {
+                "href": "https://www.frontity.com/wp-json/wp/v2/comments/504030"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://www.frontity.com/wp-json/wp/v2/comments"
+              }
+            ],
+            "up": [
+              {
+                "embeddable": true,
+                "post_type": "post",
+                "href": "https://www.frontity.com/wp-json/wp/v2/posts/10452"
+              }
+            ]
+          }
+        },
+        {
+          "id": 504028,
+          "parent": 0,
+          "author": 0,
+          "author_name": "Tessie",
+          "author_url": "",
+          "date": "2018-10-25T08:44:52",
+          "content": {
+            "rendered": "<p>Excellent article! Thank you</p>\n"
+          },
+          "link": "https://www.frontity.com/stop-doing-to-get-started/comment-page-3/#comment-504028",
+          "type": "comment",
+          "_links": {
+            "self": [
+              {
+                "href": "https://www.frontity.com/wp-json/wp/v2/comments/504028"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://www.frontity.com/wp-json/wp/v2/comments"
+              }
+            ],
+            "up": [
+              {
+                "embeddable": true,
+                "post_type": "post",
+                "href": "https://www.frontity.com/wp-json/wp/v2/posts/10452"
+              }
+            ]
+          }
+        },
+        {
+          "id": 504027,
+          "parent": 0,
+          "author": 0,
+          "author_name": "Peace",
+          "author_url": "",
+          "date": "2018-10-25T08:01:57",
+          "content": {
+            "rendered": "<p>This is great just what the doctor ordered for me. I have been struggling with taking a big step in my life because I am scared of change but now I can face anything</p>\n"
+          },
+          "link": "https://www.frontity.com/stop-doing-to-get-started/comment-page-3/#comment-504027",
+          "type": "comment",
+          "_links": {
+            "self": [
+              {
+                "href": "https://www.frontity.com/wp-json/wp/v2/comments/504027"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://www.frontity.com/wp-json/wp/v2/comments"
+              }
+            ],
+            "up": [
+              {
+                "embeddable": true,
+                "post_type": "post",
+                "href": "https://www.frontity.com/wp-json/wp/v2/posts/10452"
+              }
+            ]
+          }
+        },
+        {
+          "id": 504024,
+          "parent": 0,
+          "author": 0,
+          "author_name": "khushba",
+          "author_url": "",
+          "date": "2018-10-25T06:43:52",
+          "content": {
+            "rendered": "<p>i believe in taking on step at a time. i want to overcome my fears. i dont know what others think of me. they have their own negative thinking and others make them think so. what they dont want to think in actual.</p>\n"
+          },
+          "link": "https://www.frontity.com/stop-doing-to-get-started/comment-page-3/#comment-504024",
+          "type": "comment",
+          "_links": {
+            "self": [
+              {
+                "href": "https://www.frontity.com/wp-json/wp/v2/comments/504024"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://www.frontity.com/wp-json/wp/v2/comments"
+              }
+            ],
+            "up": [
+              {
+                "embeddable": true,
+                "post_type": "post",
+                "href": "https://www.frontity.com/wp-json/wp/v2/posts/10452"
+              }
+            ]
+          }
+        },
+        {
+          "id": 504023,
+          "parent": 499396,
+          "author": 0,
+          "author_name": "MARIA T WILSON",
+          "author_url": "",
+          "date": "2018-10-25T05:08:06",
+          "content": {
+            "rendered": "<p>Good tip lee&#8230;this is a real help to get the mind on track!</p>\n"
+          },
+          "link": "https://www.frontity.com/stop-doing-to-get-started/comment-page-2/#comment-504023",
+          "type": "comment",
+          "_links": {
+            "self": [
+              {
+                "href": "https://www.frontity.com/wp-json/wp/v2/comments/504023"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://www.frontity.com/wp-json/wp/v2/comments"
+              }
+            ],
+            "up": [
+              {
+                "embeddable": true,
+                "post_type": "post",
+                "href": "https://www.frontity.com/wp-json/wp/v2/posts/10452"
+              }
+            ],
+            "in-reply-to": [
+              {
+                "embeddable": true,
+                "href": "https://www.frontity.com/wp-json/wp/v2/comments/499396"
+              }
+            ]
+          }
+        },
+        {
+          "id": 504020,
+          "parent": 0,
+          "author": 0,
+          "author_name": "Suep",
+          "author_url": "http://frontity.com",
+          "date": "2018-10-25T01:20:49",
+          "content": {
+            "rendered": "<p>Such great advice!</p>\n"
+          },
+          "link": "https://www.frontity.com/stop-doing-to-get-started/comment-page-3/#comment-504020",
+          "type": "comment",
+          "_links": {
+            "self": [
+              {
+                "href": "https://www.frontity.com/wp-json/wp/v2/comments/504020"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://www.frontity.com/wp-json/wp/v2/comments"
+              }
+            ],
+            "up": [
+              {
+                "embeddable": true,
+                "post_type": "post",
+                "href": "https://www.frontity.com/wp-json/wp/v2/posts/10452"
+              }
+            ]
+          }
+        },
+        {
+          "id": 504015,
+          "parent": 0,
+          "author": 0,
+          "author_name": "Aisha",
+          "author_url": "",
+          "date": "2018-10-24T20:12:00",
+          "content": {
+            "rendered": "<p>Heartfelt thanks, I have been an avid fan for over ten years at least! Appreciate the kindness and support. You have no idea, your quotes, blogs and self care tips have been thoroughly enriching and encouraging to take the first steps! It’s never too late!</p>\n"
+          },
+          "link": "https://www.frontity.com/stop-doing-to-get-started/comment-page-3/#comment-504015",
+          "type": "comment",
+          "_links": {
+            "self": [
+              {
+                "href": "https://www.frontity.com/wp-json/wp/v2/comments/504015"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://www.frontity.com/wp-json/wp/v2/comments"
+              }
+            ],
+            "up": [
+              {
+                "embeddable": true,
+                "post_type": "post",
+                "href": "https://www.frontity.com/wp-json/wp/v2/posts/10452"
+              }
+            ]
+          }
+        }
+      ]
+    ],
+    "wp:term": [
+      [
+        {
+          "id": 12,
+          "link": "https://www.frontity.com/category/personal-development/",
+          "name": "Personal Development",
+          "slug": "personal-development",
+          "taxonomy": "category",
+          "_links": {
+            "self": [
+              {
+                "href": "https://www.frontity.com/wp-json/wp/v2/categories/12"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://www.frontity.com/wp-json/wp/v2/categories"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://www.frontity.com/wp-json/wp/v2/taxonomies/category"
+              }
+            ],
+            "wp:post_type": [
+              {
+                "href": "https://www.frontity.com/wp-json/wp/v2/posts?categories=12"
+              }
+            ],
+            "curies": [
+              {
+                "name": "wp",
+                "href": "https://api.w.org/{rel}",
+                "templated": true
+              }
+            ]
+          }
+        },
+        {
+          "id": 6,
+          "link": "https://www.frontity.com/category/productivity/",
+          "name": "Productivity",
+          "slug": "productivity",
+          "taxonomy": "category",
+          "_links": {
+            "self": [
+              {
+                "href": "https://www.frontity.com/wp-json/wp/v2/categories/6"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://www.frontity.com/wp-json/wp/v2/categories"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://www.frontity.com/wp-json/wp/v2/taxonomies/category"
+              }
+            ],
+            "wp:post_type": [
+              {
+                "href": "https://www.frontity.com/wp-json/wp/v2/posts?categories=6"
+              }
+            ],
+            "curies": [
+              {
+                "name": "wp",
+                "href": "https://api.w.org/{rel}",
+                "templated": true
+              }
+            ]
+          }
+        },
+        {
+          "id": 19,
+          "link": "https://www.frontity.com/category/success/",
+          "name": "Success",
+          "slug": "success",
+          "taxonomy": "category",
+          "_links": {
+            "self": [
+              {
+                "href": "https://www.frontity.com/wp-json/wp/v2/categories/19"
+              }
+            ],
+            "collection": [
+              {
+                "href": "https://www.frontity.com/wp-json/wp/v2/categories"
+              }
+            ],
+            "about": [
+              {
+                "href": "https://www.frontity.com/wp-json/wp/v2/taxonomies/category"
+              }
+            ],
+            "wp:post_type": [
+              {
+                "href": "https://www.frontity.com/wp-json/wp/v2/posts?categories=19"
+              }
+            ],
+            "curies": [
+              {
+                "name": "wp",
+                "href": "https://api.w.org/{rel}",
+                "templated": true
+              }
+            ]
+          }
+        }
+      ],
+      []
+    ]
+  }
+}

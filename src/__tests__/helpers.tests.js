@@ -4,13 +4,13 @@ const {
   getSlugsFromSrc,
 } = require('../helpers');
 
-const himalayaTree = require('./himalayaTree.json');
-const himalayaTreeNoImages = require('./himalayaTreeNoImages.json');
-const imagesWithClass = require('./imagesWithClass.json');
-const imagesWithDataSrc = require('./imagesWithDataSrc.json');
-const imagesWithSrc = require('./imagesWithSrc.json');
-const imagesWithDataOriginal = require('./imagesWithDataOriginal.json');
-const imagesWithSrcSizes = require('./imagesWithSrcSizes.json');
+const himalayaTree = require('./data/himalayaTree.json');
+const himalayaTreeNoImages = require('./data/himalayaTreeNoImages.json');
+const imagesWithClass = require('./data/imagesWithClass.json');
+const imagesWithDataSrc = require('./data/imagesWithDataSrc.json');
+const imagesWithSrc = require('./data/imagesWithSrc.json');
+const imagesWithDataOriginal = require('./data/imagesWithDataOriginal.json');
+const imagesWithSrcSizes = require('./data/imagesWithSrcSizes.json');
 
 describe('Helper getArrayOfImages', () => {
   test('Should return an empty array if no images are provided', () => {

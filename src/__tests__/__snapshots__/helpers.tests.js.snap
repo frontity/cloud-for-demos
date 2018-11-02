@@ -92,11 +92,11 @@ exports[`Helper getArrayOfImages Should return an empty array if no images are p
 
 exports[`Helper getIdsFromClass Should return an array of ids 1`] = `
 Array [
-  "11857",
-  "11858",
-  "11861",
-  "11859",
-  "11860",
+  11857,
+  11858,
+  11861,
+  11859,
+  11860,
 ]
 `;
 

@@ -1,0 +1,113 @@
+[
+  {
+    "id": 11822,
+    "date": "2018-09-26T10:50:01",
+    "date_gmt": "2018-09-26T08:50:01",
+    "guid": {
+      "rendered": "https://www.frontity.com/wp-content/uploads/how_to_stop_being_pessimistic.jpg"
+    },
+    "modified": "2018-09-26T10:50:19",
+    "modified_gmt": "2018-09-26T08:50:19",
+    "slug": "how_to_stop_being_pessimistic",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://www.frontity.com/positive-thinking/how_to_stop_being_pessimistic/",
+    "title": {
+      "rendered": "How to Stop Being Pessimistic"
+    },
+    "author": 15,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='https://www.frontity.com/wp-content/uploads/how_to_stop_being_pessimistic.jpg'><img width=\"300\" height=\"300\" src=\"https://www.frontity.com/wp-content/uploads/how_to_stop_being_pessimistic-300x300.jpg\" class=\"attachment-medium size-medium\" alt=\"How to Stop Being Pessimistic\" srcset=\"https://www.frontity.com/wp-content/uploads/how_to_stop_being_pessimistic-300x300.jpg 300w, https://www.frontity.com/wp-content/uploads/how_to_stop_being_pessimistic-150x150.jpg 150w, https://www.frontity.com/wp-content/uploads/how_to_stop_being_pessimistic.jpg 400w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "How to Stop Being Pessimistic",
+    "media_type": "image",
+    "mime_type": "image/jpeg",
+    "media_details": {
+      "width": 400,
+      "height": 401,
+      "file": "how_to_stop_being_pessimistic.jpg",
+      "sizes": {
+        "thumbnail": {
+          "file": "how_to_stop_being_pessimistic-150x150.jpg",
+          "width": 150,
+          "height": 150,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.frontity.com/wp-content/uploads/how_to_stop_being_pessimistic-150x150.jpg"
+        },
+        "medium": {
+          "file": "how_to_stop_being_pessimistic-300x300.jpg",
+          "width": 300,
+          "height": 300,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.frontity.com/wp-content/uploads/how_to_stop_being_pessimistic-300x300.jpg"
+        },
+        "full": {
+          "file": "how_to_stop_being_pessimistic.jpg",
+          "width": 400,
+          "height": 401,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.frontity.com/wp-content/uploads/how_to_stop_being_pessimistic.jpg"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": 10745,
+    "source_url": "https://www.frontity.com/wp-content/uploads/how_to_stop_being_pessimistic.jpg",
+    "_links": {
+      "self": [
+        {
+          "attributes": [],
+          "href": "https://www.frontity.com/wp-json/wp/v2/media/11822"
+        }
+      ],
+      "collection": [
+        {
+          "attributes": [],
+          "href": "https://www.frontity.com/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "attributes": [],
+          "href": "https://www.frontity.com/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "attributes": {
+            "embeddable": true
+          },
+          "href": "https://www.frontity.com/wp-json/wp/v2/users/15"
+        }
+      ],
+      "replies": [
+        {
+          "attributes": {
+            "embeddable": true
+          },
+          "href": "https://www.frontity.com/wp-json/wp/v2/comments?post=11822"
+        }
+      ]
+    }
+  }
+]

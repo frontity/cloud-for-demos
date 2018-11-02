@@ -1,0 +1,113 @@
+[
+  {
+    "id": 11857,
+    "date": "2018-10-24T13:33:31",
+    "date_gmt": "2018-10-24T11:33:31",
+    "guid": {
+      "rendered": "https://www.frontity.com/wp-content/uploads/image_11857.jpg"
+    },
+    "modified": "2018-10-24T13:33:44",
+    "modified_gmt": "2018-10-24T11:33:44",
+    "slug": "stop_to_get_started",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://www.frontity.com/stop-doing-to-get-started/stop_to_get_started/",
+    "title": {
+      "rendered": "3 Things You Need to Stop Doing to Get Started"
+    },
+    "author": 15,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "description": {
+      "rendered": "<p class=\"attachment\"><a href='https://www.frontity.com/wp-content/uploads/image_11857.jpg'><img width=\"300\" height=\"200\" src=\"https://www.frontity.com/wp-content/uploads/image_11857-300x200.jpg\" class=\"attachment-medium size-medium\" alt=\"3 Things You Need to Stop Doing to Get Started\" srcset=\"https://www.frontity.com/wp-content/uploads/image_11857-300x200.jpg 300w, https://www.frontity.com/wp-content/uploads/image_11857.jpg 600w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n"
+    },
+    "caption": {
+      "rendered": ""
+    },
+    "alt_text": "3 Things You Need to Stop Doing to Get Started",
+    "media_type": "image",
+    "mime_type": "image/jpeg",
+    "media_details": {
+      "width": 600,
+      "height": 400,
+      "file": "image_11857.jpg",
+      "sizes": {
+        "thumbnail": {
+          "file": "image_11857-150x150.jpg",
+          "width": 150,
+          "height": 150,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.frontity.com/wp-content/uploads/image_11857-150x150.jpg"
+        },
+        "medium": {
+          "file": "image_11857-300x200.jpg",
+          "width": 300,
+          "height": 200,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.frontity.com/wp-content/uploads/image_11857-300x200.jpg"
+        },
+        "full": {
+          "file": "image_11857.jpg",
+          "width": 600,
+          "height": 400,
+          "mime_type": "image/jpeg",
+          "source_url": "https://www.frontity.com/wp-content/uploads/image_11857.jpg"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": 10452,
+    "source_url": "https://www.frontity.com/wp-content/uploads/image_11857.jpg",
+    "_links": {
+      "self": [
+        {
+          "attributes": [],
+          "href": "https://www.frontity.com/wp-json/wp/v2/media/11857"
+        }
+      ],
+      "collection": [
+        {
+          "attributes": [],
+          "href": "https://www.frontity.com/wp-json/wp/v2/media"
+        }
+      ],
+      "about": [
+        {
+          "attributes": [],
+          "href": "https://www.frontity.com/wp-json/wp/v2/types/attachment"
+        }
+      ],
+      "author": [
+        {
+          "attributes": {
+            "embeddable": true
+          },
+          "href": "https://www.frontity.com/wp-json/wp/v2/users/15"
+        }
+      ],
+      "replies": [
+        {
+          "attributes": {
+            "embeddable": true
+          },
+          "href": "https://www.frontity.com/wp-json/wp/v2/comments?post=11857"
+        }
+      ]
+    }
+  }
+]
