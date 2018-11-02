@@ -14,7 +14,7 @@ const getIdsFromClass = elements =>
     const idRegexp = /wp-image-(\d+)/;
     const id = className ? className.value.match(idRegexp)[1] : undefined;
 
-    if (typeof id !== 'undefined') final.push(id);
+    if (typeof id !== 'undefined') final.push(parseInt(id, 10));
 
     return final;
   }, []);

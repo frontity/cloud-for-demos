@@ -33,14 +33,14 @@ module.exports = cors(async req => {
       const imageIds = getIdsFromClass(imageElements);
 
       if (imageIds.length) {
-        const { body: media } = await getData(
+        const { body } = await getData(
           `${protocol}//${hostname}/?rest_route=/wp/v2/media&include=${imageIds.join(
             ',',
           )}`,
         );
 
         data.content_media = imageIds; // eslint-disable-line
-        data._embedded['wp:contentmedia'] = media; // eslint-disable-line
+        data._embedded['wp:contentmedia'] = body; // eslint-disable-line
         return data;
       }
 
