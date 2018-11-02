@@ -12,9 +12,10 @@ const getIdsFromClass = elements =>
   elements.reduce((final, { attributes }) => {
     const className = attributes.find(attribute => attribute.key === 'class');
     const idRegexp = /wp-image-(\d+)/;
-    const id = className ? className.value.match(idRegexp)[1] : undefined;
+    const matches = className ? className.value.match(idRegexp) : null;
+    const id = matches ? matches[1] : null;
 
-    if (typeof id !== 'undefined') final.push(parseInt(id, 10));
+    if (id) final.push(parseInt(id, 10));
 
     return final;
   }, []);
@@ -27,14 +28,15 @@ const getSlugsFromSrc = elements =>
       {},
     );
     const src =
-      attrs['data-src'] || attrs.src || attrs['data-original'] || undefined;
+      attrs['data-src'] || attrs.src || attrs['data-original'] || null;
 
-    // This needs to be fixed so we can avoid retrieving slugs with size
-
-    if (typeof src !== 'undefined') {
+    if (src) {
       const filenameRegexp = /([^/\\&?]+)\.\w{2,4}(?=([?&].*$|$))/;
-      const slug = src.match(filenameRegexp)[1].replace(/-\d+x\d+$/, '');
-      final.push(slug);
+      const matches = src ? src.match(filenameRegexp) : null;
+      const slug = matches
+        ? src.match(filenameRegexp)[1].replace(/-\d+x\d+$/, '')
+        : null;
+      if (slug) final.push(slug);
     }
 
     return final;

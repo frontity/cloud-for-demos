@@ -102,6 +102,8 @@ Array [
 
 exports[`Helper getIdsFromClass Should return an empty array if no ids are extracted from class 1`] = `Array []`;
 
+exports[`Helper getIdsFromClass Should return an empty array if no ids are extracted from class 2`] = `Array []`;
+
 exports[`Helper getSlugsFromSrc Should return an array of slugs extracted from data-original 1`] = `
 Array [
   "image_11857",

@@ -7,6 +7,7 @@ const {
 const himalayaTree = require('./data/himalayaTree.json');
 const himalayaTreeNoImages = require('./data/himalayaTreeNoImages.json');
 const imagesWithClass = require('./data/imagesWithClass.json');
+const imagesWithClassButNoId = require('./data/imagesWithClassButNoId.json');
 const imagesWithDataSrc = require('./data/imagesWithDataSrc.json');
 const imagesWithSrc = require('./data/imagesWithSrc.json');
 const imagesWithDataOriginal = require('./data/imagesWithDataOriginal.json');
@@ -42,7 +43,11 @@ describe('Helper getArrayOfImages', () => {
 
 describe('Helper getIdsFromClass', () => {
   test('Should return an empty array if no ids are extracted from class', () => {
-    const ids = getIdsFromClass(imagesWithDataSrc);
+    let ids = getIdsFromClass(imagesWithDataSrc);
+    expect(ids).toHaveLength(0);
+    expect(ids).toMatchSnapshot();
+
+    ids = getIdsFromClass(imagesWithClassButNoId);
     expect(ids).toHaveLength(0);
     expect(ids).toMatchSnapshot();
   });
