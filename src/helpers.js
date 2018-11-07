@@ -5,7 +5,7 @@ const getIdFromClass = ({ attributes }) => {
   const matches = className ? className.value.match(idRegexp) : null;
   const id = matches ? matches[1] : null;
 
-  return id;
+  return id && parseInt(id, 10);
 };
 
 // Get the media slugs from data-src, src or data-original attributes.
