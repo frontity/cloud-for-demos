@@ -1,13 +1,11 @@
+/* eslint-disable no-param-reassign, no-underscore-dangle */
+
 const { parse } = require('url');
 const got = require('got');
 const cors = require('micro-cors')();
 const { createError } = require('micro');
 const himalaya = require('himalaya');
-const {
-  getArrayOfImages,
-  getIdsFromClass,
-  getSlugsFromSrc,
-} = require('./helpers');
+const { getIdFromClass, getSlugFromSrc } = require('./helpers');
 
 module.exports = cors(async req => {
   try {
@@ -27,42 +25,65 @@ module.exports = cors(async req => {
 
     // Modifies the data before sending it through.
     const changeData = async data => {
-      const imageElements = getArrayOfImages(
-        himalaya.parse(data.content.rendered),
-      );
-      const imageIds = getIdsFromClass(imageElements);
+      const contentMedia = [];
+      const contentMediaIds = [];
 
-      if (imageIds.length) {
-        const { body } = await getData(
-          `${protocol}//${hostname}/?rest_route=/wp/v2/media&include=${imageIds.join(
-            ',',
-          )}`,
-        );
+      // const content = himalaya.parse(data.content.rendered);
 
-        data.content_media = imageIds; // eslint-disable-line
-        data._embedded['wp:contentmedia'] = [body]; // eslint-disable-line
-        return data;
-      }
+      const getContent = content =>
+        content.map(element => {
+          if (element.tagName === 'img') {
+            const id = getIdFromClass(element);
+            element.attributes['data-attachment-id'] = id;
+            return element;
+          }
 
-      const slugs = getSlugsFromSrc(imageElements);
+          if (element.children && element.children.length) {
+            element.children = getContent(element.children);
+          }
 
-      if (slugs.length) {
-        const media = (await Promise.all(
-          slugs.map(async slug => {
-            const { body } = await getData(
-              `${protocol}//${hostname}/?rest_route=/wp/v2/media&slug=${slug}`,
-            );
+          return element;
+        });
 
-            if (body.length) return body[0];
+      const himalayaContent = himalaya.parse(data.content.rendered);
+      const content = getContent(himalayaContent);
+      const stringContent = himalaya.stringify(content);
+      // const imageElements = getArrayOfImages(content);
+      // const imageIds = getIdsFromClass(imageElements);
 
-            return null;
-          }),
-        )).filter(item => item);
+      // if (imageIds.length) {
+      //   const { body } = await getData(
+      //     `${protocol}//${hostname}/?rest_route=/wp/v2/media&include=${imageIds.join(
+      //       ',',
+      //     )}`,
+      //   );
 
-        data.content_media = media.map(entity => entity.id); // eslint-disable-line
-        data._embedded['wp:contentmedia'] = [media]; // eslint-disable-line
-        return data;
-      }
+      //   data.content_media = imageIds; // eslint-disable-line
+      //   data._embedded['wp:contentmedia'] = [body]; // eslint-disable-line
+      //   return data;
+      // }
+
+      // const slugs = getSlugsFromSrc(imageElements);
+
+      // if (slugs.length) {
+      //   const media = (await Promise.all(
+      //     slugs.map(async slug => {
+      //       const { body } = await getData(
+      //         `${protocol}//${hostname}/?rest_route=/wp/v2/media&slug=${slug}`,
+      //       );
+
+      //       if (body.length) return body[0];
+
+      //       return null;
+      //     }),
+      //   )).filter(item => item);
+
+      data.content.rendered = himalaya.stringify(content);
+      data.content_media = contentMediaIds;
+      data._embedded['wp:contentmedia'] = [contentMedia];
+
+      //   return data;
+      // }
 
       return data;
     };
