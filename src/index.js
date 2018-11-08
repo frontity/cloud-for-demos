@@ -45,7 +45,7 @@ module.exports = cors(async req => {
                 contentMedia.push(body);
                 element.attributes.push({
                   key: 'data-attachment-id',
-                  value: id,
+                  value: id.toString(),
                 });
 
                 return element;
