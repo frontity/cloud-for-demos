@@ -14,14 +14,16 @@ module.exports = cors(async req => {
     if (!protocol || !hostname) throw new Error(`Invalid url: ${initialUrl}`);
 
     // Function to request data from Rest API.
-    const getData = async query =>
-      (await got.get(`${protocol}//${hostname}/${query || ''}`, {
+    const getData = async query => {
+      console.log(`${protocol}//${hostname}/${query}`);
+      return (await got.get(`${protocol}//${hostname}/${query || ''}`, {
         headers: {
           'user-agent': req.headers['user-agent'],
           host: hostname,
         },
         json: true,
       })).body;
+    };
 
     // Modifies the data before sending it through.
     const changeData = async data => {
@@ -35,16 +37,22 @@ module.exports = cors(async req => {
               const id = getIdFromClass(element);
 
               if (id) {
-                const body = await getData(`?rest_route=/wp/v2/media/${id}`);
+                let body;
 
-                if (!body.id) return element;
+                try {
+                  body = await getData(`?rest_route=/wp/v2/media/${id}`);
+                } catch (e) {
+                  return element;
+                }
 
-                contentMediaIds.push(id);
-                contentMedia.push(body);
-                element.attributes.push({
-                  key: 'data-attachment-id',
-                  value: id.toString(),
-                });
+                if (body.id) {
+                  contentMediaIds.push(id);
+                  contentMedia.push(body);
+                  element.attributes.push({
+                    key: 'data-attachment-id',
+                    value: id.toString(),
+                  });
+                }
 
                 return element;
               }
@@ -52,18 +60,22 @@ module.exports = cors(async req => {
               const slug = getSlugFromSrc(element);
 
               if (slug) {
-                const body = await getData(
-                  `?rest_route=/wp/v2/media&slug=${slug}`,
-                );
+                let body;
 
-                if (!body.length) return element;
+                try {
+                  body = await getData(`?rest_route=/wp/v2/media&slug=${slug}`);
+                } catch (e) {
+                  return element;
+                }
 
-                contentMediaIds.push(body[0].id);
-                contentMedia.push(body[0]);
-                element.attributes.push({
-                  key: 'data-attachment-id',
-                  value: body[0].id.toString(),
-                });
+                if (body.length) {
+                  contentMediaIds.push(body[0].id);
+                  contentMedia.push(body[0]);
+                  element.attributes.push({
+                    key: 'data-attachment-id',
+                    value: body[0].id.toString(),
+                  });
+                }
 
                 return element;
               }
