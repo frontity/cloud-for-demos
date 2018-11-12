@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/frontity/cloud-for-demos.git/compare/v1.1.0...v1.1.1) (2018-11-12)
+
+
+### Bug Fixes
+
+* **media-request:** adds a try catch to every request ([d55b117](https://github.com/frontity/cloud-for-demos.git/commit/d55b117))
+
 # [1.1.0](https://github.com/frontity/cloud-for-demos.git/compare/v1.0.0...v1.1.0) (2018-11-12)
 
 
