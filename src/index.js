@@ -1,77 +1,98 @@
+/* eslint-disable no-param-reassign, no-underscore-dangle */
+
 const { parse } = require('url');
 const got = require('got');
 const cors = require('micro-cors')();
 const { createError } = require('micro');
 const himalaya = require('himalaya');
-const {
-  getArrayOfImages,
-  getIdsFromClass,
-  getSlugsFromSrc,
-} = require('./helpers');
+const { getIdFromClass, getSlugFromSrc } = require('./helpers');
 
 module.exports = cors(async req => {
   try {
     const initialUrl = req.url.replace('/', '');
-    const { protocol, hostname } = parse(initialUrl);
+    const { protocol, hostname, search } = parse(initialUrl);
     if (!protocol || !hostname) throw new Error(`Invalid url: ${initialUrl}`);
 
-    // Function to request data from provided url (Rest API).
-    const getData = url =>
-      got.get(url, {
+    // Function to request data from Rest API.
+    const getData = async query =>
+      (await got.get(`${protocol}//${hostname}/${query || ''}`, {
         headers: {
           'user-agent': req.headers['user-agent'],
-          host: url.host,
+          host: hostname,
         },
         json: true,
-      });
+      })).body;
 
     // Modifies the data before sending it through.
     const changeData = async data => {
-      const imageElements = getArrayOfImages(
-        himalaya.parse(data.content.rendered),
-      );
-      const imageIds = getIdsFromClass(imageElements);
+      const contentMedia = [];
+      const contentMediaIds = [];
 
-      if (imageIds.length) {
-        const { body } = await getData(
-          `${protocol}//${hostname}/?rest_route=/wp/v2/media&include=${imageIds.join(
-            ',',
-          )}`,
+      const getContent = content =>
+        Promise.all(
+          content.map(async element => {
+            if (element.tagName === 'img') {
+              const id = getIdFromClass(element);
+
+              if (id) {
+                const body = await getData(`?rest_route=/wp/v2/media/${id}`);
+
+                if (!body.id) return element;
+
+                contentMediaIds.push(id);
+                contentMedia.push(body);
+                element.attributes.push({
+                  key: 'data-attachment-id',
+                  value: id.toString(),
+                });
+
+                return element;
+              }
+
+              const slug = getSlugFromSrc(element);
+
+              if (slug) {
+                const body = await getData(
+                  `?rest_route=/wp/v2/media&slug=${slug}`,
+                );
+
+                if (!body.length) return element;
+
+                contentMediaIds.push(body[0].id);
+                contentMedia.push(body[0]);
+                element.attributes.push({
+                  key: 'data-attachment-id',
+                  value: body[0].id.toString(),
+                });
+
+                return element;
+              }
+            }
+
+            if (element.children && element.children.length) {
+              element.children = await getContent(element.children);
+            }
+
+            return element;
+          }),
         );
 
-        data.content_media = imageIds; // eslint-disable-line
-        data._embedded['wp:contentmedia'] = [body]; // eslint-disable-line
-        return data;
-      }
+      const himalayaContent = himalaya.parse(data.content.rendered);
+      const content = await getContent(himalayaContent);
+      const stringContent = himalaya.stringify(content);
 
-      const slugs = getSlugsFromSrc(imageElements);
-
-      if (slugs.length) {
-        const media = (await Promise.all(
-          slugs.map(async slug => {
-            const { body } = await getData(
-              `${protocol}//${hostname}/?rest_route=/wp/v2/media&slug=${slug}`,
-            );
-
-            if (body.length) return body[0];
-
-            return null;
-          }),
-        )).filter(item => item);
-
-        data.content_media = media.map(entity => entity.id); // eslint-disable-line
-        data._embedded['wp:contentmedia'] = [media]; // eslint-disable-line
-        return data;
-      }
+      data.content.rendered = stringContent;
+      data.content_media = contentMediaIds;
+      data._embedded['wp:contentmedia'] = [contentMedia];
 
       return data;
     };
 
     // Get data from original call.
-    const { body } = await getData(initialUrl);
+    const body = await getData(search);
 
     // Get images if data is a list of entities.
-    if (Array.isArray(body))
+    if (Array.isArray(body)) {
       return await Promise.all(
         body.map(async item => {
           // Return initial entity if has no content.
@@ -80,6 +101,7 @@ module.exports = cors(async req => {
           return changeData(item);
         }),
       );
+    }
 
     // Get images if data is an entity.
     if (typeof body.content !== 'undefined') {

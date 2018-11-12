@@ -53,7 +53,7 @@ describe('Server', () => {
     nock('https://frontity.com')
       .get('/?rest_route=/wp/v2/posts/10452&_embed=true')
       .reply(200, post10452)
-      .get('/?rest_route=/wp/v2/media&include=11857')
+      .get('/?rest_route=/wp/v2/media/11857')
       .reply(200, media11857);
 
     const body = JSON.parse(
@@ -63,7 +63,8 @@ describe('Server', () => {
     );
 
     expect(body.content_media).toEqual([11857]);
-    expect(body._embedded['wp:contentmedia'][0]).toEqual(media11857);
+    expect(body.content.rendered).toMatch("data-attachment-id='11857'");
+    expect(body._embedded['wp:contentmedia'][0][0]).toEqual(media11857);
     expect(body).toMatchSnapshot();
   });
   test("Should return a post populated with content media when images don't have class attribute", async () => {
@@ -71,7 +72,7 @@ describe('Server', () => {
       .get('/?rest_route=/wp/v2/posts/10452&_embed=true')
       .reply(200, post10452noClass)
       .get('/?rest_route=/wp/v2/media&slug=stop_to_get_started-')
-      .reply(200, media11857);
+      .reply(200, [media11857]);
 
     const body = JSON.parse(
       (await got(
@@ -80,18 +81,19 @@ describe('Server', () => {
     );
 
     expect(body.content_media).toEqual([11857]);
-    expect(body._embedded['wp:contentmedia'][0]).toEqual(media11857);
+    expect(body.content.rendered).toMatch("data-attachment-id='11857'");
+    expect(body._embedded['wp:contentmedia'][0][0]).toEqual(media11857);
     expect(body).toMatchSnapshot();
   });
   test('Should return a list of posts populated with content media', async () => {
     nock('https://frontity.com')
       .get('/?rest_route=/wp/v2/posts&_embed=true')
       .reply(200, listOfPosts)
-      .get('/?rest_route=/wp/v2/media&include=11857')
+      .get('/?rest_route=/wp/v2/media/11857')
       .reply(200, media11857)
-      .get('/?rest_route=/wp/v2/media&include=11848')
+      .get('/?rest_route=/wp/v2/media/11848')
       .reply(200, media11848)
-      .get('/?rest_route=/wp/v2/media&include=11822')
+      .get('/?rest_route=/wp/v2/media/11822')
       .reply(200, media11822);
 
     const body = JSON.parse(
@@ -103,9 +105,12 @@ describe('Server', () => {
     expect(body[0].content_media).toEqual([11857]);
     expect(body[1].content_media).toEqual([11848]);
     expect(body[2].content_media).toEqual([11822]);
-    expect(body[0]._embedded['wp:contentmedia'][0]).toEqual(media11857);
-    expect(body[1]._embedded['wp:contentmedia'][0]).toEqual(media11848);
-    expect(body[2]._embedded['wp:contentmedia'][0]).toEqual(media11822);
+    expect(body[0].content.rendered).toMatch("data-attachment-id='11857'");
+    expect(body[1].content.rendered).toMatch("data-attachment-id='11848'");
+    expect(body[2].content.rendered).toMatch("data-attachment-id='11822'");
+    expect(body[0]._embedded['wp:contentmedia'][0][0]).toEqual(media11857);
+    expect(body[1]._embedded['wp:contentmedia'][0][0]).toEqual(media11848);
+    expect(body[2]._embedded['wp:contentmedia'][0][0]).toEqual(media11822);
     expect(body).toMatchSnapshot();
   });
   test('Should return the same data from the original request', async () => {
