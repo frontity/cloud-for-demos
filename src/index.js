@@ -15,7 +15,7 @@ module.exports = cors(async req => {
 
     // Function to request data from Rest API.
     const getData = async query =>
-      (await got.get(`${protocol}//${hostname}/${query}`, {
+      (await got.get(`${protocol}//${hostname}/${query || ''}`, {
         headers: {
           'user-agent': req.headers['user-agent'],
           host: hostname,
@@ -27,8 +27,6 @@ module.exports = cors(async req => {
     const changeData = async data => {
       const contentMedia = [];
       const contentMediaIds = [];
-
-      // const content = himalaya.parse(data.content.rendered);
 
       const getContent = content =>
         Promise.all(
@@ -59,6 +57,15 @@ module.exports = cors(async req => {
                 );
 
                 if (!body.length) return element;
+
+                contentMediaIds.push(body[0].id);
+                contentMedia.push(body[0]);
+                element.attributes.push({
+                  key: 'data-attachment-id',
+                  value: body[0].id.toString(),
+                });
+
+                return element;
               }
             }
 
