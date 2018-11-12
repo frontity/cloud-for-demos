@@ -1,3 +1,17 @@
+# [1.1.0](https://github.com/frontity/cloud-for-demos.git/compare/v1.0.0...v1.1.0) (2018-11-12)
+
+
+### Bug Fixes
+
+* **all:** add data-attachment-id to content [WIP] ([3d7f1ef](https://github.com/frontity/cloud-for-demos.git/commit/3d7f1ef))
+
+
+### Features
+
+* **all:** add data-attachment-id to images [WIP] ([1c22418](https://github.com/frontity/cloud-for-demos.git/commit/1c22418))
+* **all:** add data-attachment-id to images [WIP] ([d92637e](https://github.com/frontity/cloud-for-demos.git/commit/d92637e))
+* **all:** add data-attachment-id to images in content ([a16d75c](https://github.com/frontity/cloud-for-demos.git/commit/a16d75c))
+
 # 1.0.0 (2018-11-05)
 
 
