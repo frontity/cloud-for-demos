@@ -5,6 +5,7 @@
   "description": "Services for demos.frontity.cloud",
   "main": "src/index.js",
   "scripts": {
+    "postinstall": "npm-recursive-install --skip-root",
     "test": "jest --watch",
     "test:debug": "node --inspect node_modules/.bin/jest --watch",
     "test:ci": "jest --silent --passWithNoTests",
@@ -44,6 +45,7 @@
     "micro-dev": "^3.0.0",
     "nock": "^10.0.1",
     "prettier": "^1.14.3",
+    "recursive-install": "^1.4.0",
     "semantic-release": "^15.10.6",
     "test-listen": "^1.1.0",
     "travis-deploy-once": "^5.0.9"
