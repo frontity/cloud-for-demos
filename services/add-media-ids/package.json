@@ -13,7 +13,7 @@
   "author": "Eduardo Campaña (eduardo@frontity.com)",
   "license": "Apache-2.0",
   "dependencies": {
-    "got": "^8.3.2",
+    "axios": "^0.18.0",
     "himalaya": "^1.1.0",
     "micro": "^9.3.3",
     "micro-cors": "^0.1.1"

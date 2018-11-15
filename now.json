@@ -4,5 +4,7 @@
   "builds": [
     { "src": "services/add-media-ids/src/index.js", "use": "@now/node" }
   ],
-  "routes": [{ "src": "/services/add-media-ids", "dest": "/add-media-ids" }]
+  "routes": [
+    { "src": "/add-media-ids", "dest": "/services/add-media-ids/src/index.js" }
+  ]
 }

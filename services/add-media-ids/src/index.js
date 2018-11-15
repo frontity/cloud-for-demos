@@ -1,27 +1,28 @@
 /* eslint-disable no-param-reassign, no-underscore-dangle */
-
 const { parse } = require('url');
-const got = require('got');
+const { send, createError, sendError } = require('micro');
+const axios = require('axios');
 const cors = require('micro-cors')();
-const { createError } = require('micro');
 const himalaya = require('himalaya');
 const { getIdFromClass, getSlugFromSrc } = require('./helpers');
 
-module.exports = cors(async req => {
+module.exports = cors(async (req, res) => {
   try {
-    const initialUrl = req.url.replace('/', '');
+    const [initialUrl] = req.url.replace('/', '').match(/http.+$/) || [''];
     const { protocol, hostname, search } = parse(initialUrl);
     if (!protocol || !hostname) throw new Error(`Invalid url: ${initialUrl}`);
 
     // Function to request data from Rest API.
     const getData = async query =>
-      (await got.get(`${protocol}//${hostname}/${query || ''}`, {
+      (await axios({
+        method: 'get',
+        url: `${protocol}//${hostname}/${query || ''}`,
         headers: {
           'user-agent': req.headers['user-agent'],
           host: hostname,
         },
-        json: true,
-      })).body;
+        responseType: 'json',
+      })).data;
 
     // Modifies the data before sending it through.
     const changeData = async data => {
@@ -103,7 +104,7 @@ module.exports = cors(async req => {
 
     // Get images if data is a list of entities.
     if (Array.isArray(body)) {
-      return await Promise.all(
+      const data = await Promise.all(
         body.map(async item => {
           // Return initial entity if has no content.
           if (typeof item.content === 'undefined') return item;
@@ -111,16 +112,24 @@ module.exports = cors(async req => {
           return changeData(item);
         }),
       );
+
+      send(res, 200, data);
     }
 
     // Get images if data is an entity.
     if (typeof body.content !== 'undefined') {
-      return await changeData(body);
+      const data = await changeData(body);
+
+      send(res, 200, data);
     }
 
     // Return data if an entity has no content.
-    return body;
+    send(res, 200, body);
   } catch (error) {
-    throw createError(error.statusCode || 500, error.statusMessage || error);
+    sendError(
+      req,
+      res,
+      createError(error.statusCode || 500, error.statusMessage || error),
+    );
   }
 });
