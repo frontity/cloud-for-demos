@@ -1,8 +1,8 @@
 {
-  "name": "cloud-for-demos",
+  "name": "demos-micros",
   "version": "0.1.0",
   "private": true,
-  "description": "Micro service for demos.frontity.cloud",
+  "description": "Services for demos.frontity.cloud",
   "main": "src/index.js",
   "scripts": {
     "test": "jest --watch",
@@ -10,21 +10,18 @@
     "test:ci": "jest --silent --passWithNoTests",
     "cz": "git-cz",
     "travis-deploy-once": "travis-deploy-once",
-    "semantic-release": "semantic-release",
-    "start": "micro src/index.js",
-    "dev": "micro-dev src/index.js --watch src/",
-    "dev:debug": "node --inspect node_modules/.bin/micro-dev src/index.js"
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/frontity/cloud-for-demos.git"
+    "url": "https://github.com/frontity/demos-micros.git"
   },
   "author": "Eduardo Campaña (eduardo@frontity.com), Luis Herranz (luis@frontity.com)",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/frontity/cloud-for-demos/issues"
+    "url": "https://github.com/frontity/demos-micros/issues"
   },
-  "homepage": "https://github.com/frontity/cloud-for-demos#readme",
+  "homepage": "https://github.com/frontity/demos-micros#readme",
   "devDependencies": {
     "@commitlint/cli": "^7.2.1",
     "@commitlint/config-conventional": "^7.1.2",
@@ -50,11 +47,5 @@
     "semantic-release": "^15.10.6",
     "test-listen": "^1.1.0",
     "travis-deploy-once": "^5.0.9"
-  },
-  "dependencies": {
-    "got": "^8.3.2",
-    "himalaya": "^1.1.0",
-    "micro": "^9.3.3",
-    "micro-cors": "^0.1.1"
   }
 }

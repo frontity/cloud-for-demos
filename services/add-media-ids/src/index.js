@@ -14,16 +14,14 @@ module.exports = cors(async req => {
     if (!protocol || !hostname) throw new Error(`Invalid url: ${initialUrl}`);
 
     // Function to request data from Rest API.
-    const getData = async query => {
-      console.log(`${protocol}//${hostname}/${query}`);
-      return (await got.get(`${protocol}//${hostname}/${query || ''}`, {
+    const getData = async query =>
+      (await got.get(`${protocol}//${hostname}/${query || ''}`, {
         headers: {
           'user-agent': req.headers['user-agent'],
           host: hostname,
         },
         json: true,
       })).body;
-    };
 
     // Modifies the data before sending it through.
     const changeData = async data => {

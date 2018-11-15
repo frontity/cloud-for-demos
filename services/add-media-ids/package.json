@@ -1,0 +1,26 @@
+{
+  "name": "add-media-ids",
+  "version": "1.0.0",
+  "description": "Adds media ids to the Rest API",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "micro src/index.js",
+    "dev": "micro-dev src/index.js --watch src/",
+    "test": "node ../../node_modules/.bin/jest --watch",
+    "test:debug": "node --inspect ../../node_modules/.bin/jest --watch",
+    "test:ci": "node ../../node_modules/.bin/jest --silent --passWithNoTests"
+  },
+  "author": "Eduardo Campaña (eduardo@frontity.com)",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "got": "^8.3.2",
+    "himalaya": "^1.1.0",
+    "micro": "^9.3.3",
+    "micro-cors": "^0.1.1"
+  },
+  "devDependencies": {
+    "micro-dev": "^3.0.0",
+    "nock": "^10.0.2",
+    "test-listen": "^1.1.0"
+  }
+}

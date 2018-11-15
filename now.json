@@ -1,3 +1,8 @@
 {
-  "alias": "demos.frontity.cloud"
+  "version": 2,
+  "alias": "demos.frontity.cloud",
+  "builds": [
+    { "src": "services/add-media-ids/src/index.js", "use": "@now/node" }
+  ],
+  "routes": [{ "src": "/services/add-media-ids", "dest": "/add-media-ids" }]
 }
