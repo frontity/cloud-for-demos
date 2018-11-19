@@ -113,20 +113,20 @@ module.exports = cors(async (req, res) => {
         }),
       );
 
-      send(res, 200, data);
+      return send(res, 200, data);
     }
 
     // Get images if data is an entity.
     if (typeof body.content !== 'undefined') {
       const data = await changeData(body);
 
-      send(res, 200, data);
+      return send(res, 200, data);
     }
 
     // Return data if an entity has no content.
-    send(res, 200, body);
+    return send(res, 200, body);
   } catch (error) {
-    sendError(
+    return sendError(
       req,
       res,
       createError(error.statusCode || 500, error.statusMessage || error),
