@@ -11,6 +11,7 @@ const media11857 = require('./data/media_11857.json');
 const media11848 = require('./data/media_11848.json');
 const media11822 = require('./data/media_11822.json');
 
+// Makes axios to work properly with nock.
 axios.defaults.adapter = require('axios/lib/adapters/http');
 
 let service;

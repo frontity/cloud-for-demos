@@ -5,6 +5,6 @@
     { "src": "services/add-media-ids/src/index.js", "use": "@now/node" }
   ],
   "routes": [
-    { "src": "/add-media-ids", "dest": "/services/add-media-ids/src/index.js" }
+    { "src": "/add-media-ids/.*", "dest": "/services/add-media-ids/src/index.js" }
   ]
 }
