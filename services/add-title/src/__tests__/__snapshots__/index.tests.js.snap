@@ -1,0 +1,901 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Server Receives a category without title and should return the original data 1`] = `
+Object {
+  "_links": Object {
+    "about": Array [
+      Object {
+        "href": "https://frontity.io/wp-json/wp/v2/taxonomies/category",
+      },
+    ],
+    "collection": Array [
+      Object {
+        "href": "https://frontity.io/wp-json/wp/v2/categories",
+      },
+    ],
+    "curies": Array [
+      Object {
+        "href": "https://api.w.org/{rel}",
+        "name": "wp",
+        "templated": true,
+      },
+    ],
+    "self": Array [
+      Object {
+        "href": "https://frontity.io/wp-json/wp/v2/categories/21464",
+      },
+    ],
+    "wp:post_type": Array [
+      Object {
+        "href": "https://frontity.io/wp-json/wp/v2/posts?categories=21464",
+      },
+      Object {
+        "href": "https://frontity.io/wp-json/wp/v2/patrocinado?categories=21464",
+      },
+      Object {
+        "href": "https://frontity.io/wp-json/wp/v2/especiales?categories=21464",
+      },
+      Object {
+        "href": "https://frontity.io/wp-json/wp/v2/juno?categories=21464",
+      },
+    ],
+  },
+  "count": 2268,
+  "description": "",
+  "id": 21464,
+  "link": "https://frontity.io/actualidad",
+  "meta": Array [],
+  "name": "Actualidad",
+  "parent": 0,
+  "slug": "actualidad",
+  "taxonomy": "category",
+}
+`;
+
+exports[`Server Receives a list of posts with \`title\` as a string and should return a list of posts with \`title.rendered\` and \`title.text\` 1`] = `
+Array [
+  Object {
+    "author": 62244,
+    "autor_hptx": "			<span class=\\"author__name\\">Agencia SINC</span>
+		",
+    "categories": Array [
+      2046,
+    ],
+    "comment_status": "closed",
+    "content": Object {
+      "protected": false,
+      "rendered": "<p><a href=\\"https://www.agenciasinc.es/Opinion/Del-deseo-a-la-realidad-la-edicion-genetica-aun-no-esta-preparada-para-tratar-a-pacientes\\">Agencia SINC</a> – Las herramientas CRISPR derivan de un sistema inmunitario que usan las bacterias para defenderse de los virus, <a href=\\"https://www.ncbi.nlm.nih.gov/pubmed/15791728\\">descrito en 2005</a> por <a href=\\"https://www.agenciasinc.es/Entrevistas/Estoy-viviendo-la-revolucion-CRISPR-con-agobio-y-felicidad\\">Francisco J. Martínez Mojica</a> microbiólogo de la Universidad de Alicante. Hace apenas cinco años, otros investigadores, basándose en los hallazgos pioneros de Mojica, convirtieron aquel sistema de defensa bacteriano en una <strong>herramienta eficaz para la edición genética</strong>, válida para cambiar a voluntad la secuencia de ADN de cualquier gen, de cualquier genoma, de cualquier especie.</p>
+<p>Esta revolución tecnológica ha impactado de forma muy importante en los laboratorios de investigación biomédica. Ahora podemos hacer experimentos genéticos que hasta hace poco no podíamos ni soñar.</p>
+<div class=\\"wrapperBanner roba_ATF  mobile\\"></div>
+<p>Podemos reproducir en modelos celulares y animales las mutaciones en genes que diagnosticamos en nuestros pacientes, <a href=\\"https://culturacientifica.com/2017/09/29/las-herramientas-edicion-genetica-crispr-los-ratones-avatar/\\">como los ratones avatar</a>. Podemos revertir estas mutaciones administrando a esos modelos animales <a href=\\"https://www.ncbi.nlm.nih.gov/pubmed/26721683\\">virus</a> o <a href=\\"https://www.ncbi.nlm.nih.gov/pubmed/29490262\\">nanopartículas</a> cargadas con las herramientas de edición y las secuencias de ADN molde con la secuencia correcta del gen a corregir.</p>
+<p>Las CRISPR cortan el ADN con gran precisión. Estas roturas deben ser reparadas de inmediato, pero los sistemas de reparación del ADN no son precisos</p>
+<p>Si esto es así, ¿por qué no podemos beneficiarnos, todavía, de todas estas ventajas en la clínica? ¿Por qué no es prudente ni éticamente aceptable usar las herramientas CRISPR para tratar a pacientes, todavía?</p>
+<div class=\\"wrapperBanner roba_midpage  mobile\\"></div>
+<p><aside class=\\"alignleft\\">Las CRISPR cortan el ADN con gran precisión. Estas roturas deben ser reparadas de inmediato, pero los sistemas de reparación del ADN no son precisos</aside>
+</p>
+<p>Las <a href=\\"https://revistageneticamedica.com/wp-content/uploads/2017/11/GM-MedigenePress-2017.pdf\\">herramientas CRISPR</a> están formadas por una proteína que corta el ADN, una nucleasa (habitualmente Cas9) y por una pequeña molécula de ARN que actúa de guía para la nucleasa, emparejándose con el gen favorito que se desea editar. Las CRISPR lo que saben hacer, y lo hacen muy bien, es cortar el ADN en puntos concretos con gran precisión. Pero estas roturas en el genoma deben ser reparadas de inmediato si la célula quiere sobrevivir.</p>
+<div class=\\"wrapperBanner single_roba_endpost  mobile\\"></div>
+<p>Hay por lo menos <strong>dos sistemas de reparación</strong> en todas nuestras células. El que está activo en todas ellas, un sistema de emergencia que intenta buscar o generar secuencias complementarias mediante la adición y deleción de nucleótidos, y que frecuentemente concluye con la inactivación del gen afectado. Y, por otro lado, un segundo sistema de reparación dirigido por homología, activo en células en división, que emplea secuencias de ADN molde circundantes al sitio de corte para poder sellar la cicatriz y, de paso, alterar la secuencia del gen cortado a voluntad.</p>
+<div class=\\"wrapperBanner roba_entreparrafos_1 desktop mobile\\"></div>
+<p>Toda la <strong>precisión y eficacia</strong> de las herramientas CRISPR, producto de los miles de millones de años de evolución en bacterias, no la poseen, sin embargo, las herramientas de reparación del ADN. Ni tienen la precisión requerida ni tienen memoria. Cada vez que se enfrentan a la tarea de reparar una molécula de ADN cortada lo hacen de una forma distinta. Algunas veces borrando o añadiendo uno o hasta miles de nucleótidos, otras veces sustituyendo algunos nucleótidos por otros, duplicándolos, invirtiéndolos, etc.</p>
+<p><div class='imgcaption'><a href=\\"https://frontity.io/files/2018/02/diagnostico-medico-crispr.jpg\\"><figure id=\\"image-1\\" class=\\"size-1058468\\"><img src=\\"https://frontity.io/files/2018/02/diagnostico-medico-crispr-670x447.jpg\\" alt=\\"crispr\\" width=\\"670\\" height=\\"447\\" class=\\"size-large wp-image-1058468\\" srcset=\\"https://frontity.io/files/2018/02/diagnostico-medico-crispr-670x447.jpg 670w, https://frontity.io/files/2018/02/diagnostico-medico-crispr-335x223.jpg 335w, https://frontity.io/files/2018/02/diagnostico-medico-crispr-768x512.jpg 768w, https://frontity.io/files/2018/02/diagnostico-medico-crispr-700x467.jpg 700w, https://frontity.io/files/2018/02/diagnostico-medico-crispr-1000x667.jpg 1000w, https://frontity.io/files/2018/02/diagnostico-medico-crispr-600x400.jpg 600w, https://frontity.io/files/2018/02/diagnostico-medico-crispr-900x600.jpg 900w, https://frontity.io/files/2018/02/diagnostico-medico-crispr-610x407.jpg 610w, https://frontity.io/files/2018/02/diagnostico-medico-crispr-300x200.jpg 300w\\" sizes=\\"(max-width: 670px) 100vw, 670px\\" data-large=\\"https://frontity.io/files/2018/02/diagnostico-medico-crispr-670x447.jpg\\" data-medium=\\"https://frontity.io/files/2018/02/diagnostico-medico-crispr-335x223.jpg\\" /></figure></a><figcaption class=\\"wp-caption-text\\">Crédito: Laboratorio de Zhang / MIT / Universidad de Harvard.</figcaption></div></p>
+<h3>Seguridad y eficacia</h3>
+<p>Tras cualquier experimento de edición genética con CRISPR se obtienen multitud de secuencias de ADN distintas. Esta diversidad genética es relativamente sencilla de gestionar en animales o plantas. Tras secuenciar el genoma de todos los individuos obtenidos, se escoge aquel que porta la secuencia correcta en la que estamos interesados y se descarta el resto. <a href=\\"https://www.ncbi.nlm.nih.gov/pubmed/25897126\\">En ratones esto puede corresponder a un 5% del total</a> (1 de cada 20 ratones). Seleccionamos el que nos interesa y eliminamos los 19 restantes.</p>
+<p><aside class=\\"alignleft\\">No es prudente ni justificable éticamente exponer a los pacientes a riesgos que todavía no somos capaces de controlar</aside>
+</p>
+<p>¿Pero cómo gestionamos este porcentaje en pacientes? ¿Cómo exponemos a un paciente a un tratamiento que puede revertir su mutación en un 5% de las ocasiones, generando, en el 95% restante, otras mutaciones que pueden ser incluso más graves que la queríamos corregir? No es prudente ni justificable éticamente exponer a los pacientes a riesgos que todavía no somos capaces de controlar. Especialmente para terapias in vivo, en la persona.</p>
+<p>De momento las pocas terapias CRISPR aplicadas han sido ex vivo, con células extraídas del paciente, editadas en el laboratorio, seleccionadas y retornadas al mismo paciente. Pero esta estrategia solo es válida para unas pocas enfermedades, como las de la sangre.</p>
+<p>Cualquier tratamiento destinado a pacientes debe superar las pruebas de seguridad y de eficacia. En primer lugar, la terapia debe ser segura. No debe ser tóxica, no debe generar más daño que el que pretende aliviar. Y, en segundo lugar, si ya es segura, debe poder aportar algún beneficio terapéutico, esto es, debe ser eficaz contra la enfermedad que deseamos tratar.</p>
+<div class=\\"wrapperBanner roba_entreparrafos_2 desktop mobile\\"></div>
+<p><div class='imgcaption'><a href=\\"https://frontity.io/files/2016/02/crispr-embriones.jpg\\"><figure id=\\"image-1\\" class=\\"size-918310\\"><img src=\\"https://frontity.io/files/2016/02/crispr-embriones-670x447.jpg\\" alt=\\"CRISPR\\" width=\\"670\\" height=\\"447\\" class=\\"size-large wp-image-918310\\" srcset=\\"https://frontity.io/files/2016/02/crispr-embriones-670x447.jpg 670w, https://frontity.io/files/2016/02/crispr-embriones-335x223.jpg 335w, https://frontity.io/files/2016/02/crispr-embriones-768x512.jpg 768w, https://frontity.io/files/2016/02/crispr-embriones-700x467.jpg 700w, https://frontity.io/files/2016/02/crispr-embriones.jpg 1000w, https://frontity.io/files/2016/02/crispr-embriones-600x400.jpg 600w, https://frontity.io/files/2016/02/crispr-embriones-900x600.jpg 900w, https://frontity.io/files/2016/02/crispr-embriones-300x200.jpg 300w, https://frontity.io/files/2016/02/crispr-embriones-610x407.jpg 610w\\" sizes=\\"(max-width: 670px) 100vw, 670px\\" data-large=\\"https://frontity.io/files/2016/02/crispr-embriones-670x447.jpg\\" data-medium=\\"https://frontity.io/files/2016/02/crispr-embriones-335x223.jpg\\" /></figure></a><figcaption class=\\"wp-caption-text\\">Kateryna Kon | Shutterstock</figcaption></div></p>
+<h3>Reacciones alérgicas</h3>
+<p>Para completar el problema con las CRISPR, el pasado mes de enero el investigador Matthew Porteus (Stanford, California) <a href=\\"https://www.biorxiv.org/content/early/2018/01/05/243345\\">alertó a la comunidad científica</a> de que muchas personas ya teníamos <strong>anticuerpos y linfocitos contra las Cas9</strong> de las dos bacterias (Streptococcus pyogenes y Staphylococcus aureus) comúnmente usadas para obtener estas nucleasas. Estas bacterias suelen causar infecciones en humanos y por ello nuestro sistema inmunitario las conoce (a ellas y a todos sus componentes, como las nucleasas Cas9). Por eso, si hubiéramos intentado usarlas en personas, habríamos provocado una reacción alérgica, un <strong>choque anafiláctico</strong> contraproducente en el paciente.</p>
+<p>¿Qué se puede hacer? O bien administrar <strong>fármacos inmunosupresores</strong>, como los que se dan a las personas con órganos trasplantados de por vida; o bien regresar al laboratorio y aislar otras nucleasas de otras bacterias que no tengan relación ni infecten a las personas. Es decir, volver a la investigación básica antes de pensar en aplicarla.</p>
+<p>Para quien se pregunte cuándo estarán disponibles las terapias basadas en CRISPR, la respuesta corta es que no lo sabemos</p>
+<p>Hoy en día se están desarrollando múltiples variantes de la técnica CRISPR, a cual más innovadora e imaginativa. Algunas de ellas son extremadamente prometedoras, como los <a href=\\"https://www.ncbi.nlm.nih.gov/pubmed/27096365\\">editores de bases</a> una evolución de las herramientas CRISPR capaz de cambiar nucleótidos concretos del genoma sin necesidad de cortarlo. Pero todas ellas conllevan todavía <strong>riesgos inaceptables</strong>, tanto en seguridad como en eficacia, para saltar al hospital.</p>
+<p><aside class=\\"alignleft\\">Para quien se pregunte cuándo estarán disponibles las terapias basadas en CRISPR, la respuesta corta es que no lo sabemos</aside>
+</p>
+<div class=\\"wrapperBanner roba_entreparrafos_3 desktop mobile\\"></div>
+<p>Son métodos sofisticados que nos permiten abordar experimentos en el laboratorio como nunca antes habíamos podido hacerlo, pero que todavía no pueden trasladarse a la clínica. Necesitan de mucho más trabajo, <strong>mucha más investigación en el laboratorio</strong>.</p>
+<p>Para quien se pregunte cuándo estarán disponibles las terapias basadas en CRISPR, la respuesta corta es que no lo sabemos. Tan pronto como confirmemos que son seguras y eficaces.</p>
+<p>Para una respuesta larga es bueno recordar lo sucedido con un descubrimiento que suscitó unas expectativas terapéuticas similares: la interferencia del ARN como sistema de control de la expresión de los genes. Fue <a href=\\"https://www.ncbi.nlm.nih.gov/pubmed/9486653\\">descubierta por Andrew Fire y Craig Mello en 1998</a>, y recibieron el <a href=\\"https://www.nobelprize.org/prizes/medicine/2006/summary/\\">Premio Nobel en 2006</a> por ello. Se fundaron muchas empresas para desarrollar terapias basadas en <strong>ARN de interferencia</strong>. Solo una de ellas resistió y, tras 16 años de investigación y desarrollo, y 2.000 millones de dólares invertidos, <a href=\\"https://www.bloomberg.com/news/articles/2018-08-13/scientists-cracked-a-deadly-dna-puzzle-then-came-the-hard-part\\">ha recibido en agosto de 2018</a> la aprobación del primer fármaco basado en esta tecnología, <strong>veinte años después</strong> de ser descubierta.</p>
+",
+    },
+    "currentpost": "https://frontity.io/2018/11/edicion-genetica-pacientes",
+    "date": "2018-11-19T15:30:03",
+    "date_gmt": "2018-11-19T14:30:03",
+    "excerpt": Object {
+      "protected": false,
+      "rendered": "<p>Agencia SINC – Las herramientas CRISPR derivan de un sistema inmunitario que usan las bacterias para defenderse de los virus, descrito en 2005 por Francisco J. Martínez Mojica microbiólogo de la Universidad de Alicante. Hace apenas cinco años, otros investigadores, basándose en los hallazgos pioneros de Mojica, convirtieron aquel sistema de defensa bacteriano en una [&hellip;]</p>",
+    },
+    "featured_media": 353244,
+    "format": "standard",
+    "guid": Object {
+      "rendered": "https://frontity.io/?p=1111115",
+    },
+    "id": 1111115,
+    "link": "https://frontity.io/2018/11/edicion-genetica-pacientes",
+    "meta": Object {
+      "_edit_last": Array [
+        "62244",
+      ],
+      "_edit_lock": Array [
+        "1542630195:62244",
+      ],
+      "_genesis_canonical_uri": Array [
+        "https://www.agenciasinc.es/Opinion/Del-deseo-a-la-realidad-la-edicion-genetica-aun-no-esta-preparada-para-tratar-a-pacientes",
+      ],
+      "_genesis_description": Array [
+        "Las terapias génicas basadas en CRISPR para curar enfermedades todavía tardarán en llegar. Es importante no generar falsas expectativas sobre esta potente herramienta de corta-pega genético.",
+      ],
+      "_genesis_title": Array [
+        "A la edición genética aún le queda tiempo para tratar pacientes",
+      ],
+      "_primary_term_category": Array [
+        "2046",
+      ],
+      "_rpbt_related_posts:3fc41067e27dd58c9cebc7794a7fe017": Array [
+        "a:2:{s:3:\\"ids\\";a:4:{i:1095258;s:1:\\"2\\";i:1110827;s:1:\\"1\\";i:1111089;s:1:\\"1\\";i:1103312;s:1:\\"2\\";}s:4:\\"args\\";a:3:{s:7:\\"post_id\\";i:1111115;s:10:\\"taxonomies\\";a:2:{i:0;s:8:\\"category\\";i:1;s:8:\\"post_tag\\";}s:13:\\"related_terms\\";a:3:{i:0;i:2046;i:1;i:747702;i:2;i:874202;}}}",
+      ],
+      "_schema_json": Array [
+        "a:13:{s:8:\\"@context\\";s:18:\\"http://schema.org/\\";s:5:\\"@type\\";s:11:\\"NewsArticle\\";s:16:\\"mainEntityOfPage\\";a:2:{s:5:\\"@type\\";s:7:\\"WebPage\\";s:3:\\"@id\\";s:59:\\"https://frontity.io/2018/11/edicion-genetica-pacientes\\";}s:3:\\"url\\";s:59:\\"https://frontity.io/2018/11/edicion-genetica-pacientes\\";s:8:\\"headline\\";s:66:\\"A la edición genética aún le queda tiempo para tratar pacientes\\";s:13:\\"datePublished\\";s:25:\\"2018-11-19T15:30:03+00:00\\";s:12:\\"dateModified\\";s:25:\\"2018-11-19T13:25:22+00:00\\";s:9:\\"publisher\\";a:4:{s:5:\\"@type\\";s:12:\\"Organization\\";s:3:\\"@id\\";s:38:\\"https://frontity.io/#organization\\";s:4:\\"name\\";s:12:\\"Hipertextual\\";s:4:\\"logo\\";a:4:{s:5:\\"@type\\";s:11:\\"ImageObject\\";s:3:\\"url\\";s:54:\\"https://frontity.io/files/2017/05/hptx-schema.png\\";s:5:\\"width\\";i:600;s:6:\\"height\\";i:60;}}s:5:\\"image\\";a:4:{s:5:\\"@type\\";s:11:\\"ImageObject\\";s:3:\\"url\\";s:49:\\"https://frontity.io/files/2015/06/crispr.jpg\\";s:5:\\"width\\";i:1000;s:6:\\"height\\";i:461;}s:14:\\"articleSection\\";s:7:\\"Ciencia\\";s:11:\\"description\\";s:194:\\"Las terapias génicas basadas en CRISPR para curar enfermedades todavía tardarán en llegar. Es importante no generar falsas expectativas sobre esta potente herramienta de corta-pega genético.\\";s:6:\\"author\\";a:5:{s:5:\\"@type\\";s:6:\\"Person\\";s:4:\\"name\\";s:14:\\"Ara Rodríguez\\";s:3:\\"url\\";s:43:\\"https://frontity.io/autor/ararodriguez\\";s:11:\\"description\\";s:119:\\"El periodismo, las startups y los emprendedores como forma y filosofía de vida. Redactora en Hipertextual y Think Big.\\";s:6:\\"sameAs\\";a:2:{i:0;s:21:\\"ara.rodrigueztalavera\\";i:1;s:13:\\"AraRodriguezT\\";}}s:5:\\"video\\";a:0:{}}",
+        "a:13:{s:8:\\"@context\\";s:18:\\"http://schema.org/\\";s:5:\\"@type\\";s:11:\\"NewsArticle\\";s:16:\\"mainEntityOfPage\\";a:2:{s:5:\\"@type\\";s:7:\\"WebPage\\";s:3:\\"@id\\";s:59:\\"https://frontity.io/2018/11/edicion-genetica-pacientes\\";}s:3:\\"url\\";s:59:\\"https://frontity.io/2018/11/edicion-genetica-pacientes\\";s:8:\\"headline\\";s:66:\\"A la edición genética aún le queda tiempo para tratar pacientes\\";s:13:\\"datePublished\\";s:25:\\"2018-11-19T15:30:03+00:00\\";s:12:\\"dateModified\\";s:25:\\"2018-11-19T13:25:22+00:00\\";s:9:\\"publisher\\";a:4:{s:5:\\"@type\\";s:12:\\"Organization\\";s:3:\\"@id\\";s:38:\\"https://frontity.io/#organization\\";s:4:\\"name\\";s:12:\\"Hipertextual\\";s:4:\\"logo\\";a:4:{s:5:\\"@type\\";s:11:\\"ImageObject\\";s:3:\\"url\\";s:54:\\"https://frontity.io/files/2017/05/hptx-schema.png\\";s:5:\\"width\\";i:600;s:6:\\"height\\";i:60;}}s:5:\\"image\\";a:4:{s:5:\\"@type\\";s:11:\\"ImageObject\\";s:3:\\"url\\";s:49:\\"https://frontity.io/files/2015/06/crispr.jpg\\";s:5:\\"width\\";i:1000;s:6:\\"height\\";i:461;}s:14:\\"articleSection\\";s:7:\\"Ciencia\\";s:11:\\"description\\";s:194:\\"Las terapias génicas basadas en CRISPR para curar enfermedades todavía tardarán en llegar. Es importante no generar falsas expectativas sobre esta potente herramienta de corta-pega genético.\\";s:6:\\"author\\";a:5:{s:5:\\"@type\\";s:6:\\"Person\\";s:4:\\"name\\";s:14:\\"Ara Rodríguez\\";s:3:\\"url\\";s:43:\\"https://frontity.io/autor/ararodriguez\\";s:11:\\"description\\";s:119:\\"El periodismo, las startups y los emprendedores como forma y filosofía de vida. Redactora en Hipertextual y Think Big.\\";s:6:\\"sameAs\\";a:2:{i:0;s:21:\\"ara.rodrigueztalavera\\";i:1;s:13:\\"AraRodriguezT\\";}}s:5:\\"video\\";a:0:{}}",
+      ],
+      "_schema_json_timestamp": Array [
+        "1542641423",
+        "1542641423",
+      ],
+      "_schema_ref": Array [
+        "1008784",
+      ],
+      "_thumbnail_id": Array [
+        "353244",
+      ],
+      "_wp_page_template": Array [
+        "default",
+      ],
+      "custom_header": "",
+      "destacado": Array [
+        null,
+      ],
+      "destacado_categoria": Array [
+        null,
+      ],
+      "imagen_grande_post": "			<figure class=\\"articleHead\\"> 
+		        <div class=\\"articleHead__wrapperImg \\">
+					<img width=\\"1000\\" height=\\"461\\" src=\\"https://frontity.io/files/2015/06/crispr.jpg\\" class=\\"attachment-destacado-single size-destacado-single wp-post-image\\" alt=\\"CRISPR\\" srcset=\\"https://frontity.io/files/2015/06/crispr.jpg 1000w, https://frontity.io/files/2015/06/crispr-335x154.jpg 335w, https://frontity.io/files/2015/06/crispr-768x354.jpg 768w, https://frontity.io/files/2015/06/crispr-670x309.jpg 670w, https://frontity.io/files/2015/06/crispr-700x323.jpg 700w, https://frontity.io/files/2015/06/crispr-600x277.jpg 600w, https://frontity.io/files/2015/06/crispr-900x415.jpg 900w, https://frontity.io/files/2015/06/crispr-300x138.jpg 300w, https://frontity.io/files/2015/06/crispr-610x281.jpg 610w\\" sizes=\\"(max-width: 1000px) 100vw, 1000px\\" />					 					 	<figcaption class=\\"caption\\">Jennifer Doudna/UC Berkeley</figcaption>
+					 		        </div>
+		
+		    </figure>
+			",
+      "onesignal_meta_box_present": Array [
+        "",
+      ],
+      "onesignal_send_notification": Array [
+        "",
+      ],
+      "subtitulo": "<p>Las terapias génicas basadas en CRISPR para curar enfermedades todavía tardarán en llegar. Quizás no sea este el titular que quisiéramos leer, pero es el mensaje que hay que repetir para no generar falsas expectativas sobre esta potente herramienta de corta-pega genético.</p>
+",
+      "titulo_tres": Array [
+        "",
+      ],
+    },
+    "modified": "2018-11-19T13:25:22",
+    "modified_gmt": "2018-11-19T12:25:22",
+    "next_post_id": 1111089,
+    "ping_status": "closed",
+    "slug": "edicion-genetica-pacientes",
+    "status": "publish",
+    "sticky": false,
+    "tags": Array [
+      747702,
+      874202,
+    ],
+    "template": "",
+    "title": Object {
+      "rendered": "Del deseo a la realidad: la edición genética (aún) no está preparada para tratar a pacientes",
+      "text": "Del deseo a la realidad: la edición genética (aún) no está preparada para tratar a pacientes",
+    },
+    "type": "post",
+  },
+  Object {
+    "author": 64153,
+    "autor_hptx": "<a href=\\"https://frontity.io/autor/davidortiz\\" title=\\"Entradas por David Ortiz\\" class=\\"author__name\\" rel=\\"author\\">David Ortiz</a>",
+    "categories": Array [
+      33,
+    ],
+    "comment_status": "closed",
+    "content": Object {
+      "protected": false,
+      "rendered": "<p>Los <a href=\\"https://frontity.io/tag/chromecast\\">Chromecast</a> son uno de los gadgets más fundamentales que una casa puede tener. Por una inversión mínima, permiten dotar de vídeo en streaming haciendo ligeramente 'smart' a un televisor que no lo es. \\"Ok, Google. Pon Narcos en el salón.\\" Un comando tan sencillo como ese y ya estamos disfrutando de la serie por dónde la dejamos. Hoy, los <strong>Chromecast se actualizan para dotar de soporte a grupos de altavoces, para reproducción simultánea en varias habitaciones</strong>.</p>
+<p>De esta forma, podremos sumar también los <strong>Chromecast estándar</strong> al resto de dispositivos de reproducción compatibles con Google Cast dando lugar a una red de dispositivos relativamente heterogénea, y no limitada a los dispositivos de Google, que conforme nuestro sistema de audio en casa. Y funcionará no sólo con la <a href=\\"https://frontity.io/2018/10/tercera-generacion-chromecast\\">tercera y última generación</a>, sino con cualquiera de las anteriores.</p>
+<div class=\\"wrapperBanner roba_ATF  mobile\\"></div>
+<div>
+<div style=\\"left: 0; width: 100%; height: 168px; position: relative;\\"><iframe data-iframely-url=\\"https://cdn.iframe.ly/lYw3nDX?maxheight=750&amp;app=1\\" style=\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\" allowfullscreen></iframe></div>
+</div>
+<p><script async src=\\"https://cdn.iframe.ly/embed.js\\" charset=\\"utf-8\\"></script></p>
+<p>La nueva función se encuentra ya en fase de pruebas, como leemos en <a href=\\"https://www.xda-developers.com/chromecast-speaker-group-support/\\"><em>XDA developers</em></a>, a la que podemos acceder desde la aplicación Google Home. Lo único que tenemos que hacer es <strong>entrar en el 'Programa de Avance'</strong> (Preview Programme si tu aplicación está en inglés) desde las opciones del dispositivo Chromecast, en la aplicación Google Home, que queremos añadir al grupo. Hecho esto, es posible que tengamos que verificar que se encuentra en la última versión de software, y por último reiniciar el Chromecast.</p>
+<p><figure id=\\"image-1\\" class=\\"size-1111153\\"><img src=\\"https://frontity.io/files/2018/11/Chromecast-grupo-multiroom-670x364.jpg\\" alt=\\"\\" width=\\"670\\" height=\\"364\\" class=\\"alignnone size-large wp-image-1111153\\" srcset=\\"https://frontity.io/files/2018/11/Chromecast-grupo-multiroom-670x364.jpg 670w, https://frontity.io/files/2018/11/Chromecast-grupo-multiroom-335x182.jpg 335w, https://frontity.io/files/2018/11/Chromecast-grupo-multiroom-768x417.jpg 768w, https://frontity.io/files/2018/11/Chromecast-grupo-multiroom-700x380.jpg 700w, https://frontity.io/files/2018/11/Chromecast-grupo-multiroom.jpg 1000w, https://frontity.io/files/2018/11/Chromecast-grupo-multiroom-800x434.jpg 800w\\" sizes=\\"(max-width: 670px) 100vw, 670px\\" data-large=\\"https://frontity.io/files/2018/11/Chromecast-grupo-multiroom-670x364.jpg\\" data-medium=\\"https://frontity.io/files/2018/11/Chromecast-grupo-multiroom-335x182.jpg\\" /></figure></p>
+<div class=\\"wrapperBanner roba_midpage  mobile\\"></div>
+<p>A partir de aquí podemos <strong>crear un nuevo grupo de altavoces o incluirlo en uno ya existente</strong>. Este grupo, si es nuevo, se añadirá a las opciones de streaming vía Google Cast desde el icono que suele aparecer en la esquina superior derecha en las aplicaciones de reproducción multimedia. Por último, recordemos que si el audio no se sincroniza perfectamente en todos los dispositivos de reproducción, es <strong>posible ajustar manualmente un retraso de reproducción</strong> en cada dispositivo hasta que lo hagan.</p>
+",
+    },
+    "currentpost": "https://frontity.io/2018/11/puedes-ampliar-tu-sistema-audio-casa-con-tus-chromecast",
+    "date": "2018-11-19T14:30:47",
+    "date_gmt": "2018-11-19T13:30:47",
+    "excerpt": Object {
+      "protected": false,
+      "rendered": "<p>Los Chromecast son uno de los gadgets más fundamentales que una casa puede tener. Por una inversión mínima, permiten dotar de vídeo en streaming haciendo ligeramente 'smart' a un televisor que no lo es. \\"Ok, Google. Pon Narcos en el salón.\\" Un comando tan sencillo como ese y ya estamos disfrutando de la serie por [&hellip;]</p>",
+    },
+    "featured_media": 1111162,
+    "format": "standard",
+    "guid": Object {
+      "rendered": "https://frontity.io/?p=1111135",
+    },
+    "id": 1111135,
+    "link": "https://frontity.io/2018/11/puedes-ampliar-tu-sistema-audio-casa-con-tus-chromecast",
+    "meta": Object {
+      "_edit_last": Array [
+        "62244",
+      ],
+      "_edit_lock": Array [
+        "1542630443:62244",
+      ],
+      "_genesis_description": Array [
+        "Cómo añadir un Chromecast a un grupo de reproducción con Google Cast para audio 'multi-room' con el televisor.",
+      ],
+      "_oembed_099f25d64fb603d49a63a7242db38966": Array [
+        "<div><div style=\\"left: 0; width: 100%; height: 168px; position: relative;\\"><iframe data-iframely-url=\\"https://cdn.iframe.ly/lYw3nDX?maxheight=750&amp;app=1\\" style=\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\" allowfullscreen></iframe></div></div><script async src=\\"https://cdn.iframe.ly/embed.js\\" charset=\\"utf-8\\"></script>",
+      ],
+      "_oembed_81688c367b1cb58422ca8faddd38fe1f": Array [
+        "<amp-iframe src=\\"https://cdn.iframe.ly/lYw3nDX?maxheight=750&iframe=amp\\" width=\\"400\\" height=\\"168\\" frameborder=\\"0\\" allowfullscreen layout=\\"responsive\\" resizable sandbox=\\"allow-scripts allow-same-origin allow-popups\\"><div overflow tabindex=0 role=button aria-label=\\"Read more\\"></div></amp-iframe>",
+      ],
+      "_oembed_time_099f25d64fb603d49a63a7242db38966": Array [
+        "1542629339",
+      ],
+      "_oembed_time_81688c367b1cb58422ca8faddd38fe1f": Array [
+        "1542634267",
+      ],
+      "_primary_term_category": Array [
+        "33",
+      ],
+      "_rpbt_related_posts:32e05d31b90acb49dc8a2e30bd3fd43f": Array [
+        "a:2:{s:3:\\"ids\\";a:4:{i:1103098;s:1:\\"3\\";i:1103030;s:1:\\"2\\";i:1103113;s:1:\\"2\\";i:1103682;s:1:\\"2\\";}s:4:\\"args\\";a:3:{s:7:\\"post_id\\";i:1111135;s:10:\\"taxonomies\\";a:2:{i:0;s:8:\\"category\\";i:1;s:8:\\"post_tag\\";}s:13:\\"related_terms\\";a:3:{i:0;i:734661;i:1;i:11;i:2;i:33;}}}",
+      ],
+      "_schema_json": Array [
+        "a:13:{s:8:\\"@context\\";s:18:\\"http://schema.org/\\";s:5:\\"@type\\";s:11:\\"NewsArticle\\";s:16:\\"mainEntityOfPage\\";a:2:{s:5:\\"@type\\";s:7:\\"WebPage\\";s:3:\\"@id\\";s:88:\\"https://frontity.io/2018/11/puedes-ampliar-tu-sistema-audio-casa-con-tus-chromecast\\";}s:3:\\"url\\";s:88:\\"https://frontity.io/2018/11/puedes-ampliar-tu-sistema-audio-casa-con-tus-chromecast\\";s:8:\\"headline\\";s:64:\\"Ya puedes ampliar tu sistema de audio en casa con tus Chromecast\\";s:13:\\"datePublished\\";s:25:\\"2018-11-19T14:30:47+00:00\\";s:12:\\"dateModified\\";s:25:\\"2018-11-19T13:27:49+00:00\\";s:9:\\"publisher\\";a:4:{s:5:\\"@type\\";s:12:\\"Organization\\";s:3:\\"@id\\";s:38:\\"https://frontity.io/#organization\\";s:4:\\"name\\";s:12:\\"Hipertextual\\";s:4:\\"logo\\";a:4:{s:5:\\"@type\\";s:11:\\"ImageObject\\";s:3:\\"url\\";s:54:\\"https://frontity.io/files/2017/05/hptx-schema.png\\";s:5:\\"width\\";i:600;s:6:\\"height\\";i:60;}}s:5:\\"image\\";a:4:{s:5:\\"@type\\";s:11:\\"ImageObject\\";s:3:\\"url\\";s:66:\\"https://frontity.io/files/2018/11/Chromecast-Grupo-sonido.jpg\\";s:5:\\"width\\";i:1000;s:6:\\"height\\";i:612;}s:14:\\"articleSection\\";s:11:\\"Tecnología\\";s:11:\\"description\\";s:113:\\"Cómo añadir un Chromecast a un grupo de reproducción con Google Cast para audio 'multi-room' con el televisor.\\";s:6:\\"author\\";a:4:{s:5:\\"@type\\";s:6:\\"Person\\";s:4:\\"name\\";s:11:\\"David Ortiz\\";s:3:\\"url\\";s:41:\\"https://frontity.io/autor/davidortiz\\";s:11:\\"description\\";s:77:\\"Físico de formación, me fascina la tecnología y su impacto en la sociedad.\\";}s:5:\\"video\\";a:1:{i:0;N;}}",
+      ],
+      "_schema_json_timestamp": Array [
+        "1542637866",
+      ],
+      "_schema_ref": Array [
+        "1008784",
+      ],
+      "_thumbnail_id": Array [
+        "1111162",
+      ],
+      "_wp_page_template": Array [
+        "default",
+      ],
+      "custom_header": "",
+      "destacado": Array [
+        null,
+      ],
+      "destacado_categoria": Array [
+        null,
+      ],
+      "imagen_grande_post": "			<figure class=\\"articleHead\\"> 
+		        <div class=\\"articleHead__wrapperImg \\">
+					<img width=\\"1000\\" height=\\"612\\" src=\\"https://frontity.io/files/2018/11/Chromecast-Grupo-sonido.jpg\\" class=\\"attachment-destacado-single size-destacado-single wp-post-image\\" alt=\\"\\" srcset=\\"https://frontity.io/files/2018/11/Chromecast-Grupo-sonido.jpg 1000w, https://frontity.io/files/2018/11/Chromecast-Grupo-sonido-335x205.jpg 335w, https://frontity.io/files/2018/11/Chromecast-Grupo-sonido-768x470.jpg 768w, https://frontity.io/files/2018/11/Chromecast-Grupo-sonido-670x410.jpg 670w, https://frontity.io/files/2018/11/Chromecast-Grupo-sonido-700x428.jpg 700w, https://frontity.io/files/2018/11/Chromecast-Grupo-sonido-800x490.jpg 800w\\" sizes=\\"(max-width: 1000px) 100vw, 1000px\\" />					 		        </div>
+		
+		    </figure>
+			",
+      "onesignal_meta_box_present": Array [
+        "",
+      ],
+      "onesignal_send_notification": Array [
+        "",
+      ],
+      "subtitulo": "<p>Si tienes un Chromecast normal ya puedes sumarlo al grupo de altavoces compatibles con Google Cast que tengas en casa.</p>
+",
+      "titulo_tres": Array [
+        "",
+      ],
+    },
+    "modified": "2018-11-19T13:27:49",
+    "modified_gmt": "2018-11-19T12:27:49",
+    "next_post_id": 1111124,
+    "ping_status": "closed",
+    "slug": "puedes-ampliar-tu-sistema-audio-casa-con-tus-chromecast",
+    "status": "publish",
+    "sticky": false,
+    "tags": Array [
+      734661,
+      11,
+    ],
+    "template": "",
+    "title": Object {
+      "rendered": "Ya puedes ampliar tu sistema de audio en casa con tus Chromecast",
+      "text": "Ya puedes ampliar tu sistema de audio en casa con tus Chromecast",
+    },
+    "type": "post",
+  },
+  Object {
+    "author": 64134,
+    "autor_hptx": "<a href=\\"https://frontity.io/autor/ldelbarco\\" title=\\"Entradas por Luis del Barco\\" class=\\"author__name\\" rel=\\"author\\">Luis del Barco</a>",
+    "categories": Array [
+      11378,
+    ],
+    "comment_status": "closed",
+    "content": Object {
+      "protected": false,
+      "rendered": "<p>Al tiempo que <a href=\\"https://frontity.io/tag/samsung\\">Samsung</a> presentaba el otro día su <a href=\\"https://frontity.io/2018/11/samsung-presenta-telefono-plegable\\">teléfono plegable</a>, conocido ya comúnmente como Galaxy F, y dejaba ver cuál iba a ser parte de su <strong>hoja de ruta para el futuro más inmediato</strong>, su rival <a href=\\"https://frontity.io/tag/huawei\\">Huawei</a> se afanaba por dar los últimos retoque para la presentación del suyo propio ante las operadoras asiáticas. Lejos, por el momento, del foco mediático, en la compañía ya miran a 2019 como abanico temporal en el que presentar batalla.</p>
+<p>Habiendo sido ya <a href=\\"https://frontity.io/2018/10/huawei-pantalla-plegable-5g\\">confirmado por la propia Huawei</a> que se estaba preparando un smartphone de estas características, era de esperar que los detalles no se hicieran esperar demasiado. Llegan ahora a través de la publicación local <em><a href=\\"http://www.etnews.com/20181116000269?mc=em_002_00001\\">etnews</a></em>, donde revelan algunas de las características del terminal, que podría ser presentado de manera oficial en el marco del <strong>Mobile World Congress 2019 de Barcelona</strong>, la mayor feria a nivel mundial de tecnología móvil.</p>
+<div class=\\"wrapperBanner roba_ATF  mobile\\"></div>
+<div>
+<div style=\\"left: 0; width: 100%; height: 168px; position: relative;\\"><iframe data-iframely-url=\\"https://cdn.iframe.ly/oDHM0a8?maxheight=750&amp;app=1\\" style=\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\" allowfullscreen></iframe></div>
+</div>
+<p><script async src=\\"https://cdn.iframe.ly/embed.js\\" charset=\\"utf-8\\"></script></p>
+<h2>Más grande</h2>
+<p>Aunque es pronto para poder saber de manera fehaciente si las filtraciones son o no correctas, la información obtenida señala a un dispositivo de mayores dispositivos que el de la casa surcoreana. Este contaría con una <strong>pantalla de 8 pulgadas en formato desplegado y de una más pequeña de 5\\" cuando no se encuentre extendido</strong>, frente a las 7,3\\" y 4,6\\", respectivamente, del Galaxy F.</p>
+<p>Como se ha señalado, la presentación oficial sería a finales de febrero del año próximo con una comercialización que comenzaría en la segunda mitad de 2010, hacia el mes de junio. En cuanto a la comercialización, parece que <strong>llegará en primera instancia a Corea del Sur por la capacidad operativa de las redes 5G en el territorio</strong>. Conforme el despliegue se vaya extendiendo en Europa, Huawei lanzará también el dispositivo en el viejo continente.</p>
+<div class=\\"wrapperBanner roba_midpage  mobile\\"></div>
+<div>
+<div style=\\"left: 0; width: 100%; height: 168px; position: relative;\\"><iframe data-iframely-url=\\"https://cdn.iframe.ly/RywLykb?maxheight=750&amp;app=1\\" style=\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\" allowfullscreen></iframe></div>
+</div>
+<p><script async src=\\"https://cdn.iframe.ly/embed.js\\" charset=\\"utf-8\\"></script></p>
+<p>Además de Samsung y Huawei, otros actores como <a href=\\"https://frontity.io/2018/10/lenovo-lg-asocian-tableta-pantalla-plegable\\">Lenovo y LG</a> se preparan también para comenzar a fabricar sus dispositivos plegables, los cuales ocuparán buena parte de las conversaciones en los meses venideros. Con mucho aún por delimitar y decidir, lo que parece claro es que nadie quiere quedarse atrás en una de las tecnologías más mediáticas que veremos durante 2019.</p>
+<div class=\\"wrapperBanner single_roba_endpost  mobile\\"></div>
+",
+    },
+    "currentpost": "https://frontity.io/2018/11/huawei-smartphone-plegable-5g",
+    "date": "2018-11-19T13:22:26",
+    "date_gmt": "2018-11-19T12:22:26",
+    "excerpt": Object {
+      "protected": false,
+      "rendered": "<p>Al tiempo que Samsung presentaba el otro día su teléfono plegable, conocido ya comúnmente como Galaxy F, y dejaba ver cuál iba a ser parte de su hoja de ruta para el futuro más inmediato, su rival Huawei se afanaba por dar los últimos retoque para la presentación del suyo propio ante las operadoras asiáticas. [&hellip;]</p>",
+    },
+    "featured_media": 1050866,
+    "format": "standard",
+    "guid": Object {
+      "rendered": "https://frontity.io/?p=1111125",
+    },
+    "id": 1111125,
+    "link": "https://frontity.io/2018/11/huawei-smartphone-plegable-5g",
+    "meta": Object {
+      "_edit_last": Array [
+        "64134",
+      ],
+      "_edit_lock": Array [
+        "1542631309:64134",
+      ],
+      "_genesis_description": Array [
+        "Huawei ya prepara su smartphone plegable, que ya habría sido mostrado a las operadoras y que será presentado durante los próximos meses para hacer la competencia a Samsung.",
+      ],
+      "_genesis_title": Array [
+        "Huawei: revelados detalles y fecha de presentación de su smartphone plegable",
+      ],
+      "_oembed_70b78e04c17aad84016e520fe5784a0a": Array [
+        "<div><div style=\\"left: 0; width: 100%; height: 168px; position: relative;\\"><iframe data-iframely-url=\\"https://cdn.iframe.ly/RywLykb?maxheight=750&amp;app=1\\" style=\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\" allowfullscreen></iframe></div></div><script async src=\\"https://cdn.iframe.ly/embed.js\\" charset=\\"utf-8\\"></script>",
+      ],
+      "_oembed_7db0dba5e3a3cd2b22efecdc30628c4d": Array [
+        "<amp-iframe src=\\"https://cdn.iframe.ly/oDHM0a8?maxheight=750&iframe=amp\\" width=\\"400\\" height=\\"168\\" frameborder=\\"0\\" allowfullscreen layout=\\"responsive\\" resizable sandbox=\\"allow-scripts allow-same-origin allow-popups\\"><div overflow tabindex=0 role=button aria-label=\\"Read more\\"></div></amp-iframe>",
+      ],
+      "_oembed_a0c46a693e15fe24ea7ac1e133cf5b9f": Array [
+        "<div><div style=\\"left: 0; width: 100%; height: 168px; position: relative;\\"><iframe data-iframely-url=\\"https://cdn.iframe.ly/oDHM0a8?maxheight=750&amp;app=1\\" style=\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\" allowfullscreen></iframe></div></div><script async src=\\"https://cdn.iframe.ly/embed.js\\" charset=\\"utf-8\\"></script>",
+      ],
+      "_oembed_c185a360286e0c4df4e9c670ec886a7b": Array [
+        "<amp-iframe src=\\"https://cdn.iframe.ly/RywLykb?maxheight=750&iframe=amp\\" width=\\"400\\" height=\\"168\\" frameborder=\\"0\\" allowfullscreen layout=\\"responsive\\" resizable sandbox=\\"allow-scripts allow-same-origin allow-popups\\"><div overflow tabindex=0 role=button aria-label=\\"Read more\\"></div></amp-iframe>",
+      ],
+      "_oembed_time_70b78e04c17aad84016e520fe5784a0a": Array [
+        "1542629187",
+      ],
+      "_oembed_time_7db0dba5e3a3cd2b22efecdc30628c4d": Array [
+        "1542630165",
+      ],
+      "_oembed_time_a0c46a693e15fe24ea7ac1e133cf5b9f": Array [
+        "1542629186",
+      ],
+      "_oembed_time_c185a360286e0c4df4e9c670ec886a7b": Array [
+        "1542630166",
+      ],
+      "_primary_term_category": Array [
+        "11378",
+      ],
+      "_schema_json": Array [
+        "a:13:{s:8:\\"@context\\";s:18:\\"http://schema.org/\\";s:5:\\"@type\\";s:11:\\"NewsArticle\\";s:16:\\"mainEntityOfPage\\";a:2:{s:5:\\"@type\\";s:7:\\"WebPage\\";s:3:\\"@id\\";s:62:\\"https://frontity.io/2018/11/huawei-smartphone-plegable-5g\\";}s:3:\\"url\\";s:62:\\"https://frontity.io/2018/11/huawei-smartphone-plegable-5g\\";s:8:\\"headline\\";s:77:\\"Huawei: revelados detalles y fecha de presentación de su smartphone plegable\\";s:13:\\"datePublished\\";s:25:\\"2018-11-19T13:22:26+00:00\\";s:12:\\"dateModified\\";s:25:\\"2018-11-19T13:22:26+00:00\\";s:9:\\"publisher\\";a:4:{s:5:\\"@type\\";s:12:\\"Organization\\";s:3:\\"@id\\";s:38:\\"https://frontity.io/#organization\\";s:4:\\"name\\";s:12:\\"Hipertextual\\";s:4:\\"logo\\";a:4:{s:5:\\"@type\\";s:11:\\"ImageObject\\";s:3:\\"url\\";s:54:\\"https://frontity.io/files/2017/05/hptx-schema.png\\";s:5:\\"width\\";i:600;s:6:\\"height\\";i:60;}}s:5:\\"image\\";a:4:{s:5:\\"@type\\";s:11:\\"ImageObject\\";s:3:\\"url\\";s:51:\\"https://frontity.io/files/2018/01/Huawei-1.jpg\\";s:5:\\"width\\";i:1024;s:6:\\"height\\";i:683;}s:14:\\"articleSection\\";s:6:\\"Mobile\\";s:11:\\"description\\";s:175:\\"Huawei ya prepara su smartphone plegable, que ya habría sido mostrado a las operadoras y que será presentado durante los próximos meses para hacer la competencia a Samsung.\\";s:6:\\"author\\";a:5:{s:5:\\"@type\\";s:6:\\"Person\\";s:4:\\"name\\";s:14:\\"Luis del Barco\\";s:3:\\"url\\";s:40:\\"https://frontity.io/autor/ldelbarco\\";s:11:\\"description\\";s:96:\\"Escribo sobre tecnología, cultura digital y su impacto en la sociedad. En Twitter soy @lbarcob.\\";s:5:\\"image\\";a:4:{s:5:\\"@type\\";s:11:\\"ImageObject\\";s:3:\\"url\\";s:93:\\"https://secure.gravatar.com/avatar/03b2664dd6f44ce2dadc158fe0ba43da?s=96&d=wp_user_avatar&r=g\\";s:6:\\"height\\";i:96;s:5:\\"width\\";i:96;}}s:5:\\"video\\";a:0:{}}",
+      ],
+      "_schema_json_timestamp": Array [
+        "1542633756",
+      ],
+      "_schema_ref": Array [
+        "1008784",
+      ],
+      "_thumbnail_id": Array [
+        "1050866",
+      ],
+      "_wp_page_template": Array [
+        "default",
+      ],
+      "custom_header": "",
+      "destacado": Array [
+        null,
+      ],
+      "destacado_categoria": Array [
+        null,
+      ],
+      "imagen_grande_post": "			<figure class=\\"articleHead\\"> 
+		        <div class=\\"articleHead__wrapperImg \\">
+					<img width=\\"1024\\" height=\\"683\\" src=\\"https://frontity.io/files/2018/01/Huawei-1.jpg\\" class=\\"attachment-destacado-single size-destacado-single wp-post-image\\" alt=\\"\\" srcset=\\"https://frontity.io/files/2018/01/Huawei-1.jpg 1024w, https://frontity.io/files/2018/01/Huawei-1-335x223.jpg 335w, https://frontity.io/files/2018/01/Huawei-1-768x512.jpg 768w, https://frontity.io/files/2018/01/Huawei-1-670x447.jpg 670w, https://frontity.io/files/2018/01/Huawei-1-700x467.jpg 700w, https://frontity.io/files/2018/01/Huawei-1-1000x667.jpg 1000w, https://frontity.io/files/2018/01/Huawei-1-600x400.jpg 600w, https://frontity.io/files/2018/01/Huawei-1-900x600.jpg 900w, https://frontity.io/files/2018/01/Huawei-1-610x407.jpg 610w, https://frontity.io/files/2018/01/Huawei-1-300x200.jpg 300w\\" sizes=\\"(max-width: 1024px) 100vw, 1024px\\" />					 					 	<figcaption class=\\"caption\\">Flickr/ Kārlis Dambrāns</figcaption>
+					 		        </div>
+		
+		    </figure>
+			",
+      "onesignal_meta_box_present": Array [
+        "",
+      ],
+      "onesignal_send_notification": Array [
+        "",
+      ],
+      "subtitulo": "<p>El Mobile World Congress 2019 podría tratar en gran medida acerca de los teléfonos plegables.</p>
+",
+      "titulo_tres": Array [
+        "",
+      ],
+    },
+    "modified": "2018-11-19T13:22:26",
+    "modified_gmt": "2018-11-19T12:22:26",
+    "next_post_id": 1110946,
+    "ping_status": "closed",
+    "slug": "huawei-smartphone-plegable-5g",
+    "status": "publish",
+    "sticky": false,
+    "tags": Array [
+      874321,
+      604,
+      894569,
+    ],
+    "template": "",
+    "title": Object {
+      "rendered": "Revelados detalles y posible fecha de presentación del smartphone plegable de Huawei",
+      "text": "Revelados detalles y posible fecha de presentación del smartphone plegable de Huawei",
+    },
+    "type": "post",
+  },
+]
+`;
+
+exports[`Server Receives a post with \`title.rendered\` and should return a post with \`title.rendered\` and \`title.text\` 1`] = `
+Object {
+  "author": 64134,
+  "autor_hptx": "<a href=\\"https://frontity.io/autor/ldelbarco\\" title=\\"Entradas por Luis del Barco\\" class=\\"author__name\\" rel=\\"author\\">Luis del Barco</a>",
+  "categories": Array [
+    11378,
+  ],
+  "comment_status": "closed",
+  "content": Object {
+    "protected": false,
+    "rendered": "<p>Al tiempo que <a href=\\"https://frontity.io/tag/samsung\\">Samsung</a> presentaba el otro día su <a href=\\"https://frontity.io/2018/11/samsung-presenta-telefono-plegable\\">teléfono plegable</a>, conocido ya comúnmente como Galaxy F, y dejaba ver cuál iba a ser parte de su <strong>hoja de ruta para el futuro más inmediato</strong>, su rival <a href=\\"https://frontity.io/tag/huawei\\">Huawei</a> se afanaba por dar los últimos retoque para la presentación del suyo propio ante las operadoras asiáticas. Lejos, por el momento, del foco mediático, en la compañía ya miran a 2019 como abanico temporal en el que presentar batalla.</p>
+<p>Habiendo sido ya <a href=\\"https://frontity.io/2018/10/huawei-pantalla-plegable-5g\\">confirmado por la propia Huawei</a> que se estaba preparando un smartphone de estas características, era de esperar que los detalles no se hicieran esperar demasiado. Llegan ahora a través de la publicación local <em><a href=\\"http://www.etnews.com/20181116000269?mc=em_002_00001\\">etnews</a></em>, donde revelan algunas de las características del terminal, que podría ser presentado de manera oficial en el marco del <strong>Mobile World Congress 2019 de Barcelona</strong>, la mayor feria a nivel mundial de tecnología móvil.</p>
+<div class=\\"wrapperBanner roba_ATF  mobile\\"></div>
+<div>
+<div style=\\"left: 0; width: 100%; height: 168px; position: relative;\\"><iframe data-iframely-url=\\"https://cdn.iframe.ly/oDHM0a8?maxheight=750&amp;app=1\\" style=\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\" allowfullscreen></iframe></div>
+</div>
+<p><script async src=\\"https://cdn.iframe.ly/embed.js\\" charset=\\"utf-8\\"></script></p>
+<h2>Más grande</h2>
+<p>Aunque es pronto para poder saber de manera fehaciente si las filtraciones son o no correctas, la información obtenida señala a un dispositivo de mayores dispositivos que el de la casa surcoreana. Este contaría con una <strong>pantalla de 8 pulgadas en formato desplegado y de una más pequeña de 5\\" cuando no se encuentre extendido</strong>, frente a las 7,3\\" y 4,6\\", respectivamente, del Galaxy F.</p>
+<p>Como se ha señalado, la presentación oficial sería a finales de febrero del año próximo con una comercialización que comenzaría en la segunda mitad de 2010, hacia el mes de junio. En cuanto a la comercialización, parece que <strong>llegará en primera instancia a Corea del Sur por la capacidad operativa de las redes 5G en el territorio</strong>. Conforme el despliegue se vaya extendiendo en Europa, Huawei lanzará también el dispositivo en el viejo continente.</p>
+<div class=\\"wrapperBanner roba_midpage  mobile\\"></div>
+<div>
+<div style=\\"left: 0; width: 100%; height: 168px; position: relative;\\"><iframe data-iframely-url=\\"https://cdn.iframe.ly/RywLykb?maxheight=750&amp;app=1\\" style=\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\" allowfullscreen></iframe></div>
+</div>
+<p><script async src=\\"https://cdn.iframe.ly/embed.js\\" charset=\\"utf-8\\"></script></p>
+<p>Además de Samsung y Huawei, otros actores como <a href=\\"https://frontity.io/2018/10/lenovo-lg-asocian-tableta-pantalla-plegable\\">Lenovo y LG</a> se preparan también para comenzar a fabricar sus dispositivos plegables, los cuales ocuparán buena parte de las conversaciones en los meses venideros. Con mucho aún por delimitar y decidir, lo que parece claro es que nadie quiere quedarse atrás en una de las tecnologías más mediáticas que veremos durante 2019.</p>
+<div class=\\"wrapperBanner single_roba_endpost  mobile\\"></div>
+",
+  },
+  "currentpost": "https://frontity.io/2018/11/huawei-smartphone-plegable-5g",
+  "date": "2018-11-19T13:22:26",
+  "date_gmt": "2018-11-19T12:22:26",
+  "excerpt": Object {
+    "protected": false,
+    "rendered": "<p>Al tiempo que Samsung presentaba el otro día su teléfono plegable, conocido ya comúnmente como Galaxy F, y dejaba ver cuál iba a ser parte de su hoja de ruta para el futuro más inmediato, su rival Huawei se afanaba por dar los últimos retoque para la presentación del suyo propio ante las operadoras asiáticas. [&hellip;]</p>",
+  },
+  "featured_media": 1050866,
+  "format": "standard",
+  "guid": Object {
+    "rendered": "https://frontity.io/?p=1111125",
+  },
+  "id": 1111125,
+  "link": "https://frontity.io/2018/11/huawei-smartphone-plegable-5g",
+  "meta": Object {
+    "_edit_last": Array [
+      "64134",
+    ],
+    "_edit_lock": Array [
+      "1542631309:64134",
+    ],
+    "_genesis_description": Array [
+      "Huawei ya prepara su smartphone plegable, que ya habría sido mostrado a las operadoras y que será presentado durante los próximos meses para hacer la competencia a Samsung.",
+    ],
+    "_genesis_title": Array [
+      "Huawei: revelados detalles y fecha de presentación de su smartphone plegable",
+    ],
+    "_oembed_70b78e04c17aad84016e520fe5784a0a": Array [
+      "<div><div style=\\"left: 0; width: 100%; height: 168px; position: relative;\\"><iframe data-iframely-url=\\"https://cdn.iframe.ly/RywLykb?maxheight=750&amp;app=1\\" style=\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\" allowfullscreen></iframe></div></div><script async src=\\"https://cdn.iframe.ly/embed.js\\" charset=\\"utf-8\\"></script>",
+    ],
+    "_oembed_7db0dba5e3a3cd2b22efecdc30628c4d": Array [
+      "<amp-iframe src=\\"https://cdn.iframe.ly/oDHM0a8?maxheight=750&iframe=amp\\" width=\\"400\\" height=\\"168\\" frameborder=\\"0\\" allowfullscreen layout=\\"responsive\\" resizable sandbox=\\"allow-scripts allow-same-origin allow-popups\\"><div overflow tabindex=0 role=button aria-label=\\"Read more\\"></div></amp-iframe>",
+    ],
+    "_oembed_a0c46a693e15fe24ea7ac1e133cf5b9f": Array [
+      "<div><div style=\\"left: 0; width: 100%; height: 168px; position: relative;\\"><iframe data-iframely-url=\\"https://cdn.iframe.ly/oDHM0a8?maxheight=750&amp;app=1\\" style=\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\" allowfullscreen></iframe></div></div><script async src=\\"https://cdn.iframe.ly/embed.js\\" charset=\\"utf-8\\"></script>",
+    ],
+    "_oembed_c185a360286e0c4df4e9c670ec886a7b": Array [
+      "<amp-iframe src=\\"https://cdn.iframe.ly/RywLykb?maxheight=750&iframe=amp\\" width=\\"400\\" height=\\"168\\" frameborder=\\"0\\" allowfullscreen layout=\\"responsive\\" resizable sandbox=\\"allow-scripts allow-same-origin allow-popups\\"><div overflow tabindex=0 role=button aria-label=\\"Read more\\"></div></amp-iframe>",
+    ],
+    "_oembed_time_70b78e04c17aad84016e520fe5784a0a": Array [
+      "1542629187",
+    ],
+    "_oembed_time_7db0dba5e3a3cd2b22efecdc30628c4d": Array [
+      "1542630165",
+    ],
+    "_oembed_time_a0c46a693e15fe24ea7ac1e133cf5b9f": Array [
+      "1542629186",
+    ],
+    "_oembed_time_c185a360286e0c4df4e9c670ec886a7b": Array [
+      "1542630166",
+    ],
+    "_primary_term_category": Array [
+      "11378",
+    ],
+    "_schema_json": Array [
+      "a:13:{s:8:\\"@context\\";s:18:\\"http://schema.org/\\";s:5:\\"@type\\";s:11:\\"NewsArticle\\";s:16:\\"mainEntityOfPage\\";a:2:{s:5:\\"@type\\";s:7:\\"WebPage\\";s:3:\\"@id\\";s:62:\\"https://frontity.io/2018/11/huawei-smartphone-plegable-5g\\";}s:3:\\"url\\";s:62:\\"https://frontity.io/2018/11/huawei-smartphone-plegable-5g\\";s:8:\\"headline\\";s:77:\\"Huawei: revelados detalles y fecha de presentación de su smartphone plegable\\";s:13:\\"datePublished\\";s:25:\\"2018-11-19T13:22:26+00:00\\";s:12:\\"dateModified\\";s:25:\\"2018-11-19T13:22:26+00:00\\";s:9:\\"publisher\\";a:4:{s:5:\\"@type\\";s:12:\\"Organization\\";s:3:\\"@id\\";s:38:\\"https://frontity.io/#organization\\";s:4:\\"name\\";s:12:\\"Hipertextual\\";s:4:\\"logo\\";a:4:{s:5:\\"@type\\";s:11:\\"ImageObject\\";s:3:\\"url\\";s:54:\\"https://frontity.io/files/2017/05/hptx-schema.png\\";s:5:\\"width\\";i:600;s:6:\\"height\\";i:60;}}s:5:\\"image\\";a:4:{s:5:\\"@type\\";s:11:\\"ImageObject\\";s:3:\\"url\\";s:51:\\"https://frontity.io/files/2018/01/Huawei-1.jpg\\";s:5:\\"width\\";i:1024;s:6:\\"height\\";i:683;}s:14:\\"articleSection\\";s:6:\\"Mobile\\";s:11:\\"description\\";s:175:\\"Huawei ya prepara su smartphone plegable, que ya habría sido mostrado a las operadoras y que será presentado durante los próximos meses para hacer la competencia a Samsung.\\";s:6:\\"author\\";a:5:{s:5:\\"@type\\";s:6:\\"Person\\";s:4:\\"name\\";s:14:\\"Luis del Barco\\";s:3:\\"url\\";s:40:\\"https://frontity.io/autor/ldelbarco\\";s:11:\\"description\\";s:96:\\"Escribo sobre tecnología, cultura digital y su impacto en la sociedad. En Twitter soy @lbarcob.\\";s:5:\\"image\\";a:4:{s:5:\\"@type\\";s:11:\\"ImageObject\\";s:3:\\"url\\";s:93:\\"https://secure.gravatar.com/avatar/03b2664dd6f44ce2dadc158fe0ba43da?s=96&d=wp_user_avatar&r=g\\";s:6:\\"height\\";i:96;s:5:\\"width\\";i:96;}}s:5:\\"video\\";a:0:{}}",
+    ],
+    "_schema_json_timestamp": Array [
+      "1542633756",
+    ],
+    "_schema_ref": Array [
+      "1008784",
+    ],
+    "_thumbnail_id": Array [
+      "1050866",
+    ],
+    "_wp_page_template": Array [
+      "default",
+    ],
+    "custom_header": "",
+    "destacado": Array [
+      null,
+    ],
+    "destacado_categoria": Array [
+      null,
+    ],
+    "imagen_grande_post": "			<figure class=\\"articleHead\\"> 
+		        <div class=\\"articleHead__wrapperImg \\">
+					<img width=\\"1024\\" height=\\"683\\" src=\\"https://frontity.io/files/2018/01/Huawei-1.jpg\\" class=\\"attachment-destacado-single size-destacado-single wp-post-image\\" alt=\\"\\" srcset=\\"https://frontity.io/files/2018/01/Huawei-1.jpg 1024w, https://frontity.io/files/2018/01/Huawei-1-335x223.jpg 335w, https://frontity.io/files/2018/01/Huawei-1-768x512.jpg 768w, https://frontity.io/files/2018/01/Huawei-1-670x447.jpg 670w, https://frontity.io/files/2018/01/Huawei-1-700x467.jpg 700w, https://frontity.io/files/2018/01/Huawei-1-1000x667.jpg 1000w, https://frontity.io/files/2018/01/Huawei-1-600x400.jpg 600w, https://frontity.io/files/2018/01/Huawei-1-900x600.jpg 900w, https://frontity.io/files/2018/01/Huawei-1-610x407.jpg 610w, https://frontity.io/files/2018/01/Huawei-1-300x200.jpg 300w\\" sizes=\\"(max-width: 1024px) 100vw, 1024px\\" />					 					 	<figcaption class=\\"caption\\">Flickr/ Kārlis Dambrāns</figcaption>
+					 		        </div>
+		
+		    </figure>
+			",
+    "onesignal_meta_box_present": Array [
+      "",
+    ],
+    "onesignal_send_notification": Array [
+      "",
+    ],
+    "subtitulo": "<p>El Mobile World Congress 2019 podría tratar en gran medida acerca de los teléfonos plegables.</p>
+",
+    "titulo_tres": Array [
+      "",
+    ],
+  },
+  "modified": "2018-11-19T13:22:26",
+  "modified_gmt": "2018-11-19T12:22:26",
+  "next_post_id": 1110946,
+  "ping_status": "closed",
+  "slug": "huawei-smartphone-plegable-5g",
+  "status": "publish",
+  "sticky": false,
+  "tags": Array [
+    874321,
+    604,
+    894569,
+  ],
+  "template": "",
+  "title": Object {
+    "rendered": "<h1>Revelados detalles y posible fecha de presentación del smartphone plegable de Huawei</h1>",
+    "text": "Revelados detalles y posible fecha de presentación del smartphone plegable de Huawei",
+  },
+  "type": "post",
+}
+`;
+
+exports[`Server Receives a post with \`title.text\` and should return a post with \`title.rendered\` and \`title.text\` 1`] = `
+Object {
+  "author": 64134,
+  "autor_hptx": "<a href=\\"https://frontity.io/autor/ldelbarco\\" title=\\"Entradas por Luis del Barco\\" class=\\"author__name\\" rel=\\"author\\">Luis del Barco</a>",
+  "categories": Array [
+    11378,
+  ],
+  "comment_status": "closed",
+  "content": Object {
+    "protected": false,
+    "rendered": "<p>Al tiempo que <a href=\\"https://frontity.io/tag/samsung\\">Samsung</a> presentaba el otro día su <a href=\\"https://frontity.io/2018/11/samsung-presenta-telefono-plegable\\">teléfono plegable</a>, conocido ya comúnmente como Galaxy F, y dejaba ver cuál iba a ser parte de su <strong>hoja de ruta para el futuro más inmediato</strong>, su rival <a href=\\"https://frontity.io/tag/huawei\\">Huawei</a> se afanaba por dar los últimos retoque para la presentación del suyo propio ante las operadoras asiáticas. Lejos, por el momento, del foco mediático, en la compañía ya miran a 2019 como abanico temporal en el que presentar batalla.</p>
+<p>Habiendo sido ya <a href=\\"https://frontity.io/2018/10/huawei-pantalla-plegable-5g\\">confirmado por la propia Huawei</a> que se estaba preparando un smartphone de estas características, era de esperar que los detalles no se hicieran esperar demasiado. Llegan ahora a través de la publicación local <em><a href=\\"http://www.etnews.com/20181116000269?mc=em_002_00001\\">etnews</a></em>, donde revelan algunas de las características del terminal, que podría ser presentado de manera oficial en el marco del <strong>Mobile World Congress 2019 de Barcelona</strong>, la mayor feria a nivel mundial de tecnología móvil.</p>
+<div class=\\"wrapperBanner roba_ATF  mobile\\"></div>
+<div>
+<div style=\\"left: 0; width: 100%; height: 168px; position: relative;\\"><iframe data-iframely-url=\\"https://cdn.iframe.ly/oDHM0a8?maxheight=750&amp;app=1\\" style=\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\" allowfullscreen></iframe></div>
+</div>
+<p><script async src=\\"https://cdn.iframe.ly/embed.js\\" charset=\\"utf-8\\"></script></p>
+<h2>Más grande</h2>
+<p>Aunque es pronto para poder saber de manera fehaciente si las filtraciones son o no correctas, la información obtenida señala a un dispositivo de mayores dispositivos que el de la casa surcoreana. Este contaría con una <strong>pantalla de 8 pulgadas en formato desplegado y de una más pequeña de 5\\" cuando no se encuentre extendido</strong>, frente a las 7,3\\" y 4,6\\", respectivamente, del Galaxy F.</p>
+<p>Como se ha señalado, la presentación oficial sería a finales de febrero del año próximo con una comercialización que comenzaría en la segunda mitad de 2010, hacia el mes de junio. En cuanto a la comercialización, parece que <strong>llegará en primera instancia a Corea del Sur por la capacidad operativa de las redes 5G en el territorio</strong>. Conforme el despliegue se vaya extendiendo en Europa, Huawei lanzará también el dispositivo en el viejo continente.</p>
+<div class=\\"wrapperBanner roba_midpage  mobile\\"></div>
+<div>
+<div style=\\"left: 0; width: 100%; height: 168px; position: relative;\\"><iframe data-iframely-url=\\"https://cdn.iframe.ly/RywLykb?maxheight=750&amp;app=1\\" style=\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\" allowfullscreen></iframe></div>
+</div>
+<p><script async src=\\"https://cdn.iframe.ly/embed.js\\" charset=\\"utf-8\\"></script></p>
+<p>Además de Samsung y Huawei, otros actores como <a href=\\"https://frontity.io/2018/10/lenovo-lg-asocian-tableta-pantalla-plegable\\">Lenovo y LG</a> se preparan también para comenzar a fabricar sus dispositivos plegables, los cuales ocuparán buena parte de las conversaciones en los meses venideros. Con mucho aún por delimitar y decidir, lo que parece claro es que nadie quiere quedarse atrás en una de las tecnologías más mediáticas que veremos durante 2019.</p>
+<div class=\\"wrapperBanner single_roba_endpost  mobile\\"></div>
+",
+  },
+  "currentpost": "https://frontity.io/2018/11/huawei-smartphone-plegable-5g",
+  "date": "2018-11-19T13:22:26",
+  "date_gmt": "2018-11-19T12:22:26",
+  "excerpt": Object {
+    "protected": false,
+    "rendered": "<p>Al tiempo que Samsung presentaba el otro día su teléfono plegable, conocido ya comúnmente como Galaxy F, y dejaba ver cuál iba a ser parte de su hoja de ruta para el futuro más inmediato, su rival Huawei se afanaba por dar los últimos retoque para la presentación del suyo propio ante las operadoras asiáticas. [&hellip;]</p>",
+  },
+  "featured_media": 1050866,
+  "format": "standard",
+  "guid": Object {
+    "rendered": "https://frontity.io/?p=1111125",
+  },
+  "id": 1111125,
+  "link": "https://frontity.io/2018/11/huawei-smartphone-plegable-5g",
+  "meta": Object {
+    "_edit_last": Array [
+      "64134",
+    ],
+    "_edit_lock": Array [
+      "1542631309:64134",
+    ],
+    "_genesis_description": Array [
+      "Huawei ya prepara su smartphone plegable, que ya habría sido mostrado a las operadoras y que será presentado durante los próximos meses para hacer la competencia a Samsung.",
+    ],
+    "_genesis_title": Array [
+      "Huawei: revelados detalles y fecha de presentación de su smartphone plegable",
+    ],
+    "_oembed_70b78e04c17aad84016e520fe5784a0a": Array [
+      "<div><div style=\\"left: 0; width: 100%; height: 168px; position: relative;\\"><iframe data-iframely-url=\\"https://cdn.iframe.ly/RywLykb?maxheight=750&amp;app=1\\" style=\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\" allowfullscreen></iframe></div></div><script async src=\\"https://cdn.iframe.ly/embed.js\\" charset=\\"utf-8\\"></script>",
+    ],
+    "_oembed_7db0dba5e3a3cd2b22efecdc30628c4d": Array [
+      "<amp-iframe src=\\"https://cdn.iframe.ly/oDHM0a8?maxheight=750&iframe=amp\\" width=\\"400\\" height=\\"168\\" frameborder=\\"0\\" allowfullscreen layout=\\"responsive\\" resizable sandbox=\\"allow-scripts allow-same-origin allow-popups\\"><div overflow tabindex=0 role=button aria-label=\\"Read more\\"></div></amp-iframe>",
+    ],
+    "_oembed_a0c46a693e15fe24ea7ac1e133cf5b9f": Array [
+      "<div><div style=\\"left: 0; width: 100%; height: 168px; position: relative;\\"><iframe data-iframely-url=\\"https://cdn.iframe.ly/oDHM0a8?maxheight=750&amp;app=1\\" style=\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\" allowfullscreen></iframe></div></div><script async src=\\"https://cdn.iframe.ly/embed.js\\" charset=\\"utf-8\\"></script>",
+    ],
+    "_oembed_c185a360286e0c4df4e9c670ec886a7b": Array [
+      "<amp-iframe src=\\"https://cdn.iframe.ly/RywLykb?maxheight=750&iframe=amp\\" width=\\"400\\" height=\\"168\\" frameborder=\\"0\\" allowfullscreen layout=\\"responsive\\" resizable sandbox=\\"allow-scripts allow-same-origin allow-popups\\"><div overflow tabindex=0 role=button aria-label=\\"Read more\\"></div></amp-iframe>",
+    ],
+    "_oembed_time_70b78e04c17aad84016e520fe5784a0a": Array [
+      "1542629187",
+    ],
+    "_oembed_time_7db0dba5e3a3cd2b22efecdc30628c4d": Array [
+      "1542630165",
+    ],
+    "_oembed_time_a0c46a693e15fe24ea7ac1e133cf5b9f": Array [
+      "1542629186",
+    ],
+    "_oembed_time_c185a360286e0c4df4e9c670ec886a7b": Array [
+      "1542630166",
+    ],
+    "_primary_term_category": Array [
+      "11378",
+    ],
+    "_schema_json": Array [
+      "a:13:{s:8:\\"@context\\";s:18:\\"http://schema.org/\\";s:5:\\"@type\\";s:11:\\"NewsArticle\\";s:16:\\"mainEntityOfPage\\";a:2:{s:5:\\"@type\\";s:7:\\"WebPage\\";s:3:\\"@id\\";s:62:\\"https://frontity.io/2018/11/huawei-smartphone-plegable-5g\\";}s:3:\\"url\\";s:62:\\"https://frontity.io/2018/11/huawei-smartphone-plegable-5g\\";s:8:\\"headline\\";s:77:\\"Huawei: revelados detalles y fecha de presentación de su smartphone plegable\\";s:13:\\"datePublished\\";s:25:\\"2018-11-19T13:22:26+00:00\\";s:12:\\"dateModified\\";s:25:\\"2018-11-19T13:22:26+00:00\\";s:9:\\"publisher\\";a:4:{s:5:\\"@type\\";s:12:\\"Organization\\";s:3:\\"@id\\";s:38:\\"https://frontity.io/#organization\\";s:4:\\"name\\";s:12:\\"Hipertextual\\";s:4:\\"logo\\";a:4:{s:5:\\"@type\\";s:11:\\"ImageObject\\";s:3:\\"url\\";s:54:\\"https://frontity.io/files/2017/05/hptx-schema.png\\";s:5:\\"width\\";i:600;s:6:\\"height\\";i:60;}}s:5:\\"image\\";a:4:{s:5:\\"@type\\";s:11:\\"ImageObject\\";s:3:\\"url\\";s:51:\\"https://frontity.io/files/2018/01/Huawei-1.jpg\\";s:5:\\"width\\";i:1024;s:6:\\"height\\";i:683;}s:14:\\"articleSection\\";s:6:\\"Mobile\\";s:11:\\"description\\";s:175:\\"Huawei ya prepara su smartphone plegable, que ya habría sido mostrado a las operadoras y que será presentado durante los próximos meses para hacer la competencia a Samsung.\\";s:6:\\"author\\";a:5:{s:5:\\"@type\\";s:6:\\"Person\\";s:4:\\"name\\";s:14:\\"Luis del Barco\\";s:3:\\"url\\";s:40:\\"https://frontity.io/autor/ldelbarco\\";s:11:\\"description\\";s:96:\\"Escribo sobre tecnología, cultura digital y su impacto en la sociedad. En Twitter soy @lbarcob.\\";s:5:\\"image\\";a:4:{s:5:\\"@type\\";s:11:\\"ImageObject\\";s:3:\\"url\\";s:93:\\"https://secure.gravatar.com/avatar/03b2664dd6f44ce2dadc158fe0ba43da?s=96&d=wp_user_avatar&r=g\\";s:6:\\"height\\";i:96;s:5:\\"width\\";i:96;}}s:5:\\"video\\";a:0:{}}",
+    ],
+    "_schema_json_timestamp": Array [
+      "1542633756",
+    ],
+    "_schema_ref": Array [
+      "1008784",
+    ],
+    "_thumbnail_id": Array [
+      "1050866",
+    ],
+    "_wp_page_template": Array [
+      "default",
+    ],
+    "custom_header": "",
+    "destacado": Array [
+      null,
+    ],
+    "destacado_categoria": Array [
+      null,
+    ],
+    "imagen_grande_post": "			<figure class=\\"articleHead\\"> 
+		        <div class=\\"articleHead__wrapperImg \\">
+					<img width=\\"1024\\" height=\\"683\\" src=\\"https://frontity.io/files/2018/01/Huawei-1.jpg\\" class=\\"attachment-destacado-single size-destacado-single wp-post-image\\" alt=\\"\\" srcset=\\"https://frontity.io/files/2018/01/Huawei-1.jpg 1024w, https://frontity.io/files/2018/01/Huawei-1-335x223.jpg 335w, https://frontity.io/files/2018/01/Huawei-1-768x512.jpg 768w, https://frontity.io/files/2018/01/Huawei-1-670x447.jpg 670w, https://frontity.io/files/2018/01/Huawei-1-700x467.jpg 700w, https://frontity.io/files/2018/01/Huawei-1-1000x667.jpg 1000w, https://frontity.io/files/2018/01/Huawei-1-600x400.jpg 600w, https://frontity.io/files/2018/01/Huawei-1-900x600.jpg 900w, https://frontity.io/files/2018/01/Huawei-1-610x407.jpg 610w, https://frontity.io/files/2018/01/Huawei-1-300x200.jpg 300w\\" sizes=\\"(max-width: 1024px) 100vw, 1024px\\" />					 					 	<figcaption class=\\"caption\\">Flickr/ Kārlis Dambrāns</figcaption>
+					 		        </div>
+		
+		    </figure>
+			",
+    "onesignal_meta_box_present": Array [
+      "",
+    ],
+    "onesignal_send_notification": Array [
+      "",
+    ],
+    "subtitulo": "<p>El Mobile World Congress 2019 podría tratar en gran medida acerca de los teléfonos plegables.</p>
+",
+    "titulo_tres": Array [
+      "",
+    ],
+  },
+  "modified": "2018-11-19T13:22:26",
+  "modified_gmt": "2018-11-19T12:22:26",
+  "next_post_id": 1110946,
+  "ping_status": "closed",
+  "slug": "huawei-smartphone-plegable-5g",
+  "status": "publish",
+  "sticky": false,
+  "tags": Array [
+    874321,
+    604,
+    894569,
+  ],
+  "template": "",
+  "title": Object {
+    "rendered": "Revelados detalles y posible fecha de presentación del smartphone plegable de Huawei",
+    "text": "Revelados detalles y posible fecha de presentación del smartphone plegable de Huawei",
+  },
+  "type": "post",
+}
+`;
+
+exports[`Server Receives a post with \`title\` as a string and should return a post with \`title.rendered\` and \`title.text\` 1`] = `
+Object {
+  "author": 64134,
+  "autor_hptx": "<a href=\\"https://frontity.io/autor/ldelbarco\\" title=\\"Entradas por Luis del Barco\\" class=\\"author__name\\" rel=\\"author\\">Luis del Barco</a>",
+  "categories": Array [
+    11378,
+  ],
+  "comment_status": "closed",
+  "content": Object {
+    "protected": false,
+    "rendered": "<p>Al tiempo que <a href=\\"https://frontity.io/tag/samsung\\">Samsung</a> presentaba el otro día su <a href=\\"https://frontity.io/2018/11/samsung-presenta-telefono-plegable\\">teléfono plegable</a>, conocido ya comúnmente como Galaxy F, y dejaba ver cuál iba a ser parte de su <strong>hoja de ruta para el futuro más inmediato</strong>, su rival <a href=\\"https://frontity.io/tag/huawei\\">Huawei</a> se afanaba por dar los últimos retoque para la presentación del suyo propio ante las operadoras asiáticas. Lejos, por el momento, del foco mediático, en la compañía ya miran a 2019 como abanico temporal en el que presentar batalla.</p>
+<p>Habiendo sido ya <a href=\\"https://frontity.io/2018/10/huawei-pantalla-plegable-5g\\">confirmado por la propia Huawei</a> que se estaba preparando un smartphone de estas características, era de esperar que los detalles no se hicieran esperar demasiado. Llegan ahora a través de la publicación local <em><a href=\\"http://www.etnews.com/20181116000269?mc=em_002_00001\\">etnews</a></em>, donde revelan algunas de las características del terminal, que podría ser presentado de manera oficial en el marco del <strong>Mobile World Congress 2019 de Barcelona</strong>, la mayor feria a nivel mundial de tecnología móvil.</p>
+<div class=\\"wrapperBanner roba_ATF  mobile\\"></div>
+<div>
+<div style=\\"left: 0; width: 100%; height: 168px; position: relative;\\"><iframe data-iframely-url=\\"https://cdn.iframe.ly/oDHM0a8?maxheight=750&amp;app=1\\" style=\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\" allowfullscreen></iframe></div>
+</div>
+<p><script async src=\\"https://cdn.iframe.ly/embed.js\\" charset=\\"utf-8\\"></script></p>
+<h2>Más grande</h2>
+<p>Aunque es pronto para poder saber de manera fehaciente si las filtraciones son o no correctas, la información obtenida señala a un dispositivo de mayores dispositivos que el de la casa surcoreana. Este contaría con una <strong>pantalla de 8 pulgadas en formato desplegado y de una más pequeña de 5\\" cuando no se encuentre extendido</strong>, frente a las 7,3\\" y 4,6\\", respectivamente, del Galaxy F.</p>
+<p>Como se ha señalado, la presentación oficial sería a finales de febrero del año próximo con una comercialización que comenzaría en la segunda mitad de 2010, hacia el mes de junio. En cuanto a la comercialización, parece que <strong>llegará en primera instancia a Corea del Sur por la capacidad operativa de las redes 5G en el territorio</strong>. Conforme el despliegue se vaya extendiendo en Europa, Huawei lanzará también el dispositivo en el viejo continente.</p>
+<div class=\\"wrapperBanner roba_midpage  mobile\\"></div>
+<div>
+<div style=\\"left: 0; width: 100%; height: 168px; position: relative;\\"><iframe data-iframely-url=\\"https://cdn.iframe.ly/RywLykb?maxheight=750&amp;app=1\\" style=\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\" allowfullscreen></iframe></div>
+</div>
+<p><script async src=\\"https://cdn.iframe.ly/embed.js\\" charset=\\"utf-8\\"></script></p>
+<p>Además de Samsung y Huawei, otros actores como <a href=\\"https://frontity.io/2018/10/lenovo-lg-asocian-tableta-pantalla-plegable\\">Lenovo y LG</a> se preparan también para comenzar a fabricar sus dispositivos plegables, los cuales ocuparán buena parte de las conversaciones en los meses venideros. Con mucho aún por delimitar y decidir, lo que parece claro es que nadie quiere quedarse atrás en una de las tecnologías más mediáticas que veremos durante 2019.</p>
+<div class=\\"wrapperBanner single_roba_endpost  mobile\\"></div>
+",
+  },
+  "currentpost": "https://frontity.io/2018/11/huawei-smartphone-plegable-5g",
+  "date": "2018-11-19T13:22:26",
+  "date_gmt": "2018-11-19T12:22:26",
+  "excerpt": Object {
+    "protected": false,
+    "rendered": "<p>Al tiempo que Samsung presentaba el otro día su teléfono plegable, conocido ya comúnmente como Galaxy F, y dejaba ver cuál iba a ser parte de su hoja de ruta para el futuro más inmediato, su rival Huawei se afanaba por dar los últimos retoque para la presentación del suyo propio ante las operadoras asiáticas. [&hellip;]</p>",
+  },
+  "featured_media": 1050866,
+  "format": "standard",
+  "guid": Object {
+    "rendered": "https://frontity.io/?p=1111125",
+  },
+  "id": 1111125,
+  "link": "https://frontity.io/2018/11/huawei-smartphone-plegable-5g",
+  "meta": Object {
+    "_edit_last": Array [
+      "64134",
+    ],
+    "_edit_lock": Array [
+      "1542631309:64134",
+    ],
+    "_genesis_description": Array [
+      "Huawei ya prepara su smartphone plegable, que ya habría sido mostrado a las operadoras y que será presentado durante los próximos meses para hacer la competencia a Samsung.",
+    ],
+    "_genesis_title": Array [
+      "Huawei: revelados detalles y fecha de presentación de su smartphone plegable",
+    ],
+    "_oembed_70b78e04c17aad84016e520fe5784a0a": Array [
+      "<div><div style=\\"left: 0; width: 100%; height: 168px; position: relative;\\"><iframe data-iframely-url=\\"https://cdn.iframe.ly/RywLykb?maxheight=750&amp;app=1\\" style=\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\" allowfullscreen></iframe></div></div><script async src=\\"https://cdn.iframe.ly/embed.js\\" charset=\\"utf-8\\"></script>",
+    ],
+    "_oembed_7db0dba5e3a3cd2b22efecdc30628c4d": Array [
+      "<amp-iframe src=\\"https://cdn.iframe.ly/oDHM0a8?maxheight=750&iframe=amp\\" width=\\"400\\" height=\\"168\\" frameborder=\\"0\\" allowfullscreen layout=\\"responsive\\" resizable sandbox=\\"allow-scripts allow-same-origin allow-popups\\"><div overflow tabindex=0 role=button aria-label=\\"Read more\\"></div></amp-iframe>",
+    ],
+    "_oembed_a0c46a693e15fe24ea7ac1e133cf5b9f": Array [
+      "<div><div style=\\"left: 0; width: 100%; height: 168px; position: relative;\\"><iframe data-iframely-url=\\"https://cdn.iframe.ly/oDHM0a8?maxheight=750&amp;app=1\\" style=\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\" allowfullscreen></iframe></div></div><script async src=\\"https://cdn.iframe.ly/embed.js\\" charset=\\"utf-8\\"></script>",
+    ],
+    "_oembed_c185a360286e0c4df4e9c670ec886a7b": Array [
+      "<amp-iframe src=\\"https://cdn.iframe.ly/RywLykb?maxheight=750&iframe=amp\\" width=\\"400\\" height=\\"168\\" frameborder=\\"0\\" allowfullscreen layout=\\"responsive\\" resizable sandbox=\\"allow-scripts allow-same-origin allow-popups\\"><div overflow tabindex=0 role=button aria-label=\\"Read more\\"></div></amp-iframe>",
+    ],
+    "_oembed_time_70b78e04c17aad84016e520fe5784a0a": Array [
+      "1542629187",
+    ],
+    "_oembed_time_7db0dba5e3a3cd2b22efecdc30628c4d": Array [
+      "1542630165",
+    ],
+    "_oembed_time_a0c46a693e15fe24ea7ac1e133cf5b9f": Array [
+      "1542629186",
+    ],
+    "_oembed_time_c185a360286e0c4df4e9c670ec886a7b": Array [
+      "1542630166",
+    ],
+    "_primary_term_category": Array [
+      "11378",
+    ],
+    "_schema_json": Array [
+      "a:13:{s:8:\\"@context\\";s:18:\\"http://schema.org/\\";s:5:\\"@type\\";s:11:\\"NewsArticle\\";s:16:\\"mainEntityOfPage\\";a:2:{s:5:\\"@type\\";s:7:\\"WebPage\\";s:3:\\"@id\\";s:62:\\"https://frontity.io/2018/11/huawei-smartphone-plegable-5g\\";}s:3:\\"url\\";s:62:\\"https://frontity.io/2018/11/huawei-smartphone-plegable-5g\\";s:8:\\"headline\\";s:77:\\"Huawei: revelados detalles y fecha de presentación de su smartphone plegable\\";s:13:\\"datePublished\\";s:25:\\"2018-11-19T13:22:26+00:00\\";s:12:\\"dateModified\\";s:25:\\"2018-11-19T13:22:26+00:00\\";s:9:\\"publisher\\";a:4:{s:5:\\"@type\\";s:12:\\"Organization\\";s:3:\\"@id\\";s:38:\\"https://frontity.io/#organization\\";s:4:\\"name\\";s:12:\\"Hipertextual\\";s:4:\\"logo\\";a:4:{s:5:\\"@type\\";s:11:\\"ImageObject\\";s:3:\\"url\\";s:54:\\"https://frontity.io/files/2017/05/hptx-schema.png\\";s:5:\\"width\\";i:600;s:6:\\"height\\";i:60;}}s:5:\\"image\\";a:4:{s:5:\\"@type\\";s:11:\\"ImageObject\\";s:3:\\"url\\";s:51:\\"https://frontity.io/files/2018/01/Huawei-1.jpg\\";s:5:\\"width\\";i:1024;s:6:\\"height\\";i:683;}s:14:\\"articleSection\\";s:6:\\"Mobile\\";s:11:\\"description\\";s:175:\\"Huawei ya prepara su smartphone plegable, que ya habría sido mostrado a las operadoras y que será presentado durante los próximos meses para hacer la competencia a Samsung.\\";s:6:\\"author\\";a:5:{s:5:\\"@type\\";s:6:\\"Person\\";s:4:\\"name\\";s:14:\\"Luis del Barco\\";s:3:\\"url\\";s:40:\\"https://frontity.io/autor/ldelbarco\\";s:11:\\"description\\";s:96:\\"Escribo sobre tecnología, cultura digital y su impacto en la sociedad. En Twitter soy @lbarcob.\\";s:5:\\"image\\";a:4:{s:5:\\"@type\\";s:11:\\"ImageObject\\";s:3:\\"url\\";s:93:\\"https://secure.gravatar.com/avatar/03b2664dd6f44ce2dadc158fe0ba43da?s=96&d=wp_user_avatar&r=g\\";s:6:\\"height\\";i:96;s:5:\\"width\\";i:96;}}s:5:\\"video\\";a:0:{}}",
+    ],
+    "_schema_json_timestamp": Array [
+      "1542633756",
+    ],
+    "_schema_ref": Array [
+      "1008784",
+    ],
+    "_thumbnail_id": Array [
+      "1050866",
+    ],
+    "_wp_page_template": Array [
+      "default",
+    ],
+    "custom_header": "",
+    "destacado": Array [
+      null,
+    ],
+    "destacado_categoria": Array [
+      null,
+    ],
+    "imagen_grande_post": "			<figure class=\\"articleHead\\"> 
+		        <div class=\\"articleHead__wrapperImg \\">
+					<img width=\\"1024\\" height=\\"683\\" src=\\"https://frontity.io/files/2018/01/Huawei-1.jpg\\" class=\\"attachment-destacado-single size-destacado-single wp-post-image\\" alt=\\"\\" srcset=\\"https://frontity.io/files/2018/01/Huawei-1.jpg 1024w, https://frontity.io/files/2018/01/Huawei-1-335x223.jpg 335w, https://frontity.io/files/2018/01/Huawei-1-768x512.jpg 768w, https://frontity.io/files/2018/01/Huawei-1-670x447.jpg 670w, https://frontity.io/files/2018/01/Huawei-1-700x467.jpg 700w, https://frontity.io/files/2018/01/Huawei-1-1000x667.jpg 1000w, https://frontity.io/files/2018/01/Huawei-1-600x400.jpg 600w, https://frontity.io/files/2018/01/Huawei-1-900x600.jpg 900w, https://frontity.io/files/2018/01/Huawei-1-610x407.jpg 610w, https://frontity.io/files/2018/01/Huawei-1-300x200.jpg 300w\\" sizes=\\"(max-width: 1024px) 100vw, 1024px\\" />					 					 	<figcaption class=\\"caption\\">Flickr/ Kārlis Dambrāns</figcaption>
+					 		        </div>
+		
+		    </figure>
+			",
+    "onesignal_meta_box_present": Array [
+      "",
+    ],
+    "onesignal_send_notification": Array [
+      "",
+    ],
+    "subtitulo": "<p>El Mobile World Congress 2019 podría tratar en gran medida acerca de los teléfonos plegables.</p>
+",
+    "titulo_tres": Array [
+      "",
+    ],
+  },
+  "modified": "2018-11-19T13:22:26",
+  "modified_gmt": "2018-11-19T12:22:26",
+  "next_post_id": 1110946,
+  "ping_status": "closed",
+  "slug": "huawei-smartphone-plegable-5g",
+  "status": "publish",
+  "sticky": false,
+  "tags": Array [
+    874321,
+    604,
+    894569,
+  ],
+  "template": "",
+  "title": Object {
+    "rendered": "Revelados detalles y posible fecha de presentación del smartphone plegable de Huawei",
+    "text": "Revelados detalles y posible fecha de presentación del smartphone plegable de Huawei",
+  },
+  "type": "post",
+}
+`;

@@ -1,0 +1,210 @@
+[
+  {
+    "id": 1111115,
+    "date": "2018-11-19T15:30:03",
+    "date_gmt": "2018-11-19T14:30:03",
+    "guid": { "rendered": "https://frontity.io/?p=1111115" },
+    "modified": "2018-11-19T13:25:22",
+    "modified_gmt": "2018-11-19T12:25:22",
+    "slug": "edicion-genetica-pacientes",
+    "status": "publish",
+    "type": "post",
+    "link": "https://frontity.io/2018/11/edicion-genetica-pacientes",
+    "title": "Del deseo a la realidad: la edici\u00f3n gen\u00e9tica (a\u00fan) no est\u00e1 preparada para tratar a pacientes",
+    "content": {
+      "rendered": "<p><a href=\"https://www.agenciasinc.es/Opinion/Del-deseo-a-la-realidad-la-edicion-genetica-aun-no-esta-preparada-para-tratar-a-pacientes\">Agencia SINC</a> \u2013 Las herramientas CRISPR derivan de un sistema inmunitario que usan las bacterias para defenderse de los virus, <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/15791728\">descrito en 2005</a> por <a href=\"https://www.agenciasinc.es/Entrevistas/Estoy-viviendo-la-revolucion-CRISPR-con-agobio-y-felicidad\">Francisco J. Mart\u00ednez Mojica</a> microbi\u00f3logo de la Universidad de Alicante. Hace apenas cinco a\u00f1os, otros investigadores, bas\u00e1ndose en los hallazgos pioneros de Mojica, convirtieron aquel sistema de defensa bacteriano en una <strong>herramienta eficaz para la edici\u00f3n gen\u00e9tica</strong>, v\u00e1lida para cambiar a voluntad la secuencia de ADN de cualquier gen, de cualquier genoma, de cualquier especie.</p>\n<p>Esta revoluci\u00f3n tecnol\u00f3gica ha impactado de forma muy importante en los laboratorios de investigaci\u00f3n biom\u00e9dica. Ahora podemos hacer experimentos gen\u00e9ticos que hasta hace poco no pod\u00edamos ni so\u00f1ar.</p>\n<div class=\"wrapperBanner roba_ATF  mobile\"></div>\n<p>Podemos reproducir en modelos celulares y animales las mutaciones en genes que diagnosticamos en nuestros pacientes, <a href=\"https://culturacientifica.com/2017/09/29/las-herramientas-edicion-genetica-crispr-los-ratones-avatar/\">como los ratones avatar</a>. Podemos revertir estas mutaciones administrando a esos modelos animales <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/26721683\">virus</a> o <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/29490262\">nanopart\u00edculas</a> cargadas con las herramientas de edici\u00f3n y las secuencias de ADN molde con la secuencia correcta del gen a corregir.</p>\n<p>Las CRISPR cortan el ADN con gran precisi\u00f3n. Estas roturas deben ser reparadas de inmediato, pero los sistemas de reparaci\u00f3n del ADN no son precisos</p>\n<p>Si esto es as\u00ed, \u00bfpor qu\u00e9 no podemos beneficiarnos, todav\u00eda, de todas estas ventajas en la cl\u00ednica? \u00bfPor qu\u00e9 no es prudente ni \u00e9ticamente aceptable usar las herramientas CRISPR para tratar a pacientes, todav\u00eda?</p>\n<div class=\"wrapperBanner roba_midpage  mobile\"></div>\n<p><aside class=\"alignleft\">Las CRISPR cortan el ADN con gran precisi\u00f3n. Estas roturas deben ser reparadas de inmediato, pero los sistemas de reparaci\u00f3n del ADN no son precisos</aside>\n</p>\n<p>Las <a href=\"https://revistageneticamedica.com/wp-content/uploads/2017/11/GM-MedigenePress-2017.pdf\">herramientas CRISPR</a> est\u00e1n formadas por una prote\u00edna que corta el ADN, una nucleasa (habitualmente Cas9) y por una peque\u00f1a mol\u00e9cula de ARN que act\u00faa de gu\u00eda para la nucleasa, emparej\u00e1ndose con el gen favorito que se desea editar. Las CRISPR lo que saben hacer, y lo hacen muy bien, es cortar el ADN en puntos concretos con gran precisi\u00f3n. Pero estas roturas en el genoma deben ser reparadas de inmediato si la c\u00e9lula quiere sobrevivir.</p>\n<div class=\"wrapperBanner single_roba_endpost  mobile\"></div>\n<p>Hay por lo menos <strong>dos sistemas de reparaci\u00f3n</strong> en todas nuestras c\u00e9lulas. El que est\u00e1 activo en todas ellas, un sistema de emergencia que intenta buscar o generar secuencias complementarias mediante la adici\u00f3n y deleci\u00f3n de nucle\u00f3tidos, y que frecuentemente concluye con la inactivaci\u00f3n del gen afectado. Y, por otro lado, un segundo sistema de reparaci\u00f3n dirigido por homolog\u00eda, activo en c\u00e9lulas en divisi\u00f3n, que emplea secuencias de ADN molde circundantes al sitio de corte para poder sellar la cicatriz y, de paso, alterar la secuencia del gen cortado a voluntad.</p>\n<div class=\"wrapperBanner roba_entreparrafos_1 desktop mobile\"></div>\n<p>Toda la <strong>precisi\u00f3n y eficacia</strong> de las herramientas CRISPR, producto de los miles de millones de a\u00f1os de evoluci\u00f3n en bacterias, no la poseen, sin embargo, las herramientas de reparaci\u00f3n del ADN. Ni tienen la precisi\u00f3n requerida ni tienen memoria. Cada vez que se enfrentan a la tarea de reparar una mol\u00e9cula de ADN cortada lo hacen de una forma distinta. Algunas veces borrando o a\u00f1adiendo uno o hasta miles de nucle\u00f3tidos, otras veces sustituyendo algunos nucle\u00f3tidos por otros, duplic\u00e1ndolos, invirti\u00e9ndolos, etc.</p>\n<p><div class='imgcaption'><a href=\"https://frontity.io/files/2018/02/diagnostico-medico-crispr.jpg\"><figure id=\"image-1\" class=\"size-1058468\"><img src=\"https://frontity.io/files/2018/02/diagnostico-medico-crispr-670x447.jpg\" alt=\"crispr\" width=\"670\" height=\"447\" class=\"size-large wp-image-1058468\" srcset=\"https://frontity.io/files/2018/02/diagnostico-medico-crispr-670x447.jpg 670w, https://frontity.io/files/2018/02/diagnostico-medico-crispr-335x223.jpg 335w, https://frontity.io/files/2018/02/diagnostico-medico-crispr-768x512.jpg 768w, https://frontity.io/files/2018/02/diagnostico-medico-crispr-700x467.jpg 700w, https://frontity.io/files/2018/02/diagnostico-medico-crispr-1000x667.jpg 1000w, https://frontity.io/files/2018/02/diagnostico-medico-crispr-600x400.jpg 600w, https://frontity.io/files/2018/02/diagnostico-medico-crispr-900x600.jpg 900w, https://frontity.io/files/2018/02/diagnostico-medico-crispr-610x407.jpg 610w, https://frontity.io/files/2018/02/diagnostico-medico-crispr-300x200.jpg 300w\" sizes=\"(max-width: 670px) 100vw, 670px\" data-large=\"https://frontity.io/files/2018/02/diagnostico-medico-crispr-670x447.jpg\" data-medium=\"https://frontity.io/files/2018/02/diagnostico-medico-crispr-335x223.jpg\" /></figure></a><figcaption class=\"wp-caption-text\">Cr\u00e9dito: Laboratorio de Zhang / MIT / Universidad de Harvard.</figcaption></div></p>\n<h3>Seguridad y eficacia</h3>\n<p>Tras cualquier experimento de edici\u00f3n gen\u00e9tica con CRISPR se obtienen multitud de secuencias de ADN distintas. Esta diversidad gen\u00e9tica es relativamente sencilla de gestionar en animales o plantas. Tras secuenciar el genoma de todos los individuos obtenidos, se escoge aquel que porta la secuencia correcta en la que estamos interesados y se descarta el resto. <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/25897126\">En ratones esto puede corresponder a un 5% del total</a> (1 de cada 20 ratones). Seleccionamos el que nos interesa y eliminamos los 19 restantes.</p>\n<p><aside class=\"alignleft\">No es prudente ni justificable \u00e9ticamente exponer a los pacientes a riesgos que todav\u00eda no somos capaces de controlar</aside>\n</p>\n<p>\u00bfPero c\u00f3mo gestionamos este porcentaje en pacientes? \u00bfC\u00f3mo exponemos a un paciente a un tratamiento que puede revertir su mutaci\u00f3n en un 5% de las ocasiones, generando, en el 95% restante, otras mutaciones que pueden ser incluso m\u00e1s graves que la quer\u00edamos corregir? No es prudente ni justificable \u00e9ticamente exponer a los pacientes a riesgos que todav\u00eda no somos capaces de controlar. Especialmente para terapias in vivo, en la persona.</p>\n<p>De momento las pocas terapias CRISPR aplicadas han sido ex vivo, con c\u00e9lulas extra\u00eddas del paciente, editadas en el laboratorio, seleccionadas y retornadas al mismo paciente. Pero esta estrategia solo es v\u00e1lida para unas pocas enfermedades, como las de la sangre.</p>\n<p>Cualquier tratamiento destinado a pacientes debe superar las pruebas de seguridad y de eficacia. En primer lugar, la terapia debe ser segura. No debe ser t\u00f3xica, no debe generar m\u00e1s da\u00f1o que el que pretende aliviar. Y, en segundo lugar, si ya es segura, debe poder aportar alg\u00fan beneficio terap\u00e9utico, esto es, debe ser eficaz contra la enfermedad que deseamos tratar.</p>\n<div class=\"wrapperBanner roba_entreparrafos_2 desktop mobile\"></div>\n<p><div class='imgcaption'><a href=\"https://frontity.io/files/2016/02/crispr-embriones.jpg\"><figure id=\"image-1\" class=\"size-918310\"><img src=\"https://frontity.io/files/2016/02/crispr-embriones-670x447.jpg\" alt=\"CRISPR\" width=\"670\" height=\"447\" class=\"size-large wp-image-918310\" srcset=\"https://frontity.io/files/2016/02/crispr-embriones-670x447.jpg 670w, https://frontity.io/files/2016/02/crispr-embriones-335x223.jpg 335w, https://frontity.io/files/2016/02/crispr-embriones-768x512.jpg 768w, https://frontity.io/files/2016/02/crispr-embriones-700x467.jpg 700w, https://frontity.io/files/2016/02/crispr-embriones.jpg 1000w, https://frontity.io/files/2016/02/crispr-embriones-600x400.jpg 600w, https://frontity.io/files/2016/02/crispr-embriones-900x600.jpg 900w, https://frontity.io/files/2016/02/crispr-embriones-300x200.jpg 300w, https://frontity.io/files/2016/02/crispr-embriones-610x407.jpg 610w\" sizes=\"(max-width: 670px) 100vw, 670px\" data-large=\"https://frontity.io/files/2016/02/crispr-embriones-670x447.jpg\" data-medium=\"https://frontity.io/files/2016/02/crispr-embriones-335x223.jpg\" /></figure></a><figcaption class=\"wp-caption-text\">Kateryna Kon | Shutterstock</figcaption></div></p>\n<h3>Reacciones al\u00e9rgicas</h3>\n<p>Para completar el problema con las CRISPR, el pasado mes de enero el investigador Matthew Porteus (Stanford, California) <a href=\"https://www.biorxiv.org/content/early/2018/01/05/243345\">alert\u00f3 a la comunidad cient\u00edfica</a> de que muchas personas ya ten\u00edamos <strong>anticuerpos y linfocitos contra las Cas9</strong> de las dos bacterias (Streptococcus pyogenes y Staphylococcus aureus) com\u00fanmente usadas para obtener estas nucleasas. Estas bacterias suelen causar infecciones en humanos y por ello nuestro sistema inmunitario las conoce (a ellas y a todos sus componentes, como las nucleasas Cas9). Por eso, si hubi\u00e9ramos intentado usarlas en personas, habr\u00edamos provocado una reacci\u00f3n al\u00e9rgica, un <strong>choque anafil\u00e1ctico</strong> contraproducente en el paciente.</p>\n<p>\u00bfQu\u00e9 se puede hacer? O bien administrar <strong>f\u00e1rmacos inmunosupresores</strong>, como los que se dan a las personas con \u00f3rganos trasplantados de por vida; o bien regresar al laboratorio y aislar otras nucleasas de otras bacterias que no tengan relaci\u00f3n ni infecten a las personas. Es decir, volver a la investigaci\u00f3n b\u00e1sica antes de pensar en aplicarla.</p>\n<p>Para quien se pregunte cu\u00e1ndo estar\u00e1n disponibles las terapias basadas en CRISPR, la respuesta corta es que no lo sabemos</p>\n<p>Hoy en d\u00eda se est\u00e1n desarrollando m\u00faltiples variantes de la t\u00e9cnica CRISPR, a cual m\u00e1s innovadora e imaginativa. Algunas de ellas son extremadamente prometedoras, como los <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/27096365\">editores de bases</a> una evoluci\u00f3n de las herramientas CRISPR capaz de cambiar nucle\u00f3tidos concretos del genoma sin necesidad de cortarlo. Pero todas ellas conllevan todav\u00eda <strong>riesgos inaceptables</strong>, tanto en seguridad como en eficacia, para saltar al hospital.</p>\n<p><aside class=\"alignleft\">Para quien se pregunte cu\u00e1ndo estar\u00e1n disponibles las terapias basadas en CRISPR, la respuesta corta es que no lo sabemos</aside>\n</p>\n<div class=\"wrapperBanner roba_entreparrafos_3 desktop mobile\"></div>\n<p>Son m\u00e9todos sofisticados que nos permiten abordar experimentos en el laboratorio como nunca antes hab\u00edamos podido hacerlo, pero que todav\u00eda no pueden trasladarse a la cl\u00ednica. Necesitan de mucho m\u00e1s trabajo, <strong>mucha m\u00e1s investigaci\u00f3n en el laboratorio</strong>.</p>\n<p>Para quien se pregunte cu\u00e1ndo estar\u00e1n disponibles las terapias basadas en CRISPR, la respuesta corta es que no lo sabemos. Tan pronto como confirmemos que son seguras y eficaces.</p>\n<p>Para una respuesta larga es bueno recordar lo sucedido con un descubrimiento que suscit\u00f3 unas expectativas terap\u00e9uticas similares: la interferencia del ARN como sistema de control de la expresi\u00f3n de los genes. Fue <a href=\"https://www.ncbi.nlm.nih.gov/pubmed/9486653\">descubierta por Andrew Fire y Craig Mello en 1998</a>, y recibieron el <a href=\"https://www.nobelprize.org/prizes/medicine/2006/summary/\">Premio Nobel en 2006</a> por ello. Se fundaron muchas empresas para desarrollar terapias basadas en <strong>ARN de interferencia</strong>. Solo una de ellas resisti\u00f3 y, tras 16 a\u00f1os de investigaci\u00f3n y desarrollo, y 2.000 millones de d\u00f3lares invertidos, <a href=\"https://www.bloomberg.com/news/articles/2018-08-13/scientists-cracked-a-deadly-dna-puzzle-then-came-the-hard-part\">ha recibido en agosto de 2018</a> la aprobaci\u00f3n del primer f\u00e1rmaco basado en esta tecnolog\u00eda, <strong>veinte a\u00f1os despu\u00e9s</strong> de ser descubierta.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Agencia SINC \u2013 Las herramientas CRISPR derivan de un sistema inmunitario que usan las bacterias para defenderse de los virus, descrito en 2005 por Francisco J. Mart\u00ednez Mojica microbi\u00f3logo de la Universidad de Alicante. Hace apenas cinco a\u00f1os, otros investigadores, bas\u00e1ndose en los hallazgos pioneros de Mojica, convirtieron aquel sistema de defensa bacteriano en una [&hellip;]</p>",
+      "protected": false
+    },
+    "author": 62244,
+    "featured_media": 353244,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_schema_ref": ["1008784"],
+      "_edit_lock": ["1542630195:62244"],
+      "_edit_last": ["62244"],
+      "_thumbnail_id": ["353244"],
+      "_wp_page_template": ["default"],
+      "onesignal_meta_box_present": [""],
+      "onesignal_send_notification": [""],
+      "subtitulo": "<p>Las terapias g\u00e9nicas basadas en CRISPR para curar enfermedades todav\u00eda tardar\u00e1n en llegar. Quiz\u00e1s no sea este el titular que quisi\u00e9ramos leer, pero es el mensaje que hay que repetir para no generar falsas expectativas sobre esta potente herramienta de corta-pega gen\u00e9tico.</p>\n",
+      "imagen_grande_post": "\t\t\t<figure class=\"articleHead\"> \n\t\t        <div class=\"articleHead__wrapperImg \">\n\t\t\t\t\t<img width=\"1000\" height=\"461\" src=\"https://frontity.io/files/2015/06/crispr.jpg\" class=\"attachment-destacado-single size-destacado-single wp-post-image\" alt=\"CRISPR\" srcset=\"https://frontity.io/files/2015/06/crispr.jpg 1000w, https://frontity.io/files/2015/06/crispr-335x154.jpg 335w, https://frontity.io/files/2015/06/crispr-768x354.jpg 768w, https://frontity.io/files/2015/06/crispr-670x309.jpg 670w, https://frontity.io/files/2015/06/crispr-700x323.jpg 700w, https://frontity.io/files/2015/06/crispr-600x277.jpg 600w, https://frontity.io/files/2015/06/crispr-900x415.jpg 900w, https://frontity.io/files/2015/06/crispr-300x138.jpg 300w, https://frontity.io/files/2015/06/crispr-610x281.jpg 610w\" sizes=\"(max-width: 1000px) 100vw, 1000px\" />\t\t\t\t\t \t\t\t\t\t \t<figcaption class=\"caption\">Jennifer Doudna/UC Berkeley</figcaption>\n\t\t\t\t\t \t\t        </div>\n\t\t\n\t\t    </figure>\n\t\t\t",
+      "destacado": [null],
+      "destacado_categoria": [null],
+      "titulo_tres": [""],
+      "_primary_term_category": ["2046"],
+      "_genesis_canonical_uri": [
+        "https://www.agenciasinc.es/Opinion/Del-deseo-a-la-realidad-la-edicion-genetica-aun-no-esta-preparada-para-tratar-a-pacientes"
+      ],
+      "_genesis_title": [
+        "A la edici\u00f3n gen\u00e9tica a\u00fan le queda tiempo para tratar pacientes"
+      ],
+      "_genesis_description": [
+        "Las terapias g\u00e9nicas basadas en CRISPR para curar enfermedades todav\u00eda tardar\u00e1n en llegar. Es importante no generar falsas expectativas sobre esta potente herramienta de corta-pega gen\u00e9tico."
+      ],
+      "_schema_json": [
+        "a:13:{s:8:\"@context\";s:18:\"http://schema.org/\";s:5:\"@type\";s:11:\"NewsArticle\";s:16:\"mainEntityOfPage\";a:2:{s:5:\"@type\";s:7:\"WebPage\";s:3:\"@id\";s:59:\"https://frontity.io/2018/11/edicion-genetica-pacientes\";}s:3:\"url\";s:59:\"https://frontity.io/2018/11/edicion-genetica-pacientes\";s:8:\"headline\";s:66:\"A la edici\u00f3n gen\u00e9tica a\u00fan le queda tiempo para tratar pacientes\";s:13:\"datePublished\";s:25:\"2018-11-19T15:30:03+00:00\";s:12:\"dateModified\";s:25:\"2018-11-19T13:25:22+00:00\";s:9:\"publisher\";a:4:{s:5:\"@type\";s:12:\"Organization\";s:3:\"@id\";s:38:\"https://frontity.io/#organization\";s:4:\"name\";s:12:\"Hipertextual\";s:4:\"logo\";a:4:{s:5:\"@type\";s:11:\"ImageObject\";s:3:\"url\";s:54:\"https://frontity.io/files/2017/05/hptx-schema.png\";s:5:\"width\";i:600;s:6:\"height\";i:60;}}s:5:\"image\";a:4:{s:5:\"@type\";s:11:\"ImageObject\";s:3:\"url\";s:49:\"https://frontity.io/files/2015/06/crispr.jpg\";s:5:\"width\";i:1000;s:6:\"height\";i:461;}s:14:\"articleSection\";s:7:\"Ciencia\";s:11:\"description\";s:194:\"Las terapias g\u00e9nicas basadas en CRISPR para curar enfermedades todav\u00eda tardar\u00e1n en llegar. Es importante no generar falsas expectativas sobre esta potente herramienta de corta-pega gen\u00e9tico.\";s:6:\"author\";a:5:{s:5:\"@type\";s:6:\"Person\";s:4:\"name\";s:14:\"Ara Rodr\u00edguez\";s:3:\"url\";s:43:\"https://frontity.io/autor/ararodriguez\";s:11:\"description\";s:119:\"El periodismo, las startups y los emprendedores como forma y filosof\u00eda de vida. Redactora en Hipertextual y Think Big.\";s:6:\"sameAs\";a:2:{i:0;s:21:\"ara.rodrigueztalavera\";i:1;s:13:\"AraRodriguezT\";}}s:5:\"video\";a:0:{}}",
+        "a:13:{s:8:\"@context\";s:18:\"http://schema.org/\";s:5:\"@type\";s:11:\"NewsArticle\";s:16:\"mainEntityOfPage\";a:2:{s:5:\"@type\";s:7:\"WebPage\";s:3:\"@id\";s:59:\"https://frontity.io/2018/11/edicion-genetica-pacientes\";}s:3:\"url\";s:59:\"https://frontity.io/2018/11/edicion-genetica-pacientes\";s:8:\"headline\";s:66:\"A la edici\u00f3n gen\u00e9tica a\u00fan le queda tiempo para tratar pacientes\";s:13:\"datePublished\";s:25:\"2018-11-19T15:30:03+00:00\";s:12:\"dateModified\";s:25:\"2018-11-19T13:25:22+00:00\";s:9:\"publisher\";a:4:{s:5:\"@type\";s:12:\"Organization\";s:3:\"@id\";s:38:\"https://frontity.io/#organization\";s:4:\"name\";s:12:\"Hipertextual\";s:4:\"logo\";a:4:{s:5:\"@type\";s:11:\"ImageObject\";s:3:\"url\";s:54:\"https://frontity.io/files/2017/05/hptx-schema.png\";s:5:\"width\";i:600;s:6:\"height\";i:60;}}s:5:\"image\";a:4:{s:5:\"@type\";s:11:\"ImageObject\";s:3:\"url\";s:49:\"https://frontity.io/files/2015/06/crispr.jpg\";s:5:\"width\";i:1000;s:6:\"height\";i:461;}s:14:\"articleSection\";s:7:\"Ciencia\";s:11:\"description\";s:194:\"Las terapias g\u00e9nicas basadas en CRISPR para curar enfermedades todav\u00eda tardar\u00e1n en llegar. Es importante no generar falsas expectativas sobre esta potente herramienta de corta-pega gen\u00e9tico.\";s:6:\"author\";a:5:{s:5:\"@type\";s:6:\"Person\";s:4:\"name\";s:14:\"Ara Rodr\u00edguez\";s:3:\"url\";s:43:\"https://frontity.io/autor/ararodriguez\";s:11:\"description\";s:119:\"El periodismo, las startups y los emprendedores como forma y filosof\u00eda de vida. Redactora en Hipertextual y Think Big.\";s:6:\"sameAs\";a:2:{i:0;s:21:\"ara.rodrigueztalavera\";i:1;s:13:\"AraRodriguezT\";}}s:5:\"video\";a:0:{}}"
+      ],
+      "_schema_json_timestamp": ["1542641423", "1542641423"],
+      "_rpbt_related_posts:3fc41067e27dd58c9cebc7794a7fe017": [
+        "a:2:{s:3:\"ids\";a:4:{i:1095258;s:1:\"2\";i:1110827;s:1:\"1\";i:1111089;s:1:\"1\";i:1103312;s:1:\"2\";}s:4:\"args\";a:3:{s:7:\"post_id\";i:1111115;s:10:\"taxonomies\";a:2:{i:0;s:8:\"category\";i:1;s:8:\"post_tag\";}s:13:\"related_terms\";a:3:{i:0;i:2046;i:1;i:747702;i:2;i:874202;}}}"
+      ],
+      "custom_header": ""
+    },
+    "categories": [2046],
+    "tags": [747702, 874202],
+    "next_post_id": 1111089,
+    "autor_hptx": "\t\t\t<span class=\"author__name\">Agencia SINC</span>\n\t\t",
+    "currentpost": "https://frontity.io/2018/11/edicion-genetica-pacientes"
+  },
+  {
+    "id": 1111135,
+    "date": "2018-11-19T14:30:47",
+    "date_gmt": "2018-11-19T13:30:47",
+    "guid": { "rendered": "https://frontity.io/?p=1111135" },
+    "modified": "2018-11-19T13:27:49",
+    "modified_gmt": "2018-11-19T12:27:49",
+    "slug": "puedes-ampliar-tu-sistema-audio-casa-con-tus-chromecast",
+    "status": "publish",
+    "type": "post",
+    "link": "https://frontity.io/2018/11/puedes-ampliar-tu-sistema-audio-casa-con-tus-chromecast",
+    "title": "Ya puedes ampliar tu sistema de audio en casa con tus Chromecast",
+    "content": {
+      "rendered": "<p>Los <a href=\"https://frontity.io/tag/chromecast\">Chromecast</a> son uno de los gadgets m\u00e1s fundamentales que una casa puede tener. Por una inversi\u00f3n m\u00ednima, permiten dotar de v\u00eddeo en streaming haciendo ligeramente 'smart' a un televisor que no lo es. \"Ok, Google. Pon Narcos en el sal\u00f3n.\" Un comando tan sencillo como ese y ya estamos disfrutando de la serie por d\u00f3nde la dejamos. Hoy, los <strong>Chromecast se actualizan para dotar de soporte a grupos de altavoces, para reproducci\u00f3n simult\u00e1nea en varias habitaciones</strong>.</p>\n<p>De esta forma, podremos sumar tambi\u00e9n los <strong>Chromecast est\u00e1ndar</strong> al resto de dispositivos de reproducci\u00f3n compatibles con Google Cast dando lugar a una red de dispositivos relativamente heterog\u00e9nea, y no limitada a los dispositivos de Google, que conforme nuestro sistema de audio en casa. Y funcionar\u00e1 no s\u00f3lo con la <a href=\"https://frontity.io/2018/10/tercera-generacion-chromecast\">tercera y \u00faltima generaci\u00f3n</a>, sino con cualquiera de las anteriores.</p>\n<div class=\"wrapperBanner roba_ATF  mobile\"></div>\n<div>\n<div style=\"left: 0; width: 100%; height: 168px; position: relative;\"><iframe data-iframely-url=\"https://cdn.iframe.ly/lYw3nDX?maxheight=750&amp;app=1\" style=\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\" allowfullscreen></iframe></div>\n</div>\n<p><script async src=\"https://cdn.iframe.ly/embed.js\" charset=\"utf-8\"></script></p>\n<p>La nueva funci\u00f3n se encuentra ya en fase de pruebas, como leemos en <a href=\"https://www.xda-developers.com/chromecast-speaker-group-support/\"><em>XDA developers</em></a>, a la que podemos acceder desde la aplicaci\u00f3n Google Home. Lo \u00fanico que tenemos que hacer es <strong>entrar en el 'Programa de Avance'</strong> (Preview Programme si tu aplicaci\u00f3n est\u00e1 en ingl\u00e9s) desde las opciones del dispositivo Chromecast, en la aplicaci\u00f3n Google Home, que queremos a\u00f1adir al grupo. Hecho esto, es posible que tengamos que verificar que se encuentra en la \u00faltima versi\u00f3n de software, y por \u00faltimo reiniciar el Chromecast.</p>\n<p><figure id=\"image-1\" class=\"size-1111153\"><img src=\"https://frontity.io/files/2018/11/Chromecast-grupo-multiroom-670x364.jpg\" alt=\"\" width=\"670\" height=\"364\" class=\"alignnone size-large wp-image-1111153\" srcset=\"https://frontity.io/files/2018/11/Chromecast-grupo-multiroom-670x364.jpg 670w, https://frontity.io/files/2018/11/Chromecast-grupo-multiroom-335x182.jpg 335w, https://frontity.io/files/2018/11/Chromecast-grupo-multiroom-768x417.jpg 768w, https://frontity.io/files/2018/11/Chromecast-grupo-multiroom-700x380.jpg 700w, https://frontity.io/files/2018/11/Chromecast-grupo-multiroom.jpg 1000w, https://frontity.io/files/2018/11/Chromecast-grupo-multiroom-800x434.jpg 800w\" sizes=\"(max-width: 670px) 100vw, 670px\" data-large=\"https://frontity.io/files/2018/11/Chromecast-grupo-multiroom-670x364.jpg\" data-medium=\"https://frontity.io/files/2018/11/Chromecast-grupo-multiroom-335x182.jpg\" /></figure></p>\n<div class=\"wrapperBanner roba_midpage  mobile\"></div>\n<p>A partir de aqu\u00ed podemos <strong>crear un nuevo grupo de altavoces o incluirlo en uno ya existente</strong>. Este grupo, si es nuevo, se a\u00f1adir\u00e1 a las opciones de streaming v\u00eda Google Cast desde el icono que suele aparecer en la esquina superior derecha en las aplicaciones de reproducci\u00f3n multimedia. Por \u00faltimo, recordemos que si el audio no se sincroniza perfectamente en todos los dispositivos de reproducci\u00f3n, es <strong>posible ajustar manualmente un retraso de reproducci\u00f3n</strong> en cada dispositivo hasta que lo hagan.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Los Chromecast son uno de los gadgets m\u00e1s fundamentales que una casa puede tener. Por una inversi\u00f3n m\u00ednima, permiten dotar de v\u00eddeo en streaming haciendo ligeramente 'smart' a un televisor que no lo es. \"Ok, Google. Pon Narcos en el sal\u00f3n.\" Un comando tan sencillo como ese y ya estamos disfrutando de la serie por [&hellip;]</p>",
+      "protected": false
+    },
+    "author": 64153,
+    "featured_media": 1111162,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_schema_ref": ["1008784"],
+      "_edit_lock": ["1542630443:62244"],
+      "_edit_last": ["62244"],
+      "_wp_page_template": ["default"],
+      "onesignal_meta_box_present": [""],
+      "onesignal_send_notification": [""],
+      "subtitulo": "<p>Si tienes un Chromecast normal ya puedes sumarlo al grupo de altavoces compatibles con Google Cast que tengas en casa.</p>\n",
+      "imagen_grande_post": "\t\t\t<figure class=\"articleHead\"> \n\t\t        <div class=\"articleHead__wrapperImg \">\n\t\t\t\t\t<img width=\"1000\" height=\"612\" src=\"https://frontity.io/files/2018/11/Chromecast-Grupo-sonido.jpg\" class=\"attachment-destacado-single size-destacado-single wp-post-image\" alt=\"\" srcset=\"https://frontity.io/files/2018/11/Chromecast-Grupo-sonido.jpg 1000w, https://frontity.io/files/2018/11/Chromecast-Grupo-sonido-335x205.jpg 335w, https://frontity.io/files/2018/11/Chromecast-Grupo-sonido-768x470.jpg 768w, https://frontity.io/files/2018/11/Chromecast-Grupo-sonido-670x410.jpg 670w, https://frontity.io/files/2018/11/Chromecast-Grupo-sonido-700x428.jpg 700w, https://frontity.io/files/2018/11/Chromecast-Grupo-sonido-800x490.jpg 800w\" sizes=\"(max-width: 1000px) 100vw, 1000px\" />\t\t\t\t\t \t\t        </div>\n\t\t\n\t\t    </figure>\n\t\t\t",
+      "destacado": [null],
+      "destacado_categoria": [null],
+      "titulo_tres": [""],
+      "_primary_term_category": ["33"],
+      "_genesis_description": [
+        "C\u00f3mo a\u00f1adir un Chromecast a un grupo de reproducci\u00f3n con Google Cast para audio 'multi-room' con el televisor."
+      ],
+      "_oembed_099f25d64fb603d49a63a7242db38966": [
+        "<div><div style=\"left: 0; width: 100%; height: 168px; position: relative;\"><iframe data-iframely-url=\"https://cdn.iframe.ly/lYw3nDX?maxheight=750&amp;app=1\" style=\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\" allowfullscreen></iframe></div></div><script async src=\"https://cdn.iframe.ly/embed.js\" charset=\"utf-8\"></script>"
+      ],
+      "_oembed_time_099f25d64fb603d49a63a7242db38966": ["1542629339"],
+      "_thumbnail_id": ["1111162"],
+      "_schema_json": [
+        "a:13:{s:8:\"@context\";s:18:\"http://schema.org/\";s:5:\"@type\";s:11:\"NewsArticle\";s:16:\"mainEntityOfPage\";a:2:{s:5:\"@type\";s:7:\"WebPage\";s:3:\"@id\";s:88:\"https://frontity.io/2018/11/puedes-ampliar-tu-sistema-audio-casa-con-tus-chromecast\";}s:3:\"url\";s:88:\"https://frontity.io/2018/11/puedes-ampliar-tu-sistema-audio-casa-con-tus-chromecast\";s:8:\"headline\";s:64:\"Ya puedes ampliar tu sistema de audio en casa con tus Chromecast\";s:13:\"datePublished\";s:25:\"2018-11-19T14:30:47+00:00\";s:12:\"dateModified\";s:25:\"2018-11-19T13:27:49+00:00\";s:9:\"publisher\";a:4:{s:5:\"@type\";s:12:\"Organization\";s:3:\"@id\";s:38:\"https://frontity.io/#organization\";s:4:\"name\";s:12:\"Hipertextual\";s:4:\"logo\";a:4:{s:5:\"@type\";s:11:\"ImageObject\";s:3:\"url\";s:54:\"https://frontity.io/files/2017/05/hptx-schema.png\";s:5:\"width\";i:600;s:6:\"height\";i:60;}}s:5:\"image\";a:4:{s:5:\"@type\";s:11:\"ImageObject\";s:3:\"url\";s:66:\"https://frontity.io/files/2018/11/Chromecast-Grupo-sonido.jpg\";s:5:\"width\";i:1000;s:6:\"height\";i:612;}s:14:\"articleSection\";s:11:\"Tecnolog\u00eda\";s:11:\"description\";s:113:\"C\u00f3mo a\u00f1adir un Chromecast a un grupo de reproducci\u00f3n con Google Cast para audio 'multi-room' con el televisor.\";s:6:\"author\";a:4:{s:5:\"@type\";s:6:\"Person\";s:4:\"name\";s:11:\"David Ortiz\";s:3:\"url\";s:41:\"https://frontity.io/autor/davidortiz\";s:11:\"description\";s:77:\"F\u00edsico de formaci\u00f3n, me fascina la tecnolog\u00eda y su impacto en la sociedad.\";}s:5:\"video\";a:1:{i:0;N;}}"
+      ],
+      "_schema_json_timestamp": ["1542637866"],
+      "_oembed_81688c367b1cb58422ca8faddd38fe1f": [
+        "<amp-iframe src=\"https://cdn.iframe.ly/lYw3nDX?maxheight=750&iframe=amp\" width=\"400\" height=\"168\" frameborder=\"0\" allowfullscreen layout=\"responsive\" resizable sandbox=\"allow-scripts allow-same-origin allow-popups\"><div overflow tabindex=0 role=button aria-label=\"Read more\"></div></amp-iframe>"
+      ],
+      "_oembed_time_81688c367b1cb58422ca8faddd38fe1f": ["1542634267"],
+      "_rpbt_related_posts:32e05d31b90acb49dc8a2e30bd3fd43f": [
+        "a:2:{s:3:\"ids\";a:4:{i:1103098;s:1:\"3\";i:1103030;s:1:\"2\";i:1103113;s:1:\"2\";i:1103682;s:1:\"2\";}s:4:\"args\";a:3:{s:7:\"post_id\";i:1111135;s:10:\"taxonomies\";a:2:{i:0;s:8:\"category\";i:1;s:8:\"post_tag\";}s:13:\"related_terms\";a:3:{i:0;i:734661;i:1;i:11;i:2;i:33;}}}"
+      ],
+      "custom_header": ""
+    },
+    "categories": [33],
+    "tags": [734661, 11],
+    "next_post_id": 1111124,
+    "autor_hptx": "<a href=\"https://frontity.io/autor/davidortiz\" title=\"Entradas por David Ortiz\" class=\"author__name\" rel=\"author\">David Ortiz</a>",
+    "currentpost": "https://frontity.io/2018/11/puedes-ampliar-tu-sistema-audio-casa-con-tus-chromecast"
+  },
+  {
+    "id": 1111125,
+    "date": "2018-11-19T13:22:26",
+    "date_gmt": "2018-11-19T12:22:26",
+    "guid": { "rendered": "https://frontity.io/?p=1111125" },
+    "modified": "2018-11-19T13:22:26",
+    "modified_gmt": "2018-11-19T12:22:26",
+    "slug": "huawei-smartphone-plegable-5g",
+    "status": "publish",
+    "type": "post",
+    "link": "https://frontity.io/2018/11/huawei-smartphone-plegable-5g",
+    "title": "Revelados detalles y posible fecha de presentaci\u00f3n del smartphone plegable de Huawei",
+    "content": {
+      "rendered": "<p>Al tiempo que <a href=\"https://frontity.io/tag/samsung\">Samsung</a> presentaba el otro d\u00eda su <a href=\"https://frontity.io/2018/11/samsung-presenta-telefono-plegable\">tel\u00e9fono plegable</a>, conocido ya com\u00fanmente como Galaxy F, y dejaba ver cu\u00e1l iba a ser parte de su <strong>hoja de ruta para el futuro m\u00e1s inmediato</strong>, su rival <a href=\"https://frontity.io/tag/huawei\">Huawei</a> se afanaba por dar los \u00faltimos retoque para la presentaci\u00f3n del suyo propio ante las operadoras asi\u00e1ticas. Lejos, por el momento, del foco medi\u00e1tico, en la compa\u00f1\u00eda ya miran a 2019 como abanico temporal en el que presentar batalla.</p>\n<p>Habiendo sido ya <a href=\"https://frontity.io/2018/10/huawei-pantalla-plegable-5g\">confirmado por la propia Huawei</a> que se estaba preparando un smartphone de estas caracter\u00edsticas, era de esperar que los detalles no se hicieran esperar demasiado. Llegan ahora a trav\u00e9s de la publicaci\u00f3n local <em><a href=\"http://www.etnews.com/20181116000269?mc=em_002_00001\">etnews</a></em>, donde revelan algunas de las caracter\u00edsticas del terminal, que podr\u00eda ser presentado de manera oficial en el marco del <strong>Mobile World Congress 2019 de Barcelona</strong>, la mayor feria a nivel mundial de tecnolog\u00eda m\u00f3vil.</p>\n<div class=\"wrapperBanner roba_ATF  mobile\"></div>\n<div>\n<div style=\"left: 0; width: 100%; height: 168px; position: relative;\"><iframe data-iframely-url=\"https://cdn.iframe.ly/oDHM0a8?maxheight=750&amp;app=1\" style=\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\" allowfullscreen></iframe></div>\n</div>\n<p><script async src=\"https://cdn.iframe.ly/embed.js\" charset=\"utf-8\"></script></p>\n<h2>M\u00e1s grande</h2>\n<p>Aunque es pronto para poder saber de manera fehaciente si las filtraciones son o no correctas, la informaci\u00f3n obtenida se\u00f1ala a un dispositivo de mayores dispositivos que el de la casa surcoreana. Este contar\u00eda con una <strong>pantalla de 8 pulgadas en formato desplegado y de una m\u00e1s peque\u00f1a de 5\" cuando no se encuentre extendido</strong>, frente a las 7,3\" y 4,6\", respectivamente, del Galaxy F.</p>\n<p>Como se ha se\u00f1alado, la presentaci\u00f3n oficial ser\u00eda a finales de febrero del a\u00f1o pr\u00f3ximo con una comercializaci\u00f3n que comenzar\u00eda en la segunda mitad de 2010, hacia el mes de junio. En cuanto a la comercializaci\u00f3n, parece que <strong>llegar\u00e1 en primera instancia a Corea del Sur por la capacidad operativa de las redes 5G en el territorio</strong>. Conforme el despliegue se vaya extendiendo en Europa, Huawei lanzar\u00e1 tambi\u00e9n el dispositivo en el viejo continente.</p>\n<div class=\"wrapperBanner roba_midpage  mobile\"></div>\n<div>\n<div style=\"left: 0; width: 100%; height: 168px; position: relative;\"><iframe data-iframely-url=\"https://cdn.iframe.ly/RywLykb?maxheight=750&amp;app=1\" style=\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\" allowfullscreen></iframe></div>\n</div>\n<p><script async src=\"https://cdn.iframe.ly/embed.js\" charset=\"utf-8\"></script></p>\n<p>Adem\u00e1s de Samsung y Huawei, otros actores como <a href=\"https://frontity.io/2018/10/lenovo-lg-asocian-tableta-pantalla-plegable\">Lenovo y LG</a> se preparan tambi\u00e9n para comenzar a fabricar sus dispositivos plegables, los cuales ocupar\u00e1n buena parte de las conversaciones en los meses venideros. Con mucho a\u00fan por delimitar y decidir, lo que parece claro es que nadie quiere quedarse atr\u00e1s en una de las tecnolog\u00edas m\u00e1s medi\u00e1ticas que veremos durante 2019.</p>\n<div class=\"wrapperBanner single_roba_endpost  mobile\"></div>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Al tiempo que Samsung presentaba el otro d\u00eda su tel\u00e9fono plegable, conocido ya com\u00fanmente como Galaxy F, y dejaba ver cu\u00e1l iba a ser parte de su hoja de ruta para el futuro m\u00e1s inmediato, su rival Huawei se afanaba por dar los \u00faltimos retoque para la presentaci\u00f3n del suyo propio ante las operadoras asi\u00e1ticas. [&hellip;]</p>",
+      "protected": false
+    },
+    "author": 64134,
+    "featured_media": 1050866,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_schema_ref": ["1008784"],
+      "_edit_last": ["64134"],
+      "_wp_page_template": ["default"],
+      "onesignal_meta_box_present": [""],
+      "onesignal_send_notification": [""],
+      "subtitulo": "<p>El Mobile World Congress 2019 podr\u00eda tratar en gran medida acerca de los tel\u00e9fonos plegables.</p>\n",
+      "imagen_grande_post": "\t\t\t<figure class=\"articleHead\"> \n\t\t        <div class=\"articleHead__wrapperImg \">\n\t\t\t\t\t<img width=\"1024\" height=\"683\" src=\"https://frontity.io/files/2018/01/Huawei-1.jpg\" class=\"attachment-destacado-single size-destacado-single wp-post-image\" alt=\"\" srcset=\"https://frontity.io/files/2018/01/Huawei-1.jpg 1024w, https://frontity.io/files/2018/01/Huawei-1-335x223.jpg 335w, https://frontity.io/files/2018/01/Huawei-1-768x512.jpg 768w, https://frontity.io/files/2018/01/Huawei-1-670x447.jpg 670w, https://frontity.io/files/2018/01/Huawei-1-700x467.jpg 700w, https://frontity.io/files/2018/01/Huawei-1-1000x667.jpg 1000w, https://frontity.io/files/2018/01/Huawei-1-600x400.jpg 600w, https://frontity.io/files/2018/01/Huawei-1-900x600.jpg 900w, https://frontity.io/files/2018/01/Huawei-1-610x407.jpg 610w, https://frontity.io/files/2018/01/Huawei-1-300x200.jpg 300w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" />\t\t\t\t\t \t\t\t\t\t \t<figcaption class=\"caption\">Flickr/ K\u0101rlis Dambr\u0101ns</figcaption>\n\t\t\t\t\t \t\t        </div>\n\t\t\n\t\t    </figure>\n\t\t\t",
+      "destacado": [null],
+      "destacado_categoria": [null],
+      "titulo_tres": [""],
+      "_edit_lock": ["1542631309:64134"],
+      "_primary_term_category": ["11378"],
+      "_oembed_a0c46a693e15fe24ea7ac1e133cf5b9f": [
+        "<div><div style=\"left: 0; width: 100%; height: 168px; position: relative;\"><iframe data-iframely-url=\"https://cdn.iframe.ly/oDHM0a8?maxheight=750&amp;app=1\" style=\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\" allowfullscreen></iframe></div></div><script async src=\"https://cdn.iframe.ly/embed.js\" charset=\"utf-8\"></script>"
+      ],
+      "_oembed_time_a0c46a693e15fe24ea7ac1e133cf5b9f": ["1542629186"],
+      "_oembed_70b78e04c17aad84016e520fe5784a0a": [
+        "<div><div style=\"left: 0; width: 100%; height: 168px; position: relative;\"><iframe data-iframely-url=\"https://cdn.iframe.ly/RywLykb?maxheight=750&amp;app=1\" style=\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\" allowfullscreen></iframe></div></div><script async src=\"https://cdn.iframe.ly/embed.js\" charset=\"utf-8\"></script>"
+      ],
+      "_oembed_time_70b78e04c17aad84016e520fe5784a0a": ["1542629187"],
+      "_thumbnail_id": ["1050866"],
+      "_genesis_title": [
+        "Huawei: revelados detalles y fecha de presentaci\u00f3n de su smartphone plegable"
+      ],
+      "_genesis_description": [
+        "Huawei ya prepara su smartphone plegable, que ya habr\u00eda sido mostrado a las operadoras y que ser\u00e1 presentado durante los pr\u00f3ximos meses para hacer la competencia a Samsung."
+      ],
+      "_schema_json": [
+        "a:13:{s:8:\"@context\";s:18:\"http://schema.org/\";s:5:\"@type\";s:11:\"NewsArticle\";s:16:\"mainEntityOfPage\";a:2:{s:5:\"@type\";s:7:\"WebPage\";s:3:\"@id\";s:62:\"https://frontity.io/2018/11/huawei-smartphone-plegable-5g\";}s:3:\"url\";s:62:\"https://frontity.io/2018/11/huawei-smartphone-plegable-5g\";s:8:\"headline\";s:77:\"Huawei: revelados detalles y fecha de presentaci\u00f3n de su smartphone plegable\";s:13:\"datePublished\";s:25:\"2018-11-19T13:22:26+00:00\";s:12:\"dateModified\";s:25:\"2018-11-19T13:22:26+00:00\";s:9:\"publisher\";a:4:{s:5:\"@type\";s:12:\"Organization\";s:3:\"@id\";s:38:\"https://frontity.io/#organization\";s:4:\"name\";s:12:\"Hipertextual\";s:4:\"logo\";a:4:{s:5:\"@type\";s:11:\"ImageObject\";s:3:\"url\";s:54:\"https://frontity.io/files/2017/05/hptx-schema.png\";s:5:\"width\";i:600;s:6:\"height\";i:60;}}s:5:\"image\";a:4:{s:5:\"@type\";s:11:\"ImageObject\";s:3:\"url\";s:51:\"https://frontity.io/files/2018/01/Huawei-1.jpg\";s:5:\"width\";i:1024;s:6:\"height\";i:683;}s:14:\"articleSection\";s:6:\"Mobile\";s:11:\"description\";s:175:\"Huawei ya prepara su smartphone plegable, que ya habr\u00eda sido mostrado a las operadoras y que ser\u00e1 presentado durante los pr\u00f3ximos meses para hacer la competencia a Samsung.\";s:6:\"author\";a:5:{s:5:\"@type\";s:6:\"Person\";s:4:\"name\";s:14:\"Luis del Barco\";s:3:\"url\";s:40:\"https://frontity.io/autor/ldelbarco\";s:11:\"description\";s:96:\"Escribo sobre tecnolog\u00eda, cultura digital y su impacto en la sociedad. En Twitter soy @lbarcob.\";s:5:\"image\";a:4:{s:5:\"@type\";s:11:\"ImageObject\";s:3:\"url\";s:93:\"https://secure.gravatar.com/avatar/03b2664dd6f44ce2dadc158fe0ba43da?s=96&d=wp_user_avatar&r=g\";s:6:\"height\";i:96;s:5:\"width\";i:96;}}s:5:\"video\";a:0:{}}"
+      ],
+      "_schema_json_timestamp": ["1542633756"],
+      "_oembed_7db0dba5e3a3cd2b22efecdc30628c4d": [
+        "<amp-iframe src=\"https://cdn.iframe.ly/oDHM0a8?maxheight=750&iframe=amp\" width=\"400\" height=\"168\" frameborder=\"0\" allowfullscreen layout=\"responsive\" resizable sandbox=\"allow-scripts allow-same-origin allow-popups\"><div overflow tabindex=0 role=button aria-label=\"Read more\"></div></amp-iframe>"
+      ],
+      "_oembed_time_7db0dba5e3a3cd2b22efecdc30628c4d": ["1542630165"],
+      "_oembed_c185a360286e0c4df4e9c670ec886a7b": [
+        "<amp-iframe src=\"https://cdn.iframe.ly/RywLykb?maxheight=750&iframe=amp\" width=\"400\" height=\"168\" frameborder=\"0\" allowfullscreen layout=\"responsive\" resizable sandbox=\"allow-scripts allow-same-origin allow-popups\"><div overflow tabindex=0 role=button aria-label=\"Read more\"></div></amp-iframe>"
+      ],
+      "_oembed_time_c185a360286e0c4df4e9c670ec886a7b": ["1542630166"],
+      "custom_header": ""
+    },
+    "categories": [11378],
+    "tags": [874321, 604, 894569],
+    "next_post_id": 1110946,
+    "autor_hptx": "<a href=\"https://frontity.io/autor/ldelbarco\" title=\"Entradas por Luis del Barco\" class=\"author__name\" rel=\"author\">Luis del Barco</a>",
+    "currentpost": "https://frontity.io/2018/11/huawei-smartphone-plegable-5g"
+  }
+]
