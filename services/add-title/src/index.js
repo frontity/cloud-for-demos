@@ -11,8 +11,8 @@ module.exports = cors(async (req, res) => {
       throw createError(500, `Invalid url: ${initialUrl}`);
 
     // Function to request data from Rest API.
-    const requestData = async query => {
-      const response = await axios({
+    const requestData = async query =>
+      (await axios({
         method: 'get',
         url: `${protocol}//${hostname}/${query || ''}`,
         headers: {
@@ -20,10 +20,7 @@ module.exports = cors(async (req, res) => {
           host: hostname,
         },
         responseType: 'json',
-      });
-      console.log('response:', response);
-      return response.data;
-    };
+      })).data;
 
     // Function to return data with title populated.
     const getModifiedData = data => {
@@ -66,7 +63,6 @@ module.exports = cors(async (req, res) => {
 
     // Get data from original call.
     const data = await requestData(search);
-    console.log('after request');
 
     // Check if data is a list of entities with titles.
     if (Array.isArray(data)) {
