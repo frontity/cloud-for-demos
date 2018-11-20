@@ -64,26 +64,29 @@ module.exports = cors(async (req, res) => {
     // Get data from original call.
     const data = await requestData(search);
 
+    if (typeof data === 'string')
+      throw createError(500, `Invalid url: query is missing`);
+
     // Check if data is a list of entities with titles.
-    if (Array.isArray(data)) {
+    if (Array.isArray(data))
       return send(
         res,
         200,
         data.map(entity => (entity.title ? getModifiedData(entity) : entity)),
       );
-    }
 
     // Check if data is an entity with title.
-    if (data.title) {
-      return send(res, 200, getModifiedData(data));
-    }
+    if (data.title) return send(res, 200, getModifiedData(data));
 
     return send(res, 200, data);
   } catch (error) {
-    return send(res, error.statusCode, {
+    const status =
+      error.statusCode || (error.response && error.response.status) || 500;
+
+    return send(res, status, {
       error: {
-        text: error.message,
-        status: error.statusCode,
+        message: error.message,
+        status,
       },
     });
   }
