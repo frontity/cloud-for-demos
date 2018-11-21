@@ -1,0 +1,37 @@
+{
+  "id": 21464,
+  "count": 2268,
+  "description": "",
+  "link": "https://frontity.io/actualidad",
+  "name": "Actualidad",
+  "slug": "actualidad",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "_links": {
+    "self": [
+      { "href": "https://frontity.io/wp-json/wp/v2/categories/21464" }
+    ],
+    "collection": [
+      { "href": "https://frontity.io/wp-json/wp/v2/categories" }
+    ],
+    "about": [
+      { "href": "https://frontity.io/wp-json/wp/v2/taxonomies/category" }
+    ],
+    "wp:post_type": [
+      {
+        "href": "https://frontity.io/wp-json/wp/v2/posts?categories=21464"
+      },
+      {
+        "href": "https://frontity.io/wp-json/wp/v2/patrocinado?categories=21464"
+      },
+      {
+        "href": "https://frontity.io/wp-json/wp/v2/especiales?categories=21464"
+      },
+      { "href": "https://frontity.io/wp-json/wp/v2/juno?categories=21464" }
+    ],
+    "curies": [
+      { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+    ]
+  }
+}
