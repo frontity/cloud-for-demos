@@ -1,7 +1,7 @@
 {
-  "name": "add-media-ids",
-  "version": "1.0.0",
-  "description": "Adds media ids to the Rest API",
+  "name": "add-title",
+  "version": "0.1.0",
+  "description": "Adds title when missing to Rest API",
   "main": "src/index.js",
   "scripts": {
     "dev": "micro-dev src/index.js --watch src/",
@@ -13,7 +13,6 @@
   "license": "Apache-2.0",
   "dependencies": {
     "axios": "^0.18.0",
-    "himalaya": "^1.1.0",
     "micro": "^9.3.3",
     "micro-cors": "^0.1.1"
   },
