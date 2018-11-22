@@ -3,6 +3,9 @@
   "version": 2,
   "alias": "services.frontity.cloud",
   "regions": ["all"],
+  "github": {
+    "autoAlias": false
+  },
   "builds": [
     { "src": "services/add-media-ids/src/index.js", "use": "@now/node" },
     { "src": "services/add-title/src/index.js", "use": "@now/node" }
