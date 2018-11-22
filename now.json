@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "alias": "demos.frontity.cloud",
+  "alias": "services.frontity.cloud",
   "builds": [
     { "src": "services/add-media-ids/src/index.js", "use": "@now/node" },
     { "src": "services/add-title/src/index.js", "use": "@now/node" }
