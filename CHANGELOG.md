@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/frontity/services.git/compare/v1.1.1...v1.2.0) (2018-11-22)
+
+
+### Bug Fixes
+
+* **add-title:** improves error handling ([88bbddd](https://github.com/frontity/services.git/commit/88bbddd))
+
+
+### Features
+
+* **add-title:** creates add-title service [WIP] ([55aef47](https://github.com/frontity/services.git/commit/55aef47))
+
 ## [1.1.1](https://github.com/frontity/cloud-for-demos.git/compare/v1.1.0...v1.1.1) (2018-11-12)
 
 
