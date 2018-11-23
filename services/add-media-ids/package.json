@@ -4,6 +4,7 @@
   "description": "Adds media ids to the Rest API",
   "main": "src/index.js",
   "scripts": {
+    "start": "micro src/index.js",
     "dev": "micro-dev src/index.js --watch src/",
     "test": "node ../../node_modules/.bin/jest --watch",
     "test:debug": "node --inspect ../../node_modules/.bin/jest --watch",

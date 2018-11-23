@@ -1,23 +1,9 @@
 {
   "name": "frontity-services",
-  "version": 2,
+  "version": 1,
   "alias": "services.frontity.cloud",
   "regions": ["all"],
   "github": {
     "autoAlias": false
-  },
-  "builds": [
-    { "src": "services/add-media-ids/src/index.js", "use": "@now/node" },
-    { "src": "services/add-title/src/index.js", "use": "@now/node" }
-  ],
-  "routes": [
-    {
-      "src": "/add-media-ids.*",
-      "dest": "/services/add-media-ids/src/index.js"
-    },
-    {
-      "src": "/add-title.*",
-      "dest": "/services/add-title/src/index.js"
-    }
-  ]
+  }
 }
