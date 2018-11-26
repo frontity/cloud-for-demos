@@ -6,6 +6,7 @@
   ],
   "prepare": [
     "@semantic-release/changelog",
+    "@semantic-release/npm",
     "@semantic-release/git"
   ],
   "publish": ["@semantic-release/github"],
