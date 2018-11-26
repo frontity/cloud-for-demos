@@ -5,6 +5,7 @@
   "description": "Services for demos.frontity.cloud",
   "main": "src/index.js",
   "scripts": {
+    "start": "micro-proxy -r rules.json",
     "postinstall": "npm-recursive-install --skip-root",
     "test": "jest --watch",
     "test:debug": "node --inspect node_modules/.bin/jest --watch",
@@ -49,5 +50,8 @@
     "semantic-release": "^15.10.6",
     "test-listen": "^1.1.0",
     "travis-deploy-once": "^5.0.9"
+  },
+  "dependencies": {
+    "micro-proxy": "^1.1.0"
   }
 }

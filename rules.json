@@ -1,0 +1,6 @@
+{
+  "rules": [
+    { "pathname": "/add-media-ids", "dest": "https://frontity-add-media-ids.now.sh" },
+    { "pathname": "/add-title", "dest": "https://frontity-add-title.now.sh" }
+  ]
+}
