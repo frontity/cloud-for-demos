@@ -13,8 +13,8 @@ module.exports = cors(async (req, res) => {
     if (!protocol || !hostname) throw new Error(`Invalid url: ${initialUrl}`);
 
     // Function to request data from Rest API.
-    const getData = async query =>
-      (await axios({
+    const request = query =>
+      axios({
         method: 'get',
         url: `${protocol}//${hostname}/${query || ''}`,
         headers: {
@@ -22,7 +22,7 @@ module.exports = cors(async (req, res) => {
           host: hostname,
         },
         responseType: 'json',
-      })).data;
+      });
 
     // Modifies the data before sending it through.
     const changeData = async data => {
@@ -36,14 +36,15 @@ module.exports = cors(async (req, res) => {
               const id = getIdFromClass(element);
 
               if (id) {
-                let body;
+                let response;
 
                 try {
-                  body = await getData(`?rest_route=/wp/v2/media/${id}`);
+                  response = await request(`?rest_route=/wp/v2/media/${id}`);
                 } catch (e) {
                   return element;
                 }
 
+                const { data: body } = response;
                 if (body.id) {
                   contentMediaIds.push(id);
                   contentMedia.push(body);
@@ -59,14 +60,17 @@ module.exports = cors(async (req, res) => {
               const slug = getSlugFromSrc(element);
 
               if (slug) {
-                let body;
+                let response;
 
                 try {
-                  body = await getData(`?rest_route=/wp/v2/media&slug=${slug}`);
+                  response = await request(
+                    `?rest_route=/wp/v2/media&slug=${slug}`,
+                  );
                 } catch (e) {
                   return element;
                 }
 
+                const { data: body } = response;
                 if (body.length) {
                   contentMediaIds.push(body[0].id);
                   contentMedia.push(body[0]);
@@ -100,7 +104,12 @@ module.exports = cors(async (req, res) => {
     };
 
     // Get data from original call.
-    const body = await getData(search);
+    const { data: body, headers } = await request(search);
+
+    // Preserve x-wp headers
+    Object.entries(headers)
+      .filter(([key]) => /x-wp/i.test(key))
+      .forEach(([key, value]) => res.setHeader(key, value));
 
     // Get images if data is a list of entities.
     if (Array.isArray(body)) {
