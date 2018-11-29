@@ -1,3 +1,11 @@
+## [1.2.1](https://github.com/frontity/services.git/compare/v1.2.0...v1.2.1) (2018-11-29)
+
+
+### Bug Fixes
+
+* **x-wp-headers:** send WP headers from add-media-ids service ([91c9b40](https://github.com/frontity/services.git/commit/91c9b40))
+* **x-wp-headers:** send WP headers from add-title service ([0fd5c27](https://github.com/frontity/services.git/commit/0fd5c27))
+
 # [1.2.0](https://github.com/frontity/services.git/compare/v1.1.1...v1.2.0) (2018-11-22)
 
 
