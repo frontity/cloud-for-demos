@@ -11,8 +11,8 @@ module.exports = cors(async (req, res) => {
       throw createError(500, `Invalid url: ${initialUrl}`);
 
     // Function to request data from Rest API.
-    const requestData = async query =>
-      (await axios({
+    const request = query =>
+      axios({
         method: 'get',
         url: `${protocol}//${hostname}/${query || ''}`,
         headers: {
@@ -20,20 +20,14 @@ module.exports = cors(async (req, res) => {
           host: hostname,
         },
         responseType: 'json',
-      })).data;
+      });
 
     // Function to return data with title populated.
     const getModifiedData = data => {
       const { title } = data;
 
       if (typeof title === 'string') {
-        return {
-          ...data,
-          title: {
-            rendered: title,
-            text: title,
-          },
-        };
+        return { ...data, title: { rendered: title, text: title } };
       }
 
       if (typeof title === 'object') {
@@ -42,30 +36,25 @@ module.exports = cors(async (req, res) => {
         if (rendered)
           return {
             ...data,
-            title: {
-              rendered,
-              text: rendered.replace(/<\/?[^>]+(>|$)/g, ''),
-            },
+            title: { rendered, text: rendered.replace(/<\/?[^>]+(>|$)/g, '') },
           };
 
-        if (text)
-          return {
-            ...data,
-            title: {
-              rendered: text,
-              text,
-            },
-          };
+        if (text) return { ...data, title: { rendered: text, text } };
       }
 
       return data;
     };
 
     // Get data from original call.
-    const data = await requestData(search);
+    const { data, headers } = await request(search);
 
     if (typeof data === 'string')
       throw createError(500, `Invalid url: query is missing`);
+
+    // Preserve x-wp headers
+    Object.entries(headers)
+      .filter(([key]) => /x-wp/i.test(key))
+      .forEach(([key, value]) => res.setHeader(key, value));
 
     // Check if data is a list of entities with titles.
     if (Array.isArray(data))

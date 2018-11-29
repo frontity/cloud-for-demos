@@ -111,4 +111,13 @@ describe('Server', () => {
     expect(data[2].title.text).toBe(titles[2]);
     expect(data).toMatchSnapshot();
   });
+  test('Should preserve any x-wp header', async () => {
+    nock('https://frontity.com')
+      .get('/?rest_route=/wp/v2/posts&_embed=true')
+      .reply(200, { result: 'ok' }, { 'x-wp-custom': 'value' });
+    const { headers } = await axios(
+      `${url}/https://frontity.com/?rest_route=/wp/v2/posts&_embed=true`,
+    );
+    expect(headers['x-wp-custom']).toEqual('value');
+  });
 });
