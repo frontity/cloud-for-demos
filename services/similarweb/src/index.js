@@ -14,9 +14,15 @@ module.exports = cors(async (req, res) => {
       'average-visit-duration',
       'bounce-rate',
     ];
-    const response = await fetch(`https://api.similarweb.com/v1/website/${host}/total-traffic-and-engagement/${endpoints[0]}?api_key=${incomingData.apiKey}&start_date=2018-11&end_date=2018-11&main_domain_only=false&granularity=monthly`)
-    const body = await response.json();
-    return send(res, 200, body);
+    const responses = await Promise.all(
+      endpoints.map(
+        async endpoint => {
+          const response = await fetch(`https://api.similarweb.com/v1/website/${host}/total-traffic-and-engagement/${endpoint}?api_key=${incomingData.apiKey}&start_date=2018-11&end_date=2018-11&main_domain_only=false&granularity=monthly`)
+          return await response.json();
+        })
+    )
+    const data = responses.reduce((data, response) => ({ ...data, ...response }), {})
+    return send(res, 200, data);
   } catch (error) {
     const status =
       error.statusCode || (error.response && error.response.status) || 500;
