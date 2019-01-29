@@ -1,4 +1,4 @@
-require('dotenv').config();
+require('now-env');
 const fetch = require('cross-fetch');
 const { parse } = require('url');
 const urlencodedBodyParser = require('urlencoded-body-parser');
